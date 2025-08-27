@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=300&section=header&text=DOMADO&fontSize=40&fontAlign=52&animation=fadeIn&fontColor=FFFAF0" />
+<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=300&section=header&text=DOMADO&fontSize=35&fontAlign=52&animation=fadeIn&fontColor=FFFAF0" />
 <h1>🤵 <em>Dear Guest, <br> Thanks for stopping by my GitHub !</em></h1>
 
 <p>
