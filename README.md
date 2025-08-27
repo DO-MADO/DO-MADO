@@ -1,18 +1,13 @@
-<!--
-Minimal, clean, and trendy GitHub profile README template (centered version)
--->
-
-<!-- ───────────────────────── HEADER ───────────────────────── -->
+<div align="center">
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=Blur&color=#FF6347&height=300&section=header&text=DOMADO&fontSize=90" />
 <h1>🤵 <em>Dear Guest, <br> Thanks for stopping by my GitHub !</em></h1>
 
 <p>
-Building human‑centered software across web · AI/ML · IoT. I care about clarity, performance, and real user value.
+Building human-centered software across web · AI/ML · IoT. I care about clarity, performance, and real user value.
 </p>
-
-<!-- Links only: Notion + Velog -->
 
 <p>
   ➳
@@ -23,4 +18,3 @@ Building human‑centered software across web · AI/ML · IoT. I care about clar
 
 </div>
 
----
