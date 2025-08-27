@@ -77,7 +77,6 @@ Building human-centered software across web · AI/ML · IoT. I care about clarit
 
 ---
 
-### 🤵
 
 </div>
 
