@@ -2,13 +2,12 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=300&section=header&text=DOMADO&fontSize=40&fontAlign=52&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=300&section=header&text=DOMADO&fontSize=40&fontAlign=52&animation=fadeIn&fontColor=FFFAF0" />
 <h1>🤵 <em>Dear Guest, <br> Thanks for stopping by my GitHub !</em></h1>
 
 <p>
 Building human-centered software across web · AI/ML · IoT. I care about clarity, performance, and real user value.
 </p>
-
 <p>
   ➳
   <a href="https://narrow-troodon-308.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74"><img src="https://img.shields.io/badge/Notion-Portfolio-000000?logo=notion&logoColor=white" alt="Notion Portfolio" /></a>
