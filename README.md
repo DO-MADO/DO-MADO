@@ -17,12 +17,15 @@ Building human-centered software across web · AI/ML · IoT. I care about clarit
 </div>
 
 <br>
+<br>
+<br>
+
 
 <div align="center">
 
 <h2>🚀 Tech Stack</h2>
 
-<br>
+
 
 ### 📝 Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -31,7 +34,9 @@ Building human-centered software across web · AI/ML · IoT. I care about clarit
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
+
 ---
+
 
 ### 🎨 Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -41,6 +46,7 @@ Building human-centered software across web · AI/ML · IoT. I care about clarit
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
 
 ---
 
