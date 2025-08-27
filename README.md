@@ -10,9 +10,9 @@ Building human-centered software across web · AI/ML · IoT. I care about clarit
 </p>
 <p>
   ➳
-  <a href="https://narrow-troodon-308.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74"><img src="https://img.shields.io/badge/Notion-Portfolio-F5F5F5?logo=notion&logoColor=000000&style=flat" 
+  <a href="https://narrow-troodon-308.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74"><img src="https://img.shields.io/badge/포트폴리오-F5F5F5?logo=notion&logoColor=000000&style=flat" 
          alt="Notion Portfolio" height="40" style="margin: 0 10px;"/></a>
-  <a href="https://velog.io/@supernova77/posts"><img src="https://img.shields.io/badge/Velog-Blog-40E0D0?logo=velog&logoColor=white&style=square" 
+  <a href="https://velog.io/@supernova77/posts"><img src="https://img.shields.io/badge/벨로그-009688?logo=velog&logoColor=white&style=square" 
          alt="Velog Blog" height="40" style="margin: 0 10px;"/></a>
   ↫
 </p>
