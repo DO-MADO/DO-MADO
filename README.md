@@ -1,0 +1,26 @@
+<!--
+Minimal, clean, and trendy GitHub profile README template (centered version)
+-->
+
+<!-- ───────────────────────── HEADER ───────────────────────── -->
+
+<div align="center">
+
+<h1>🤵 <em>Dear Guest, <br> Thanks for stopping by my GitHub !</em></h1>
+
+<p>
+Building human‑centered software across web · AI/ML · IoT. I care about clarity, performance, and real user value.
+</p>
+
+<!-- Links only: Notion + Velog -->
+
+<p>
+  ➳
+  <a href="https://narrow-troodon-308.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74"><img src="https://img.shields.io/badge/Notion-Portfolio-000000?logo=notion&logoColor=white" alt="Notion Portfolio" /></a>
+  <a href="https://velog.io/@supernova77/posts"><img src="https://img.shields.io/badge/Velog-Blog-20C997?logo=velog&logoColor=white" alt="Velog Blog" /></a>
+  ↫
+</p>
+
+</div>
+
+---
