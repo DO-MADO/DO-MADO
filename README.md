@@ -35,3 +35,10 @@
 | 🗄️ Database | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
 | 🔧 Embedded / Hardware | ![Jetson Orin Nano](https://img.shields.io/badge/Jetson%20Orin%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![FPGA](https://img.shields.io/badge/Xilinx%20FPGA-FF0000?style=for-the-badge&logo=xilinx&logoColor=white) ![ADC](https://img.shields.io/badge/Analog%20Devices%20ADC-000000?style=for-the-badge&logo=analogdevices&logoColor=white) ![RealSense](https://img.shields.io/badge/Intel%20RealSense-0071C5?style=for-the-badge&logo=intel&logoColor=white) ![ACE](https://img.shields.io/badge/ACE-0071C5?style=for-the-badge&logo=analogdevices&logoColor=white) ![Kuiper Linux](https://img.shields.io/badge/ADI%20Kuiper%20Linux-000000?style=for-the-badge&logo=linux&logoColor=white) |
 | 🛠️ Tools | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![GitHub Desktop](https://img.shields.io/badge/GitHub%20Desktop-8034A9?style=for-the-badge&logo=githubdesktop&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) |
+
+<br>
+
+#### 👨‍💻 현재 진행중인 프로젝트
+📌 AD4858/Zynq-7000 기반 8채널 ADC 실시간 스트리밍 & 시각화
+📌 YOLO 기반 스마트폰 자세 인식 & 교정 TTS 서비스 (Flutter + FastAPI)
+
