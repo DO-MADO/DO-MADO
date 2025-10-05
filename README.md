@@ -58,7 +58,7 @@
 | **주요 역할** | <ul><li>**Full-Stack 개발**: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>**인프라 구축**: Ubuntu 서버 세팅, Nginx 리버스 프록시 설정, UFW 방화벽 구성</li><li>**배포 자동화**: GitHub Deploy Key와 Shell Script를 이용한 원클릭 배포 파이프라인 설계</li><li>**무중단 운영**: PM2를 활용한 프로세스 관리 및 자동 재시작, Logrotate를 통한 로그 관리 자동화</li></ul> |
 | **Tech Stack** | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu Server](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
 | **배운 점** | <ul><li>**Nginx 리버스 프록시**를 통해 단일 공인 IP로 여러 서비스를 안전하게 분리하고 동시 운영하는 방법을 체득했습니다.</li><li>배포 스크립트, 로그 로테이션 등 **자동화가 곧 예측 가능하고 안정적인 운영 품질의 핵심**임을 깨달았습니다.</li><li>DNS, NAT, 프록시의 개념적 차이를 실제 서버를 구축하고 트러블슈팅하며 명확히 이해하게 되었습니다.</li></ul> |
-| **Notion** | <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7">**..더보기**</a> |
+| **Notion** | <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7">**https://parkgeonhoportfolio.notion.site**</a> |
 
 <br>
 
@@ -77,7 +77,7 @@
 | **주요 역할** | <ul><li>**데이터 처리 파이프라인 설계 (C)**: ADC Raw 데이터 수신부터 LPF, 이동평균, 다항식 보정 등 모든 DSP 연산을 수행하는 C 프로세스 개발.</li><li>**독립형 서버 아키텍처 구축 (Python/FastAPI)**: C 프로세스의 결과를 받아 WebSocket으로 실시간 송출하고, 웹 UI를 제공하는 FastAPI 서버를 보드 내에 구현.</li><li>**시스템 자동 실행 구현 (Linux/Systemd)**: 보드 부팅 시 C/Python 애플리케이션이 자동으로 실행되도록 `systemd` 서비스를 작성 및 등록.</li><li>**데이터 이중화 출력**: 처리된 데이터를 웹 UI(WebSocket)와 시리얼 로그(UART)로 동시에 출력하는 구조 설계.</li></ul> |
 | **Tech Stack** | ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Kuiper Linux](https://img.shields.io/badge/Kuiper%20Linux-000000?style=for-the-badge&logo=linux&logoColor=white) ![Systemd](https://img.shields.io/badge/Systemd-222222?style=for-the-badge&logo=systemd&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=websocket&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white)  |
 | **배운 점** | <ul><li>PC 의존적인 개발 환경에서 벗어나, **보드 자체를 독립 서버로 만드는 임베디드 리눅스 시스템 아키텍처** 설계 능력을 길렀습니다.</li><li>`systemd`를 활용하여 **부팅 시 서비스를 자동 실행**하고 프로세스를 안정적으로 관리하는 방법을 익혔습니다.</li><li>하나의 데이터 소스(C 프로세스 출력)를 **IPC(Inter-Process Communication)**로 받아 **WebSocket과 UART** 등 여러 채널로 동시에 분기하는 데이터 파이프라인을 구축했습니다.</li></ul> |
-| **GitHub Repo** | `[프로젝트 링크 추가]` |
+| **GitHub Repo** | <a href="https://github.com/DO-MADO/Zedboard-Zynq-7000">**DO-MADO/Zedboard-Zynq-7000**</a> |
 </div>
 </details>
 
