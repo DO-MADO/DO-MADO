@@ -47,10 +47,6 @@
 
 ### 👨‍💻 현재 진행중인 프로젝트
 
-- 📌 AD4858/Zynq-7000 기반 8채널 ADC 실시간 스트리밍 & 시각화  
-- 📌 YOLO 기반 스마트폰 자세 인식 & 교정 TTS 서비스 (Flutter + FastAPI)
-
-
 <details>
 <summary>📌 <strong>On-Premise Full-Stack Deployment & Operations Automation</strong></summary>
 <div markdown="1">
@@ -62,7 +58,7 @@
 | **주요 역할** | <ul><li>**Full-Stack 개발**: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>**인프라 구축**: Ubuntu 서버 세팅, Nginx 리버스 프록시 설정, UFW 방화벽 구성</li><li>**배포 자동화**: GitHub Deploy Key와 Shell Script를 이용한 원클릭 배포 파이프라인 설계</li><li>**무중단 운영**: PM2를 활용한 프로세스 관리 및 자동 재시작, Logrotate를 통한 로그 관리 자동화</li></ul> |
 | **Tech Stack** | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu Server](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
 | **배운 점** | <ul><li>**Nginx 리버스 프록시**를 통해 단일 공인 IP로 여러 서비스를 안전하게 분리하고 동시 운영하는 방법을 체득했습니다.</li><li>배포 스크립트, 로그 로테이션 등 **자동화가 곧 예측 가능하고 안정적인 운영 품질의 핵심**임을 깨달았습니다.</li><li>DNS, NAT, 프록시의 개념적 차이를 실제 서버를 구축하고 트러블슈팅하며 명확히 이해하게 되었습니다.</li></ul> |
-| **GitHub Repo** | <a href="https://github.com/DO-MADO/aimWeb">**DO-MADO/aimWeb**</a> |
+| **Notion** | <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7">**..더보기**</a> |
 
 <br>
 
@@ -71,18 +67,17 @@
 </details>
 
 <details>
-<summary>📌 <strong>AD4858/Zynq-7000 기반 8채널 ADC 실시간 스트리밍 & 시각화</strong></summary>
+<summary>📌 <strong>Zynq-7000 기반 독립형(Standalone) ADC 데이터 처리 시스템 구축</strong></summary>
 <div markdown="1">
 
 | | |
 |---|---|
-| **요약** | **Zynq-7000 FPGA**를 이용해 Analog Devices의 고속 8채널 ADC(AD4858)에서 데이터를 수집하고, 수집된 데이터를 PC로 실시간 스트리밍하여 시각화하는 임베디드 시스템을 개발했습니다. |
-| **목표** | 하드웨어 레벨에서 발생하는 고속 아날로그 신호를 디지털로 정확하게 변환하고, 대용량의 데이터를 **지연 및 손실 없이 처리**하여 사용자가 직관적으로 파형을 분석할 수 있는 **엔드투엔드(End-to-End) 파이프라인** 구축을 목표로 했습니다. |
-| **주요 역할** | <ul><li>**FPGA 로직 설계**: Vivado를 사용하여 ADC 인터페이스(SPI) 및 데이터 수집/패킷화 로직 구현</li><li>**임베디드 S/W 개발**: Zynq-7000 보드의 ARM 프로세서에서 데이터 스트리밍 서버(TCP/IP) 개발 (C/C++)</li><li>**데이터 시각화**: Python(PyQt/Matplotlib)을 이용해 수신 데이터를 실시간 그래프로 플로팅하는 GUI 애플리케이션 제작</li><li>**시스템 통합 및 검증**: FPGA-임베디드-PC 간 데이터 전송 속도 및 무결성 테스트 수행</li></ul> |
-| **Tech Stack** | ![Xilinx](https://img.shields.io/badge/Xilinx%20FPGA-FF0000?style=for-the-badge&logo=xilinx&logoColor=white) ![Vivado](https://img.shields.io/badge/Vivado-FFB400?style=for-the-badge&logo=xilinx&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
-| **배운 점** | <ul><li>FPGA를 이용한 하드웨어 제어와 임베디드 리눅스 기반의 소프트웨어 개발을 통합하는 **하드웨어/소프트웨어 Co-design** 경험을 쌓았습니다.</li><li>고속 데이터 전송 시 발생할 수 있는 데이터 손실 및 병목 현상을 분석하고, **DMA(Direct Memory Access)**를 활용하여 해결하는 방법을 익혔습니다.</li><li>하드웨어 명세서(Datasheet)를 해석하여 저수준(Low-level) 드라이버와 인터페이스 로직을 직접 설계하는 능력을 길렀습니다.</li></ul> |
+| **요약** | Zynq-7000 보드 **자체에서** ADC 데이터 수집/연산(C)과 FastAPI 웹서버(Python)를 **모두 실행**하는 **독립형(Standalone) 임베디드 시스템**을 구축했습니다. PC 없이 보드 전원만으로 동작하며, WebSocket과 UART로 실시간 데이터를 이중 출력합니다. |
+| **목표** | PC 의존성을 완전히 제거하고, **전원만 연결하면 자동으로 데이터 처리 및 서버 기능을 수행**하는 **완전한 독립형 임베디드 장치**를 만드는 것을 최종 목표로 했습니다. 이를 통해 현장에서의 사용성과 편의성을 극대화하고자 했습니다. |
+| **주요 역할** | <ul><li>**데이터 처리 파이프라인 설계 (C)**: ADC Raw 데이터 수신부터 LPF, 이동평균, 다항식 보정 등 모든 DSP 연산을 수행하는 C 프로세스 개발.</li><li>**독립형 서버 아키텍처 구축 (Python/FastAPI)**: C 프로세스의 결과를 받아 WebSocket으로 실시간 송출하고, 웹 UI를 제공하는 FastAPI 서버를 보드 내에 구현.</li><li>**시스템 자동 실행 구현 (Linux/Systemd)**: 보드 부팅 시 C/Python 애플리케이션이 자동으로 실행되도록 `systemd` 서비스를 작성 및 등록.</li><li>**데이터 이중화 출력**: 처리된 데이터를 웹 UI(WebSocket)와 시리얼 로그(UART)로 동시에 출력하는 구조 설계.</li></ul> |
+| **Tech Stack** | ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Kuiper Linux](https://img.shields.io/badge/Kuiper%20Linux-000000?style=for-the-badge&logo=linux&logoColor=white) ![Systemd](https://img.shields.io/badge/Systemd-222222?style=for-the-badge&logo=systemd&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=websocket&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white)  |
+| **배운 점** | <ul><li>PC 의존적인 개발 환경에서 벗어나, **보드 자체를 독립 서버로 만드는 임베디드 리눅스 시스템 아키텍처** 설계 능력을 길렀습니다.</li><li>`systemd`를 활용하여 **부팅 시 서비스를 자동 실행**하고 프로세스를 안정적으로 관리하는 방법을 익혔습니다.</li><li>하나의 데이터 소스(C 프로세스 출력)를 **IPC(Inter-Process Communication)**로 받아 **WebSocket과 UART** 등 여러 채널로 동시에 분기하는 데이터 파이프라인을 구축했습니다.</li></ul> |
 | **GitHub Repo** | `[프로젝트 링크 추가]` |
-
 </div>
 </details>
 
