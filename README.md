@@ -44,4 +44,7 @@
 
 - 📌 AD4858/Zynq-7000 기반 8채널 ADC 실시간 스트리밍 & 시각화  
 - 📌 YOLO 기반 스마트폰 자세 인식 & 교정 TTS 서비스 (Flutter + FastAPI)
+  
+![giphy](https://github.com/user-attachments/assets/8243d46c-765a-4b4c-8d02-d6086e0b32ba)
+
 
