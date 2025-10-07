@@ -2,7 +2,10 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=300&section=header&text=DOMADO&fontSize=35&fontAlign=52&animation=fadeIn&fontColor=FFFAF0" />
+<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=300&section=header&text=DOMADO&fontSize=40&fontAlign=52&animation=fadeIn&fontColor=FFFAF0" />
+
+
+
 <h1>🤵 <em>신사 숙녀 여러분, <br> 제 GitHub에 방문해 주셔서 감사합니다 !</em></h1>
 
 <p>
@@ -94,5 +97,4 @@
   ![bowing-thank-you](https://github.com/user-attachments/assets/f9534e9d-f85f-4f02-9445-918c219439aa)
 
   
-
 
