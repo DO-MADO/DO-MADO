@@ -92,9 +92,15 @@
 
 
 
-  <br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0D1117&height=120&section=footer&fontColor=E6E6E6"/>
 
-  ![bowing-thank-you](https://github.com/user-attachments/assets/f9534e9d-f85f-4f02-9445-918c219439aa)
+ㅤ
+
+![bowing-thank-you](https://github.com/user-attachments/assets/f9534e9d-f85f-4f02-9445-918c219439aa)
 
   
+
+
+
+
 
