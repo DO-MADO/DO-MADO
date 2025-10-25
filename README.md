@@ -66,7 +66,7 @@
 | **주요 역할** | <ul><li>**Full-Stack 개발**: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>**인프라 구축**: Ubuntu 서버 세팅, Nginx 리버스 프록시 설정, UFW 방화벽 구성</li><li>**배포 자동화**: GitHub Deploy Key와 Shell Script를 이용한 원클릭 배포 파이프라인 설계</li><li>**무중단 운영**: PM2를 활용한 프로세스 관리 및 자동 재시작, Logrotate를 통한 로그 관리 자동화</li></ul> |
 | **Tech Stack** | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Ubuntu Server](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
 | **배운 점** | <ul><li>**Nginx 리버스 프록시**를 통해 단일 공인 IP로 여러 서비스를 안전하게 분리하고 동시 운영하는 방법을 체득했습니다.</li><li>배포 스크립트, 로그 로테이션 등 **자동화가 곧 예측 가능하고 안정적인 운영 품질의 핵심**임을 깨달았습니다.</li><li>DNS, NAT, 프록시의 개념적 차이를 실제 서버를 구축하고 트러블슈팅하며 명확히 이해하게 되었습니다.</li></ul> |
-| **Notion** | <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7">**..더보기**</a> |
+| **Notion** | <a href="https://github.com/DO-MADO/WebPage">**..더보기**</a> |
 
 <br>
 
