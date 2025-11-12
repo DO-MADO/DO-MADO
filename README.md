@@ -65,7 +65,6 @@
 
 <br>
 
-
 <details>
 <summary>📌 <strong>On-Premise Full-Stack Deployment & Operations Automation</strong></summary>
 <div markdown="1">
@@ -81,9 +80,9 @@
 
 <br>
 
-
 </div>
 </details>
+
 
 <details>
 <summary>📌 <strong>Zynq-7000 기반 독립형(Standalone) ADC 데이터 처리 시스템 구축</strong></summary>
@@ -94,17 +93,29 @@
 | **요약** | Zynq-7000 보드에서 <strong>ADC 신호 수집 및 DSP 연산(C)</strong>과 <strong>FastAPI 기반 실시간 웹 UI(Python)</strong>를 통합한 <strong>온프레미스 실시간 데이터 처리 시스템</strong>입니다. 보드가 수집·연산·송출을 담당하고, PC 브라우저에서 실시간 시각화·저장을 수행하는 <strong>보드 단독 처리 + PC 연동</strong> 구조입니다. |
 | **목표** | ① <strong>보드 단독 동작</strong> 기반의 안정적 DSP 처리<br>② <strong>PC 브라우저 실시간 모니터링/다운로드</strong> UI 제공<br>③ <strong>현장 운용</strong>을 위한 자동 실행 및 원클릭 배포 체계 구축 |
 | **주요 역할** | <ul><li>🧠 <strong>DSP 파이프라인(C)</strong>: AD4858 수집 → 필터링/이동평균/다항식 보정 등 10단계 처리 → Frame Packer 출력</li><li>🐍 <strong>Python/FastAPI 서버</strong>: WebSocket 실시간 스트리밍, REST API 기반 파라미터 제어 및 CSV 저장</li><li>📡 <strong>이중 출력</strong>: WebSocket(웹 UI) + UART0(COM3) 터미널 로그 동시 출력</li><li>🤖 <strong>자동 실행/배포</strong>: systemd + start.sh 부팅 자동 실행, deploy.sh로 PC→보드 원클릭 배포</li><li>💾 <strong>저장 기능 강화</strong>: 보드 <code>logs/</code> 자동 저장 + 브라우저 즉시 CSV 다운로드</li></ul> |
-| **Tech Stack** | ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![ZedBoard](https://img.shields.io/badge/ZedBoard%20(Zynq--7000)-E01F27?style=for-the-badge&logo=xilinx&logoColor=white) ![AD4858](https://img.shields.io/badge/AD4858-00539F?style=for-the-badge&logo=analogdevices&logoColor=white) ![libiio](https://img.shields.io/badge/libiio-0078D7?style=for-the-badge&logo=linux&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white) ![systemd](https://img.shields.io/badge/systemd-009639?style=for-the-badge&logo=linux&logoColor=white) ![OpenSSH](https://img.shields.io/badge/OpenSSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white)|
+| **Tech Stack** | ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![ZedBoard](https://img.shields.io/badge/ZedBoard%20(Zynq--7000)-E01F27?style=for-the-badge&logo=xilinx&logoColor=white) ![AD4858](https://img.shields.io/badge/AD4858-00539F?style=for-the-badge&logo=analogdevices&logoColor=white) ![libiio](https://img.shields.io/badge/libiio-0078D7?style=for-the-badge&logo=linux&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white) ![systemd](https://img.shields.io/badge/systemd-009639?style=for-the-badge&logo=linux&logoColor=white) ![OpenSSH](https://img.shields.io/badge/OpenSSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white) |
 | **배운 점** | <ul><li>PC 의존적인 개발 환경에서 벗어나, **보드 자체를 독립 서버로 만드는 임베디드 리눅스 시스템 아키텍처** 설계 능력을 길렀습니다.</li><li>`systemd`를 활용하여 **부팅 시 서비스를 자동 실행**하고 프로세스를 안정적으로 관리하는 방법을 익혔습니다.</li><li>하나의 데이터 소스(C 프로세스 출력)를 **IPC(Inter-Process Communication)**로 받아 **WebSocket과 UART** 등 여러 채널로 동시에 분기하는 데이터 파이프라인을 구축했습니다.</li></ul> |
 | **GitHub Repo** | <a href="https://github.com/DO-MADO/Zedboard-Zynq-7000">**DO-MADO/Zedboard-Zynq-7000**</a> |
+
 </div>
 </details>
 
 
-ㅤ
+<details>
+<summary>📌 <strong>STM32H723 기반 RS-485 실시간 DSP 시스템 리팩토링</strong></summary>
+<div markdown="1">
 
-![bowing-thank-you](https://github.com/user-attachments/assets/f9534e9d-f85f-4f02-9445-918c219439aa)
+| | |
+|---|---|
+| **요약** | Zynq-7000 기반 AD4858 DSP 파이프라인을 <strong>STM32H723ZG Nucleo</strong> 보드로 포팅 중인 프로젝트입니다.<br>기존 Linux+C 환경의 DSP 연산을 <strong>Bare-metal MCU</strong>로 이식하고, <strong>RS-485 양방향 통신 프로토콜</strong>을 새로 설계하여 PC↔PCB 간 실시간 데이터 송수신을 구현했습니다.<br>또한 Python FastAPI 기반 <strong>PC 모니터링 툴</strong>을 .exe 및 .bat 형태로 패키징하여 Python 미설치 환경에서도 실행 가능한 형태로 배포했습니다. |
+| **목표** | ① Zynq Linux DSP 로직의 MCU 레벨 완전 이식<br>② RS-485 기반 실시간 양방향 통신 안정화<br>③ PC용 독립 실행형 모니터링 툴 제작 및 납품형 배포 |
+| **주요 역할** | <ul><li>🧠 <strong>DSP 로직 포팅</strong>: AD7606(8ch) → LPF → TimeAvg → Ratio/Ravg → y1→y2→y3→yt (10단계) HAL 기반 구조로 이식</li><li>🔄 <strong>RS-485 프로토콜 설계</strong>: 규격(PC→PCB 28필드 / PCB→PC 30필드) 정의 및 파서 구현</li><li>🧩 <strong>비차단(Non-blocking) 구조</strong>: HAL_Delay 제거, “벽시계 기반 주기 송신” 적용, ISR 경량화 및 버퍼 처리</li><li>💬 <strong>양방향 데이터 검증</strong>: PCB→PC 스트리밍(그래프 시각화) 및 PC→PCB 파라미터 송신 정상 검증 완료</li><li>💾 <strong>PC 프로그램 패키징</strong>: FastAPI + WebSocket UI를 PyInstaller로 빌드(.exe) 및 Synthetic/Serial 모드 .bat 런처 제작</li><li>⚙️ <strong>진행 중(🔧)</strong>: DSP 루프 내 실시간 설정값 반영 경로(<code>flag → parse → apply</code>)의 안정성 검증 및 리팩토링 중</li></ul> |
+| **Tech Stack** | ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![STM32](https://img.shields.io/badge/STM32H723ZG-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![RS-485](https://img.shields.io/badge/RS--485-00539F?style=for-the-badge&logo=serialport&logoColor=white) ![CubeMX](https://img.shields.io/badge/STM32CubeMX-008C8C?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![HAL](https://img.shields.io/badge/STM32%20HAL-00A8E8?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![PyInstaller](https://img.shields.io/badge/PyInstaller-FFD43B?style=for-the-badge&logo=python&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![CubeIDE](https://img.shields.io/badge/CubeIDE-00539F?style=for-the-badge&logo=stmicroelectronics&logoColor=white) |
+| **배운 점** | <ul><li>Zynq-Linux → Bare-metal MCU 이식 과정에서 DMA·인터럽트 기반 <strong>비차단 아키텍처 설계</strong> 역량 강화</li><li>RS-485 <strong>실시간 프로토콜 설계 및 노이즈 대응</strong> 경험을 통해 산업 환경 수준의 통신 안정성 확보</li><li>Python FastAPI 웹앱을 <strong>.exe/.bat 납품형 패키지</strong>로 제품화하며 현장 배포 효율성을 높임</li></ul> |
+| **GitHub Repo** | <a href="https://github.com/DO-MADO/STM32H723-DSP-System"><strong>DO-MADO/ZedBoard-to-STM32-DSP-Refactor</strong></a> |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:E5E5E5&height=120&section=footer&fontColor=E6E6E6"/>
+</div>
+</details>
+
 
 
