@@ -118,7 +118,7 @@
 </details>
 
 <details>
-<summary>📌 <strong>레거시 쇼핑몰 결제 페이지 UI/UX 개선 및 기능 리팩터링 (외주)</strong></summary>
+<summary>📌 <strong>레거시 쇼핑몰 결제 페이지 UI/UX 개선 및 기능 리팩터링</strong></summary>
 <div markdown="1">
 
 | | |
@@ -137,7 +137,7 @@
 
 
 <details>
-<summary>📌 <strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스 (StressCheck)</strong></summary>
+<summary>📌 <strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스</strong></summary>
 <div markdown="1">
 
 | | |
@@ -156,7 +156,7 @@
 
 
 <details>
-<summary>📌 <strong>코사인 유사도 기반 레시피 추천 서비스 (YogoDam)</strong></summary>
+<summary>📌 <strong>코사인 유사도 기반 레시피 추천 서비스</strong></summary>
 <div markdown="1">
 
 | | |
