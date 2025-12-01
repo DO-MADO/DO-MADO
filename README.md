@@ -115,7 +115,7 @@
 
 
 <details>
-<summary>📌 <strong>On-Premise Full-Stack Deployment & Operations Automation</strong></summary>
+<summary>📌 <strong>React·Node 기반 웹 서비스 구축 및 서버 환경 설계</strong></summary>
 <div markdown="1">
 
 | | |
