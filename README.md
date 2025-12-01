@@ -82,23 +82,20 @@
 <br>
 
 <details>
-<summary>📌 <strong>On-Premise Full-Stack Deployment & Operations Automation</strong></summary>
+<summary>📌 <strong>STM32H723 기반 RS-485 실시간 DSP 시스템 리팩토링</strong></summary>
 <div markdown="1">
 
 | | |
 |---|---|
-| **요약** | 클라우드 없이 사내 온프레미스 서버에 **React SPA와 Node.js API**를 구축하고, **Nginx, PM2, Certbot** 등을 활용해 배포, 보안, 모니터링 파이프라인까지 자동화한 프로젝트입니다. |
-| **목표** | 제한된 온프레미스 환경에서도 **클라우드 수준의 안정성과 자동화된 운영 체계**를 직접 설계하고 구축하는 것을 목표로 했습니다. |
-| **주요 역할** | <ul><li>**Full-Stack 개발**: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>**인프라 구축**: Ubuntu 서버 세팅, Nginx 리버스 프록시 설정, UFW 방화벽 구성</li><li>**배포 자동화**: GitHub Deploy Key와 Shell Script를 이용한 원클릭 배포 파이프라인 설계</li><li>**무중단 운영**: PM2를 활용한 프로세스 관리 및 자동 재시작, Logrotate를 통한 로그 관리 자동화</li></ul> |
-| **Tech Stack** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![JWT](https://img.shields.io/badge/JWT%20(HMAC)-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu%20Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white) ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![logrotate](https://img.shields.io/badge/logrotate-0078D7?style=for-the-badge&logo=linux&logoColor=white) ![crontab](https://img.shields.io/badge/crontab-6DB33F?style=for-the-badge&logo=linux&logoColor=white) |
-| **배운 점** | <ul><li>**Nginx 리버스 프록시**를 통해 단일 공인 IP로 여러 서비스를 안전하게 분리하고 동시 운영하는 방법을 체득했습니다.</li><li>배포 스크립트, 로그 로테이션 등 **자동화가 곧 예측 가능하고 안정적인 운영 품질의 핵심**임을 깨달았습니다.</li><li>DNS, NAT, 프록시의 개념적 차이를 실제 서버를 구축하고 트러블슈팅하며 명확히 이해하게 되었습니다.</li></ul> |
-| **GitHub Repo** | <a href="https://github.com/DO-MADO/WebPage">**DO-MADO/WebPage**</a> |
-
-<br>
+| **요약** | Zynq-7000 기반 AD4858 DSP 파이프라인을 <strong>STM32H723ZG Nucleo</strong> 보드로 포팅 중인 프로젝트입니다.<br>기존 Linux+C 환경의 DSP 연산을 <strong>Bare-metal MCU</strong>로 이식하고, <strong>RS-485 양방향 통신 프로토콜</strong>을 새로 설계하여 PC↔PCB 간 실시간 데이터 송수신을 구현했습니다.<br>또한 Python FastAPI 기반 <strong>PC 모니터링 툴</strong>을 .exe 및 .bat 형태로 패키징하여 Python 미설치 환경에서도 실행 가능한 형태로 배포했습니다. |
+| **목표** | ① Zynq Linux DSP 로직의 MCU 레벨 완전 이식<br>② RS-485 기반 실시간 양방향 통신 안정화<br>③ PC용 독립 실행형 모니터링 툴 제작 및 납품형 배포 |
+| **주요 역할** | <ul><li>🧠 <strong>DSP 로직 포팅</strong>: AD7606(8ch) → LPF → TimeAvg → Ratio/Ravg → y1→y2→y3→yt (10단계) HAL 기반 구조로 이식</li><li>🔄 <strong>RS-485 프로토콜 설계</strong>: 규격(PC→PCB 28필드 / PCB→PC 30필드) 정의 및 파서 구현</li><li>🧩 <strong>비차단(Non-blocking) 구조</strong>: HAL_Delay 제거, “벽시계 기반 주기 송신” 적용, ISR 경량화 및 버퍼 처리</li><li>💬 <strong>양방향 데이터 검증</strong>: PCB→PC 스트리밍(그래프 시각화) 및 PC→PCB 파라미터 송신 정상 검증 완료</li><li>💾 <strong>PC 프로그램 패키징</strong>: FastAPI + WebSocket UI를 PyInstaller로 빌드(.exe) 및 Synthetic/Serial 모드 .bat 런처 제작</li><li>⚙️ <strong>진행 중(🔧)</strong>: DSP 루프 내 실시간 설정값 반영 경로(<code>flag → parse → apply</code>)의 안정성 검증 및 리팩토링 중</li></ul> |
+| **Tech Stack** | ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![STM32](https://img.shields.io/badge/STM32H723ZG-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![RS-485](https://img.shields.io/badge/RS--485-00539F?style=for-the-badge&logo=serialport&logoColor=white) ![CubeMX](https://img.shields.io/badge/STM32CubeMX-008C8C?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![HAL](https://img.shields.io/badge/STM32%20HAL-00A8E8?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![PyInstaller](https://img.shields.io/badge/PyInstaller-FFD43B?style=for-the-badge&logo=python&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![CubeIDE](https://img.shields.io/badge/CubeIDE-00539F?style=for-the-badge&logo=stmicroelectronics&logoColor=white) |
+| **배운 점** | <ul><li>Zynq-Linux → Bare-metal MCU 이식 과정에서 DMA·인터럽트 기반 <strong>비차단 아키텍처 설계</strong> 역량 강화</li><li>RS-485 <strong>실시간 프로토콜 설계 및 노이즈 대응</strong> 경험을 통해 산업 환경 수준의 통신 안정성 확보</li><li>Python FastAPI 웹앱을 <strong>.exe/.bat 납품형 패키지</strong>로 제품화하며 현장 배포 효율성을 높임</li></ul> |
+| **GitHub Repo** | <a href="https://github.com/DO-MADO/ZedBoard-to-STM32-DSP-Refactor"><strong>DO-MADO/ZedBoard-to-STM32-DSP-Refactor</strong></a> |
 
 </div>
 </details>
-
 
 <details>
 <summary>📌 <strong>Zynq-7000 기반 독립형(Standalone) ADC 데이터 처리 시스템 구축</strong></summary>
@@ -118,51 +115,17 @@
 
 
 <details>
-<summary>📌 <strong>STM32H723 기반 RS-485 실시간 DSP 시스템 리팩토링</strong></summary>
+<summary>📌 <strong>On-Premise Full-Stack Deployment & Operations Automation</strong></summary>
 <div markdown="1">
 
 | | |
 |---|---|
-| **요약** | Zynq-7000 기반 AD4858 DSP 파이프라인을 <strong>STM32H723ZG Nucleo</strong> 보드로 포팅 중인 프로젝트입니다.<br>기존 Linux+C 환경의 DSP 연산을 <strong>Bare-metal MCU</strong>로 이식하고, <strong>RS-485 양방향 통신 프로토콜</strong>을 새로 설계하여 PC↔PCB 간 실시간 데이터 송수신을 구현했습니다.<br>또한 Python FastAPI 기반 <strong>PC 모니터링 툴</strong>을 .exe 및 .bat 형태로 패키징하여 Python 미설치 환경에서도 실행 가능한 형태로 배포했습니다. |
-| **목표** | ① Zynq Linux DSP 로직의 MCU 레벨 완전 이식<br>② RS-485 기반 실시간 양방향 통신 안정화<br>③ PC용 독립 실행형 모니터링 툴 제작 및 납품형 배포 |
-| **주요 역할** | <ul><li>🧠 <strong>DSP 로직 포팅</strong>: AD7606(8ch) → LPF → TimeAvg → Ratio/Ravg → y1→y2→y3→yt (10단계) HAL 기반 구조로 이식</li><li>🔄 <strong>RS-485 프로토콜 설계</strong>: 규격(PC→PCB 28필드 / PCB→PC 30필드) 정의 및 파서 구현</li><li>🧩 <strong>비차단(Non-blocking) 구조</strong>: HAL_Delay 제거, “벽시계 기반 주기 송신” 적용, ISR 경량화 및 버퍼 처리</li><li>💬 <strong>양방향 데이터 검증</strong>: PCB→PC 스트리밍(그래프 시각화) 및 PC→PCB 파라미터 송신 정상 검증 완료</li><li>💾 <strong>PC 프로그램 패키징</strong>: FastAPI + WebSocket UI를 PyInstaller로 빌드(.exe) 및 Synthetic/Serial 모드 .bat 런처 제작</li><li>⚙️ <strong>진행 중(🔧)</strong>: DSP 루프 내 실시간 설정값 반영 경로(<code>flag → parse → apply</code>)의 안정성 검증 및 리팩토링 중</li></ul> |
-| **Tech Stack** | ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![STM32](https://img.shields.io/badge/STM32H723ZG-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![RS-485](https://img.shields.io/badge/RS--485-00539F?style=for-the-badge&logo=serialport&logoColor=white) ![CubeMX](https://img.shields.io/badge/STM32CubeMX-008C8C?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![HAL](https://img.shields.io/badge/STM32%20HAL-00A8E8?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![PyInstaller](https://img.shields.io/badge/PyInstaller-FFD43B?style=for-the-badge&logo=python&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![CubeIDE](https://img.shields.io/badge/CubeIDE-00539F?style=for-the-badge&logo=stmicroelectronics&logoColor=white) |
-| **배운 점** | <ul><li>Zynq-Linux → Bare-metal MCU 이식 과정에서 DMA·인터럽트 기반 <strong>비차단 아키텍처 설계</strong> 역량 강화</li><li>RS-485 <strong>실시간 프로토콜 설계 및 노이즈 대응</strong> 경험을 통해 산업 환경 수준의 통신 안정성 확보</li><li>Python FastAPI 웹앱을 <strong>.exe/.bat 납품형 패키지</strong>로 제품화하며 현장 배포 효율성을 높임</li></ul> |
-| **GitHub Repo** | <a href="https://github.com/DO-MADO/ZedBoard-to-STM32-DSP-Refactor"><strong>DO-MADO/ZedBoard-to-STM32-DSP-Refactor</strong></a> |
-
-</div>
-</details>
-
-<details>
-<summary>📌 <strong>코사인 유사도 기반 레시피 추천 서비스 (YogoDam)</strong></summary>
-<div markdown="1">
-
-| | |
-|---|---|
-| **요약** | 대규모 레시피 데이터를 크롤링·전처리한 뒤, <strong>코사인 유사도 기반 추천 모델</strong>을 이용해 사용자의 취향에 맞는 음식 및 레시피를 추천하는 웹 서비스입니다. |
-| **목표** | ① 실사용 가능한 <strong>추천 API</strong>를 직접 설계·구현하고,<br>② <strong>React 프론트엔드 ↔ Express/Flask 백엔드 ↔ Oracle DB</strong>를 잇는 풀스택 데이터 흐름을 이해·구현하는 것을 목표로 했습니다. |
-| **주요 역할** | <ul><li>🧹 <strong>데이터 수집/전처리</strong>: Python으로 레시피 사이트 크롤러 구현, <code>User-Agent</code>·<code>time.sleep()</code> 적용으로 서버 차단 이슈 해결</li><li>📊 <strong>Pandas 전처리</strong>: 약 18만 건 레시피 데이터에서 중복 제거 및 머신러닝용 피처 정제</li><li>🗂️ <strong>REST API 개발</strong>: Express + Oracle로 레시피 리스트 API 구현 후 React 목록 페이지와 연동</li><li>🤖 <strong>추천 API 개발</strong>: Flask 기반 코사인 유사도 추천 엔진을 REST API로 구현, 추천 결과를 React와 연결</li><li>🧾 <strong>발표·문서화</strong>: 중간 기획 발표 및 최종 발표용 PPT 제작</li></ul> |
-| **Tech Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
-| **배운 점** | <ul><li>단순 크롤링이 아니라, <strong>전처리 품질이 추천 모델 성능을 크게 좌우</strong>한다는 점을 직접 체감했습니다.</li><li>React ↔ Express ↔ Oracle ↔ Flask 추천 API로 이어지는 <strong>엔드투엔드 데이터 플로우</strong>를 경험하며, 풀스택 관점의 설계 감각을 익혔습니다.</li><li>서버 접속 제한, 대용량 크롤링 병목 등 여러 문제를 <strong>로그 분석과 구조 재설계</strong>로 해결하는 과정을 통해, “양보다 구조”의 중요성을 배웠습니다.</li></ul> |
-| **Link** |  <a href="https://parkgeonhoportfolio.notion.site/23631721b5898126bdd3e3ce77c5fcba"><strong>Notion 포트폴리오 상세 보기</strong></a> |
-
-<br>
-
-</div>
-</details>
-
-<details>
-<summary>📌 <strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스 (StressCheck)</strong></summary>
-<div markdown="1">
-
-| | |
-|---|---|
-| **요약** | 스마트워치의 <strong>PPG 센서 데이터를 XGBoost 모델로 분석</strong>해 사용자의 스트레스 상태를 실시간으로 확인하는 서비스입니다. Flutter 앱에서 스마트워치와 BLE로 통신하고, FastAPI + MySQL 백엔드와 연동해 사용자 정보를 관리합니다. |
-| **목표** | ① <strong>모바일 앱 ↔ 웨어러블 디바이스 ↔ 백엔드 서버</strong>까지 이어지는 전체 플로우를 직접 구현하고,<br>② 제조사 SDK·BLE·네이티브 환경 등 <strong>복합적인 제약 속에서도 동작하는 구조</strong>를 만드는 것이 목표였습니다. |
-| **주요 역할** | <ul><li>🧩 <strong>백엔드 구축</strong>: FastAPI 서버 구성, MySQL 연동 및 회원 등록/로그인 API 구현, CORS 설정</li><li>⌚ <strong>스마트워치 연동</strong>: 중국어 제조사 SDK 문서 분석 및 구조화, SDK 기반 BLE 통신 로직 이해 및 커스터마이징 보조</li><li>🔗 <strong>Flutter–Kotlin 연동</strong>: MethodChannel을 활용해 네이티브(Android)에서 수신한 데이터를 Flutter로 전달하는 2채널 구조 설계 보조</li><li>📡 <strong>Raw 데이터 처리</strong>: 스마트워치에서 수신한 Raw/PPG 데이터 파싱 및 앱 내 전달 흐름 참여</li><li>📝 <strong>발표·문서화</strong>: 중간·최종 발표 PPT 제작 및 결과 정리</li></ul> |
-| **Tech Stack** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
-| **배운 점** | <ul><li>Flutter, Kotlin, 제조사 SDK, FastAPI, MySQL까지 아우르는 <strong>멀티 플랫폼 환경에서의 적응력과 디버깅 경험</strong>을 쌓았습니다.</li><li>제조사 데모 프로젝트와 팀 환경이 달라 생긴 충돌을, <strong>환경 분기 실험(네이티브 단독·통합·모듈 삽입)</strong>으로 해결하며 문제를 구조적으로 접근하는 법을 익혔습니다.</li><li>BLE 연결 유지 문제를 해결하기 위해 전역 <code>BluetoothManager</code> 싱글톤 모듈을 설계하며, <strong>상태 관리와 모듈화의 중요성</strong>을 체감했습니다.</li></ul> |
-| **Link** | <a href="https://parkgeonhoportfolio.notion.site/23631721b589819a9927cbf80dacbec6"><strong>Notion 포트폴리오 상세 보기</strong></a> |
+| **요약** | 클라우드 없이 사내 온프레미스 서버에 **React SPA와 Node.js API**를 구축하고, **Nginx, PM2, Certbot** 등을 활용해 배포, 보안, 모니터링 파이프라인까지 자동화한 프로젝트입니다. |
+| **목표** | 제한된 온프레미스 환경에서도 **클라우드 수준의 안정성과 자동화된 운영 체계**를 직접 설계하고 구축하는 것을 목표로 했습니다. |
+| **주요 역할** | <ul><li>**Full-Stack 개발**: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>**인프라 구축**: Ubuntu 서버 세팅, Nginx 리버스 프록시 설정, UFW 방화벽 구성</li><li>**배포 자동화**: GitHub Deploy Key와 Shell Script를 이용한 원클릭 배포 파이프라인 설계</li><li>**무중단 운영**: PM2를 활용한 프로세스 관리 및 자동 재시작, Logrotate를 통한 로그 관리 자동화</li></ul> |
+| **Tech Stack** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![JWT](https://img.shields.io/badge/JWT%20(HMAC)-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu%20Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white) ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![logrotate](https://img.shields.io/badge/logrotate-0078D7?style=for-the-badge&logo=linux&logoColor=white) ![crontab](https://img.shields.io/badge/crontab-6DB33F?style=for-the-badge&logo=linux&logoColor=white) |
+| **배운 점** | <ul><li>**Nginx 리버스 프록시**를 통해 단일 공인 IP로 여러 서비스를 안전하게 분리하고 동시 운영하는 방법을 체득했습니다.</li><li>배포 스크립트, 로그 로테이션 등 **자동화가 곧 예측 가능하고 안정적인 운영 품질의 핵심**임을 깨달았습니다.</li><li>DNS, NAT, 프록시의 개념적 차이를 실제 서버를 구축하고 트러블슈팅하며 명확히 이해하게 되었습니다.</li></ul> |
+| **GitHub Repo** | <a href="https://github.com/DO-MADO/WebPage">**DO-MADO/WebPage**</a> |
 
 <br>
 
@@ -186,5 +149,47 @@
 
 </div>
 </details>
+
+
+<details>
+<summary>📌 <strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스 (StressCheck)</strong></summary>
+<div markdown="1">
+
+| | |
+|---|---|
+| **요약** | 스마트워치의 <strong>PPG 센서 데이터를 XGBoost 모델로 분석</strong>해 사용자의 스트레스 상태를 실시간으로 확인하는 서비스입니다. Flutter 앱에서 스마트워치와 BLE로 통신하고, FastAPI + MySQL 백엔드와 연동해 사용자 정보를 관리합니다. |
+| **목표** | ① <strong>모바일 앱 ↔ 웨어러블 디바이스 ↔ 백엔드 서버</strong>까지 이어지는 전체 플로우를 직접 구현하고,<br>② 제조사 SDK·BLE·네이티브 환경 등 <strong>복합적인 제약 속에서도 동작하는 구조</strong>를 만드는 것이 목표였습니다. |
+| **주요 역할** | <ul><li>🧩 <strong>백엔드 구축</strong>: FastAPI 서버 구성, MySQL 연동 및 회원 등록/로그인 API 구현, CORS 설정</li><li>⌚ <strong>스마트워치 연동</strong>: 중국어 제조사 SDK 문서 분석 및 구조화, SDK 기반 BLE 통신 로직 이해 및 커스터마이징 보조</li><li>🔗 <strong>Flutter–Kotlin 연동</strong>: MethodChannel을 활용해 네이티브(Android)에서 수신한 데이터를 Flutter로 전달하는 2채널 구조 설계 보조</li><li>📡 <strong>Raw 데이터 처리</strong>: 스마트워치에서 수신한 Raw/PPG 데이터 파싱 및 앱 내 전달 흐름 참여</li><li>📝 <strong>발표·문서화</strong>: 중간·최종 발표 PPT 제작 및 결과 정리</li></ul> |
+| **Tech Stack** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
+| **배운 점** | <ul><li>Flutter, Kotlin, 제조사 SDK, FastAPI, MySQL까지 아우르는 <strong>멀티 플랫폼 환경에서의 적응력과 디버깅 경험</strong>을 쌓았습니다.</li><li>제조사 데모 프로젝트와 팀 환경이 달라 생긴 충돌을, <strong>환경 분기 실험(네이티브 단독·통합·모듈 삽입)</strong>으로 해결하며 문제를 구조적으로 접근하는 법을 익혔습니다.</li><li>BLE 연결 유지 문제를 해결하기 위해 전역 <code>BluetoothManager</code> 싱글톤 모듈을 설계하며, <strong>상태 관리와 모듈화의 중요성</strong>을 체감했습니다.</li></ul> |
+| **Link** | <a href="https://parkgeonhoportfolio.notion.site/23631721b589819a9927cbf80dacbec6"><strong>Notion 포트폴리오 상세 보기</strong></a> |
+
+<br>
+
+</div>
+</details>
+
+
+<details>
+<summary>📌 <strong>코사인 유사도 기반 레시피 추천 서비스 (YogoDam)</strong></summary>
+<div markdown="1">
+
+| | |
+|---|---|
+| **요약** | 대규모 레시피 데이터를 크롤링·전처리한 뒤, <strong>코사인 유사도 기반 추천 모델</strong>을 이용해 사용자의 취향에 맞는 음식 및 레시피를 추천하는 웹 서비스입니다. |
+| **목표** | ① 실사용 가능한 <strong>추천 API</strong>를 직접 설계·구현하고,<br>② <strong>React 프론트엔드 ↔ Express/Flask 백엔드 ↔ Oracle DB</strong>를 잇는 풀스택 데이터 흐름을 이해·구현하는 것을 목표로 했습니다. |
+| **주요 역할** | <ul><li>🧹 <strong>데이터 수집/전처리</strong>: Python으로 레시피 사이트 크롤러 구현, <code>User-Agent</code>·<code>time.sleep()</code> 적용으로 서버 차단 이슈 해결</li><li>📊 <strong>Pandas 전처리</strong>: 약 18만 건 레시피 데이터에서 중복 제거 및 머신러닝용 피처 정제</li><li>🗂️ <strong>REST API 개발</strong>: Express + Oracle로 레시피 리스트 API 구현 후 React 목록 페이지와 연동</li><li>🤖 <strong>추천 API 개발</strong>: Flask 기반 코사인 유사도 추천 엔진을 REST API로 구현, 추천 결과를 React와 연결</li><li>🧾 <strong>발표·문서화</strong>: 중간 기획 발표 및 최종 발표용 PPT 제작</li></ul> |
+| **Tech Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
+| **배운 점** | <ul><li>단순 크롤링이 아니라, <strong>전처리 품질이 추천 모델 성능을 크게 좌우</strong>한다는 점을 직접 체감했습니다.</li><li>React ↔ Express ↔ Oracle ↔ Flask 추천 API로 이어지는 <strong>엔드투엔드 데이터 플로우</strong>를 경험하며, 풀스택 관점의 설계 감각을 익혔습니다.</li><li>서버 접속 제한, 대용량 크롤링 병목 등 여러 문제를 <strong>로그 분석과 구조 재설계</strong>로 해결하는 과정을 통해, “양보다 구조”의 중요성을 배웠습니다.</li></ul> |
+| **Link** |  <a href="https://parkgeonhoportfolio.notion.site/23631721b5898126bdd3e3ce77c5fcba"><strong>Notion 포트폴리오 상세 보기</strong></a> |
+
+<br>
+
+</div>
+</details>
+
+
+
+
 
 
