@@ -81,24 +81,9 @@
 
 <br>
 
-<details>
-<summary>📌 <strong>STM32H723 기반 RS-485 실시간 DSP 시스템 리팩토링</strong></summary>
-<div markdown="1">
-
-| | |
-|---|---|
-| **요약** | Zynq-7000 기반 AD4858 DSP 파이프라인을 <strong>STM32H723ZG Nucleo</strong> 보드로 포팅 중인 프로젝트입니다.<br>기존 Linux+C 환경의 DSP 연산을 <strong>Bare-metal MCU</strong>로 이식하고, <strong>RS-485 양방향 통신 프로토콜</strong>을 새로 설계하여 PC↔PCB 간 실시간 데이터 송수신을 구현했습니다.<br>또한 Python FastAPI 기반 <strong>PC 모니터링 툴</strong>을 .exe 및 .bat 형태로 패키징하여 Python 미설치 환경에서도 실행 가능한 형태로 배포했습니다. |
-| **목표** | ① Zynq Linux DSP 로직의 MCU 레벨 완전 이식<br>② RS-485 기반 실시간 양방향 통신 안정화<br>③ PC용 독립 실행형 모니터링 툴 제작 및 납품형 배포 |
-| **주요 역할** | <ul><li>🧠 <strong>DSP 로직 포팅</strong>: AD7606(8ch) → LPF → TimeAvg → Ratio/Ravg → y1→y2→y3→yt (10단계) HAL 기반 구조로 이식</li><li>🔄 <strong>RS-485 프로토콜 설계</strong>: 규격(PC→PCB 28필드 / PCB→PC 30필드) 정의 및 파서 구현</li><li>🧩 <strong>비차단(Non-blocking) 구조</strong>: HAL_Delay 제거, “벽시계 기반 주기 송신” 적용, ISR 경량화 및 버퍼 처리</li><li>💬 <strong>양방향 데이터 검증</strong>: PCB→PC 스트리밍(그래프 시각화) 및 PC→PCB 파라미터 송신 정상 검증 완료</li><li>💾 <strong>PC 프로그램 패키징</strong>: FastAPI + WebSocket UI를 PyInstaller로 빌드(.exe) 및 Synthetic/Serial 모드 .bat 런처 제작</li><li>⚙️ <strong>진행 중(🔧)</strong>: DSP 루프 내 실시간 설정값 반영 경로(<code>flag → parse → apply</code>)의 안정성 검증 및 리팩토링 중</li></ul> |
-| **Tech Stack** | ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![STM32](https://img.shields.io/badge/STM32H723ZG-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![RS-485](https://img.shields.io/badge/RS--485-00539F?style=for-the-badge&logo=serialport&logoColor=white) ![CubeMX](https://img.shields.io/badge/STM32CubeMX-008C8C?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![HAL](https://img.shields.io/badge/STM32%20HAL-00A8E8?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![PyInstaller](https://img.shields.io/badge/PyInstaller-FFD43B?style=for-the-badge&logo=python&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![CubeIDE](https://img.shields.io/badge/CubeIDE-00539F?style=for-the-badge&logo=stmicroelectronics&logoColor=white) |
-| **배운 점** | <ul><li>Zynq-Linux → Bare-metal MCU 이식 과정에서 DMA·인터럽트 기반 <strong>비차단 아키텍처 설계</strong> 역량 강화</li><li>RS-485 <strong>실시간 프로토콜 설계 및 노이즈 대응</strong> 경험을 통해 산업 환경 수준의 통신 안정성 확보</li><li>Python FastAPI 웹앱을 <strong>.exe/.bat 납품형 패키지</strong>로 제품화하며 현장 배포 효율성을 높임</li></ul> |
-| **GitHub Repo** | <a href="https://github.com/DO-MADO/ZedBoard-to-STM32-DSP-Refactor"><strong>DO-MADO/ZedBoard-to-STM32-DSP-Refactor</strong></a> |
-
-</div>
-</details>
 
 <details>
-<summary>📌 <strong>Zynq-7000 기반 독립형(Standalone) ADC 데이터 처리 시스템 구축</strong></summary>
+<summary>📌 <strong>실시간 센서 데이터 시각화 및 원격 제어 웹 플랫폼 개발</strong></summary>
 <div markdown="1">
 
 | | |
