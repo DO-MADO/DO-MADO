@@ -100,17 +100,17 @@
 
 
 <details>
-<summary>📌 <strong>React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축</strong></summary>
+<summary>📌 <strong>React·Node.js 풀스택 웹 서비스 및 온프레미스 DevOps 파이프라인</strong></summary>
 <div markdown="1">
 
 | | |
 |---|---|
-| **요약** | 사내 온프레미스 환경에서 <strong>React SPA + Node.js API 서버</strong>를 구축하고, <br> <strong>Nginx·PM2·Certbot·deploy.sh</strong> 기반으로 배포·보안·모니터링까지 이어지는 <strong>End-to-End 운영 환경</strong>을<br> 직접 설계·구현한 프로젝트입니다. 클라우드 없이도 안정적으로 운영 가능한 <strong>실서비스 수준의 인프라 구조</strong>를 완성했습니다. |
-| **목표** | ① 온프레미스 환경에서도 <strong>클라우드 수준의 DevOps 자동화 체계 구축</strong> <br> ② React–Node–Nginx–PM2 로 이어지는 <strong>단일 파이프라인 구축 및 무중단 운영 확보</strong> <br> ③ HTTPS 인증·보안·로그 모니터링 등 <strong>실서비스 운영 품질 확보</strong> |
-| **주요 역할** | <ul><li>🧩 <strong>Full-Stack 개발</strong>: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>🖥️ <strong>인프라 구축</strong>: Ubuntu 서버 세팅, Nginx 리버스 프록시 설정, UFW 방화벽 구성</li><li>🚀 <strong>배포 자동화</strong>: GitHub Deploy Key + Shell Script 기반 원클릭 배포 파이프라인 구축</li><li>⚙️ <strong>무중단 운영</strong>: PM2 프로세스 관리·Auto Restart 및 Logrotate 기반 로그 자동화</li></ul> |
+| **요약** | 사내 온프레미스 환경에서 **React SPA**와 **Node.js/Express API** 서버로 웹 서비스를 구축하고,<br>**Nginx·PM2·Certbot·deploy.sh** 기반으로 배포·보안·모니터링이 자동화된 **End-to-End 운영 환경**을 설계했습니다.<br>  클라우드 없이도 안정적으로 서비스가 동작하도록, **네트워크·보안·무중단 운영**까지 직접 구성한 프로젝트입니다.|
+| **목표** | ① **DevOps 자동화**: 온프레미스 환경에서도 클라우드 수준의 DevOps 체계 구축 <br>② **단일 파이프라인**: React–Node–Nginx–PM2로 이어지는 무중단 배포 구현<br>③ **운영 품질**: HTTPS 인증·방화벽·로그 자동화를 통한 실서비스급 안정성 확보 |
+| **주요 역할** | <ul><li>🧩 <strong>Full-Stack 개발</strong>: React 기반 반응형 프론트엔드 및 Node.js/Express API 구현</li><li>🖥️ <strong>인프라 구축</strong>: Ubuntu 서버 세팅, Nginx 리버스 프록시, UFW 방화벽 구성</li><li>🚀 <strong>배포 자동화</strong>: `GitHub Deploy Key` + `Shell Script` 기반 원클릭 배포 파이프라인 구현</li><li>⚙️ <strong>무중단 운영</strong>: PM2 프로세스 관리·Auto Restart 및 logrotate 기반 로그 자동화</li></ul> |
 | **Tech Stack** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![JWT](https://img.shields.io/badge/JWT%20(HMAC)-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu%20Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white) ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![logrotate](https://img.shields.io/badge/logrotate-0078D7?style=for-the-badge&logo=linux&logoColor=white) ![crontab](https://img.shields.io/badge/crontab-6DB33F?style=for-the-badge&logo=linux&logoColor=white) |
-| **배운 점** | <ul><li>단일 공인 IP 환경에서 <strong>Nginx Reverse Proxy로 여러 서비스를 안전하게 분리·운영</strong>하는 실전 경험을 쌓았습니다.</li> <li>배포 스크립트, 로그 로테이션 등 <strong>자동화가 곧 예측 가능하고 안정적인 운영 품질의 핵심</strong>임을 깨달았습니다.</li> <li>DNS → 포트포워딩 → Proxy → 내부 LAN이라는 구조를 직접 설계·트러블슈팅하며 <strong>네트워크·서버 개념을 명확하게 이해</storng>했습니다.</li></ul> |
-| **GitHub Repo** | <a href="https://github.com/DO-MADO/WebPage">**DO-MADO/WebPage**</a> |
+| **배운 점** | <ul><li><strong>Reverse Proxy 응용</strong>: 단일 IP에서 여러 서비스를 안전하게 분리·운영하는 기술 습득</li><li><strong>자동화의 가치</strong>: 수동 배포의 불안정성을 스크립트로 해결하며 운영 효율성 증대</li><li><strong>네트워크 체득</strong>: DNS부터 내부 서버 포트까지의 패킷 흐름을 직접 트러블슈팅하며 네트워크·서버 개념을 이해</li></ul> |
+| **바로가기** | 🔗 <a href="https://github.com/DO-MADO/WebPage">**DO-MADO/WebPage**</a> |
 
 <br>
 
