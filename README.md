@@ -100,7 +100,7 @@
 
 
 <details>
-<summary>📌 <strong>React·Node 기반 웹 서비스 구축 및 온프레미스 서버 운영 환경 설계</strong></summary>
+<summary>📌 <strong>React·Node 기반 사내 웹 서비스 및 온프레미스 DevOps 파이프라인 구축</strong></summary>
 <div markdown="1">
 
 | | |
