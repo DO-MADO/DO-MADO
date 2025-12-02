@@ -100,7 +100,7 @@
 
 
 <details>
-<summary>📌 <strong>React·Node 기반 사내 웹 서비스 및 온프레미스 DevOps 파이프라인 구축</strong></summary>
+<summary>📌 <strong>React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축</strong></summary>
 <div markdown="1">
 
 | | |
