@@ -75,14 +75,20 @@
 <br>
 <br>
 
-### 🔥 현재 진행 중인 프로젝트 🔥 
+### 🔥 현재 진행 중인 프로젝트 🔥
+
 <details>
 <summary>📊 <strong>AI 모델링을 위한 데이터 수집</strong></summary>
-<div markdown="1">
-  　
-</div>
+
+| | |
+|---|---|
+| **⏳** | 열심히 데이터 수집을 다니고 있습니다 ! 🏃🏃  |
+
+
 </details>
-<hr>
+
+---
+
 
 ### 🍀 완료된 프로젝트 🍀 
 <code>sort_by = ['date'], order='desc'</code>
