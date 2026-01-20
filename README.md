@@ -75,15 +75,23 @@
 <br>
 <br>
 
-### 🍀 진행한 프로젝트 🍀 
+### 🔥 현재 진행 중인 프로젝트 🔥 
+<details>
+<summary>📊 <strong>AI 모델링을 위한 데이터 수집</strong></summary>
+<div markdown="1">
+  　
+</div>
+</details>
+<hr>
+
+### 🍀 완료된 프로젝트 🍀 
 <code>sort_by = ['date'], order='desc'</code>
 
 
 <br>
 
-
 <details>
-<summary>📌 <strong>실시간 대용량 데이터 시각화 및 원격 제어 플랫폼 개발</strong></summary>
+<summary>⚡️ <strong>실시간 대용량 데이터 시각화 및 원격 제어 플랫폼 개발</strong></summary>
 <div markdown="1">
 
 | | |
@@ -100,7 +108,7 @@
 
 
 <details>
-<summary>📌 <strong>React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축</strong></summary>
+<summary>🚀 <strong>React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축</strong></summary>
 <div markdown="1">
 
 | | |
@@ -118,7 +126,7 @@
 </details>
 
 <details>
-<summary>📌 <strong>레거시 쇼핑몰 결제 페이지 UI/UX 개선 및 기능 리팩터링</strong></summary>
+<summary>🧹 <strong>레거시 쇼핑몰 결제 페이지 UI/UX 개선 및 기능 리팩터링</strong></summary>
 <div markdown="1">
 
 | | |
@@ -137,7 +145,7 @@
 
 
 <details>
-<summary>📌 <strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스</strong></summary>
+<summary>⌚️ <strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스</strong></summary>
 <div markdown="1">
 
 | | |
@@ -156,7 +164,7 @@
 
 
 <details>
-<summary>📌 <strong>코사인 유사도 기반 레시피 추천 서비스</strong></summary>
+<summary>🎯 <strong>코사인 유사도 기반 레시피 추천 서비스</strong></summary>
 <div markdown="1">
 
 | | |
