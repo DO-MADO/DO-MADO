@@ -86,6 +86,15 @@
 
 
 </details>
+<details>
+<summary>🧪 <strong>C++ Python AI Embedding 연구개발</strong></summary>
+
+| | |
+|---|---|
+| **📚** |  메인 C++에 AI 모델링(Python)을 임베딩하기 위한 연구개발중에 있습니다 @-@   |
+
+
+</details>
 
 ---
 
