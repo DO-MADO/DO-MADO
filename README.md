@@ -80,26 +80,18 @@
 <br>
 <br>
 
-### 🔥 현재 진행 중인 프로젝트 🔥
+### 🔥 현재 진행 중 🔥
 
 <details>
-<summary>📊 <strong>AI 모델링을 위한 데이터 수집</strong></summary>
+<summary>📖 <strong>Nest.JS Study</strong></summary>
 
 | | |
 |---|---|
-| **⏳** | 열심히 데이터 수집을 다니고 있습니다 ! 🏃🏃  |
+| **☠️** | 열심히 흐름 파악에 노력중입니다 🥺🥺  |
 
 
 </details>
-<details>
-<summary>🧪 <strong>C++ Python AI Embedding 연구개발</strong></summary>
 
-| | |
-|---|---|
-| **📚** |  메인 C++에 AI 모델링(Python)을 임베딩하기 위한 연구개발중에 있습니다 @-@   |
-
-
-</details>
 
 ---
 
