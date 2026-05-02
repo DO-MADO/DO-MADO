@@ -30,7 +30,7 @@
                                                     
           [01] notion   → <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">Notion Portfolio</a>
     [02] velog    → <a href="https://velog.io/@supernova77/posts">Velog Blog</a>
-                                             [03] web      → <a href="https://domado-three.vercel.app/">Web Portfolio</a>                                                    
+                                              [03] web      → <a href="https://domado-three.vercel.app/">Web Portfolio</a>                                                    
 ╰────────────────────────────────────────────────────╯
 </pre>
 
