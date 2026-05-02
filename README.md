@@ -24,7 +24,7 @@
 <div align="center">
 
 <pre>
-╭─ profile links ─────────────────╮
+╭─ 🌎 profile links ───────────────╮
 
   <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">[01] Notion Portfolio</a>
   <a href="https://velog.io/@supernova77/posts">[02] Velog Blog</a>
