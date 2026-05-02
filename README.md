@@ -41,7 +41,7 @@
 <div align="center">
 
 
-## 🌳Tech Stack🌳
+### 🔲 Tech Stack
 
 | 구분 | 세부 항목 | 기술 |
 | :--- | :--- | :--- |
@@ -84,7 +84,7 @@
 <div align="center">
 <pre>
 ╭──────────────────────────────╮
-│   *  CURRENTLY BUILDING      │
+│    •  CURRENTLY BUILDING     │
 ╰──────────────────────────────╯
 ㅤ
 <details>
@@ -106,7 +106,7 @@
 <div align="center">
 <pre>
 ╭──────────────────────────────╮
-│     *  PROJECT ARCHIVE       │
+│     •  PROJECT ARCHIVE       │
 ╰──────────────────────────────╯
 ㅤ
 
