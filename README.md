@@ -20,20 +20,21 @@
 </p>
 </div>
 
-<br>
 
 <div align="center">
-
-<pre>
-╭────────────────────────────────────────────────────╮
-   $ links                                           
-                                                    
-          [01] notion   → <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">Notion Portfolio</a>
-    [02] velog    → <a href="https://velog.io/@supernova77/posts">Velog Blog</a>
-                                       ㅤ ㅤ [03] web      → <a href="https://domado-three.vercel.app/">Web Portfolio</a>                                                    
-╰────────────────────────────────────────────────────╯
-</pre>
-
+<p>
+  <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">
+    <img src="https://img.shields.io/badge/Notion_Portfolio-F5F5F5?style=for-the-badge&logo=notion&logoColor=000000" alt="Portfolio"/>
+  </a>
+   
+  <a href="https://velog.io/@supernova77/posts">
+    <img src="https://img.shields.io/badge/Velog_Blog-20C997?style=for-the-badge&logo=velog&logoColor=white" alt="Velog"/>
+  </a>
+  
+  <a href="https://domado-three.vercel.app/">
+    <img src="https://img.shields.io/badge/Web_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Web Portfolio"/>
+  </a>
+</p>
 </div>
 
 
