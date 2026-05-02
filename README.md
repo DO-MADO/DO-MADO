@@ -83,12 +83,11 @@
 ### 🔥 현재 진행 중 🔥
 
 <details>
-<summary>📖 <strong>Nest.JS Study</strong></summary>
+<summary><strong>NestJS·MariaDB 기반 인테리어 시뮬레이션 백엔드 API 개발/운영</strong></summary>
 
 | | |
 |---|---|
-| **☠️** | 열심히 흐름 파악에 노력중입니다 🥺🥺  |
-
+| **🌱** | NestJS·MariaDB 기반 인테리어 시뮬레이션 서비스에서 <br> API 요청 → 서버 처리 → DB 조회/검증 → 응답 반환 흐름을 따라가며, <br> 데이터 정합성 검증, 유니티 연동 견적 로직, 운영 로그 기반 이슈 대응을 하나씩 경험하고 있습니다. |
 
 </details>
 
