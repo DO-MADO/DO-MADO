@@ -22,21 +22,18 @@
 
 
 <div align="center">
-<p>
-  <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">
-    <img src="https://img.shields.io/badge/Notion_Portfolio-F5F5F5?style=for-the-badge&logo=notion&logoColor=000000" alt="Portfolio"/>
-  </a>
-   
-  <a href="https://velog.io/@supernova77/posts">
-    <img src="https://img.shields.io/badge/Velog_Blog-20C997?style=for-the-badge&logo=velog&logoColor=white" alt="Velog"/>
-  </a>
-  
-  <a href="https://domado-three.vercel.app/">
-    <img src="https://img.shields.io/badge/Web_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Web Portfolio"/>
-  </a>
-</p>
-</div>
 
+<pre>
+╭─ profile links ─────────────────╮
+
+  <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">[01] Notion Portfolio</a>
+  <a href="https://velog.io/@supernova77/posts">[02] Velog Blog</a>
+  <a href="https://domado-three.vercel.app/">[03] Web Portfolio</a>
+
+╰─────────────────────────────────╯
+</pre>
+
+</div>
 
 
 <br>
