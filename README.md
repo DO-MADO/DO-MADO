@@ -24,11 +24,11 @@
 <div align="center">
 
 <pre>
-╭─ 🌎 profile links ───────────────╮
+╭─ 🌎 links ──────────────────────╮
 
-  <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">[01] Notion Portfolio</a>
-  <a href="https://velog.io/@supernova77/posts">[02] Velog Blog</a>
-  <a href="https://domado-three.vercel.app/">[03] Web Portfolio</a>
+ ▸ <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74">Notion Portfolio</a>
+ ▸ <a href="https://velog.io/@supernova77/posts">Velog Blog</a>
+ ▸ <a href="https://domado-three.vercel.app/">Web Portfolio</a>
 
 ╰─────────────────────────────────╯
 </pre>
@@ -39,29 +39,13 @@
 <br>
 
 <div align="center">
-
-
+  
 ### 🔲 Tech Stack
+<img width="950" height="1283" alt="스크린샷 2026-05-03 오후 5 08 08" src="https://github.com/user-attachments/assets/5b71a9ac-8686-45d7-a50b-272654a73243" />
 
-| 구분 | 세부 항목 | 기술 |
-| :--- | :--- | :--- |
-| 🤖 **AI / LLM** | **Models** | ![Codex%205.3](https://img.shields.io/badge/Codex%205.3-7F52FF?style=for-the-badge&logo=openai&logoColor=white) ![Gemini%20Pro](https://img.shields.io/badge/Gemini%20Pro-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-d97757?style=for-the-badge)  ![DeepSeek](https://img.shields.io/badge/DeepSeek-111111?style=for-the-badge&logoColor=white)  |
-| | **Apps & Clients** | ![ChatGPT](https://img.shields.io/badge/ChatGPT-000000?style=for-the-badge&logo=openai&logoColor=white) ![Claude%20Desktop](https://img.shields.io/badge/Claude%20Desktop-d97757?style=for-the-badge) ![NotebookLM](https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logo=google&logoColor=white) |
-| | **Agent Tools** | ![Google%20AI%20Studio](https://img.shields.io/badge/Google%20AI%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Hyperbrowser](https://img.shields.io/badge/Hyperbrowser-000000?style=for-the-badge&logoColor=white) |
-| 📝 **Languages** | **Main** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) |
-| | **Experienced** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) |
-| 🎨 **Frontend** | **Frameworks & Libs** | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) |
-| | **Tools & APIs** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) ![Sonner](https://img.shields.io/badge/Sonner-000000?style=for-the-badge&logoColor=white) |
-| ⚙️ **Backend** | **Python** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-009688?style=for-the-badge&logo=uvicorn&logoColor=white) |
-| | **Node.js** | ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Multer](https://img.shields.io/badge/Multer-000000?style=for-the-badge&logoColor=white) ![Nodemailer](https://img.shields.io/badge/Nodemailer-2B9D6F?style=for-the-badge&logoColor=white) ![EmailJS](https://img.shields.io/badge/EmailJS-FF5A5F?style=for-the-badge&logoColor=white) ![Validator.js](https://img.shields.io/badge/Validator.js-000000?style=for-the-badge&logoColor=white) ![sanitize-html](https://img.shields.io/badge/sanitize--html-000000?style=for-the-badge&logoColor=white) |
-| | **Common** | ![WebSocket](https://img.shields.io/badge/WebSocket-F68A1E?style=for-the-badge&logo=websocket&logoColor=white) |
-| 📦 **DevOps / Infra** | **Server & OS** | ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![Systemd](https://img.shields.io/badge/Systemd-222222?style=for-the-badge&logo=systemd&logoColor=white) ![Crontab](https://img.shields.io/badge/Crontab-000000?style=for-the-badge&logo=vixie-cron&logoColor=white) |
-| | **Network & Security** | ![OpenSSH](https://img.shields.io/badge/OpenSSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white) ![Certbot](https://img.shields.io/badge/Certbot-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white) ![UFW](https://img.shields.io/badge/UFW-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![CORS](https://img.shields.io/badge/CORS-000000?style=for-the-badge&logoColor=white) ![Rate-Limit](https://img.shields.io/badge/Rate--Limit-000000?style=for-the-badge&logoColor=white) |
-| | **Monitoring** | ![htop](https://img.shields.io/badge/htop-008700?style=for-the-badge&logoColor=white) ![iftop](https://img.shields.io/badge/iftop-000000?style=for-the-badge&logoColor=white) ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![vnstat](https://img.shields.io/badge/vnstat-000000?style=for-the-badge&logoColor=white) ![logrotate](https://img.shields.io/badge/logrotate-000000?style=for-the-badge&logoColor=white) |
-| | **CI/CD & Tools** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black) |
-| 🗄️ **Database** | Database | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) |
-| 🛠️ **Tools** | **IDE** | ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white) |
-| | **Utilities** | ![GitHub Desktop](https://img.shields.io/badge/GitHub%20Desktop-8034A9?style=for-the-badge&logo=githubdesktop&logoColor=white) ![PuTTY](https://img.shields.io/badge/PuTTY-1D76DB?style=for-the-badge&logo=putty&logoColor=white) |
+
+
+
 
 <br>
 <br>
