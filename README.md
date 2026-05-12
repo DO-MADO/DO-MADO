@@ -51,14 +51,7 @@
 <br>
 
 ### ◽ Additional Technical Experience – AIoT / Embedded
-
-| 구분 | 세부 항목 | 기술 |
-| :--- | :--- | :--- |
-| 🔧 **Embedded** | **Platforms** | ![ZedBoard (Zynq)](https://img.shields.io/badge/ZedBoard%20(Zynq)-FF0000?style=for-the-badge&logo=xilinx&logoColor=white) ![AD4858 (ADC)](https://img.shields.io/badge/AD4858%20(ADC)-000000?style=for-the-badge&logo=analogdevices&logoColor=white) ![AD7606 (ADC)](https://img.shields.io/badge/AD7606%20(ADC)-000000?style=for-the-badge&logo=analogdevices&logoColor=white) ![STM32H723ZG](https://img.shields.io/badge/STM32H723ZG%20(Nucleo)-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) |
-|  | **Software & OS** | ![Vivado](https://img.shields.io/badge/Vivado-FFB400?style=for-the-badge&logo=xilinx&logoColor=white) ![ADI Kuiper Linux](https://img.shields.io/badge/ADI%20Kuiper%20Linux-000000?style=for-the-badge&logo=linux&logoColor=white) ![libiio](https://img.shields.io/badge/libiio-000000?style=for-the-badge&logo=analogdevices&logoColor=white) ![GCC](https://img.shields.io/badge/GCC-F7DA00?style=for-the-badge&logo=gcc&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white) ![STM32CubeMX](https://img.shields.io/badge/STM32CubeMX-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![STM32 HAL](https://img.shields.io/badge/STM32%20HAL-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) ![Bare-metal](https://img.shields.io/badge/Bare--metal-444444?style=for-the-badge&logo=c&logoColor=white) |
-|  | **Communication** | ![RS-485](https://img.shields.io/badge/RS--485-00599C?style=for-the-badge&logoColor=white) ![UART](https://img.shields.io/badge/UART-12101E?style=for-the-badge&logoColor=white) |
-
-
+<img width="900" height="456" alt="image" src="https://github.com/user-attachments/assets/757d8597-7f45-4c66-9126-82f8a0ca8dcc" />
 
 
 
