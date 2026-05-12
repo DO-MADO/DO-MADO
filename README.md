@@ -63,9 +63,12 @@
 ╭──────────────────────────────╮
 │    •  CURRENTLY BUILDING     │
 ╰──────────────────────────────╯
-ㅤ
+<sub>아래 <kbd>▶</kbd> 아이콘을 클릭하면 자세한 내용을 확인할 수 있습니다.</sub>
+
+<br>
+
 <details>
-<summary><strong>NestJS·MariaDB 기반 인테리어 시뮬레이션 백엔드 API 개발/운영</strong></summary>
+<summary><strong>┄ NestJS·MariaDB 기반 인테리어 시뮬레이션 백엔드 API 개발/운영</strong></summary>
 
 | | |
 |---|---|
@@ -85,11 +88,14 @@
 ╭──────────────────────────────╮
 │     •  PROJECT ARCHIVE       │
 ╰──────────────────────────────╯
-ㅤ
+<sub>아래 <kbd>▶</kbd> 아이콘을 클릭하면 자세한 내용을 확인할 수 있습니다.</sub>
+
+<br>
+
 
 <details>
   
-<summary><strong>실시간 대용량 데이터 시각화 및 원격 제어 플랫폼 개발</strong></summary>
+<summary><strong>┄ 실시간 대용량 데이터 시각화 및 원격 제어 플랫폼 개발</strong></summary>
 
 | | |
 |---|---|
@@ -103,7 +109,7 @@
 
 
 <details>
-<summary><strong>React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축</strong></summary>
+<summary><strong>┄ React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축</strong></summary>
 
 | | |
 |---|---|
@@ -117,7 +123,7 @@
 
 
 <details>
-<summary><strong>레거시 쇼핑몰 결제 페이지 UI/UX 개선 및 기능 리팩터링</strong></summary>
+<summary><strong>┄ 레거시 쇼핑몰 결제 페이지 UI/UX 개선 및 기능 리팩터링</strong></summary>
 
 | | |
 |---|---|
@@ -131,7 +137,7 @@
 
 
 <details>
-<summary><strong>스마트워치 PPG 기반 실시간 스트레스 분석 서비스</strong></summary>
+<summary><strong>┄ 스마트워치 PPG 기반 실시간 스트레스 분석 서비스</strong></summary>
 
 | | |
 |---|---|
@@ -145,7 +151,7 @@
 
 
 <details>
-<summary><strong>코사인 유사도 기반 레시피 추천 서비스</strong></summary>
+<summary><strong>┄ 코사인 유사도 기반 레시피 추천 서비스</strong></summary>
 
 | | |
 |---|---|
