@@ -41,7 +41,7 @@
 <div align="center">
   
 ### 🔲 Tech Stack
-<img width="950" height="1283" alt="스크린샷 2026-05-03 오후 5 08 08" src="https://github.com/user-attachments/assets/5b71a9ac-8686-45d7-a50b-272654a73243" />
+<img width="1600" height="3516" alt="image" src="https://github.com/user-attachments/assets/1ecea473-2776-4db6-ab3d-adf25db90c5b" />
 
 
 
