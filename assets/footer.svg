@@ -28,11 +28,11 @@
 
   <!-- fluid strand -->
   <path stroke="url(#fStrand)" stroke-width="2.4" stroke-linecap="round" filter="url(#fBlur)"
-    d="M-40 40 C150 18 326 64 460 40 C604 16 752 64 940 38">
+    d="M-40 42 C96 8 196 10 300 44 C400 76 512 74 610 42 C720 6 816 10 940 46">
     <animate attributeName="d" dur="18s" repeatCount="indefinite"
-      values="M-40 40 C150 18 326 64 460 40 C604 16 752 64 940 38;
-              M-40 38 C154 64 326 18 460 42 C604 66 752 18 940 40;
-              M-40 40 C150 18 326 64 460 40 C604 16 752 64 940 38"/>
+      values="M-40 42 C96 8 196 10 300 44 C400 76 512 74 610 42 C720 6 816 10 940 46;
+              M-40 44 C100 76 202 74 302 42 C400 8 512 6 610 44 C718 76 818 74 940 40;
+              M-40 42 C96 8 196 10 300 44 C400 76 512 74 610 42 C720 6 816 10 940 46"/>
   </path>
   <text x="450" y="86" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16.5" font-weight="600" fill="url(#fApple)">좋은 흐름은, 함께 만들어집니다.</text>
   <text x="450" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="11" fill="#48484a">Thanks for reading — hope to see you again soon</text>
