@@ -7,11 +7,11 @@
     </radialGradient>
     <linearGradient id="flowLine" x1="84" y1="128" x2="816" y2="128" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#e4f6f0" stop-opacity="0"/>
-      <stop offset="0.3" stop-color="#9dcfca" stop-opacity="0.46"/>
-      <stop offset="0.5" stop-color="#e4f6f0" stop-opacity="0.74"/>
-      <stop offset="0.7" stop-color="#6b95ac" stop-opacity="0.42"/>
+      <stop offset="0.28" stop-color="#9dcfca" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#e4f6f0" stop-opacity="0.92"/>
+      <stop offset="0.72" stop-color="#6b95ac" stop-opacity="0.58"/>
       <stop offset="1" stop-color="#45657d" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-520 0; 520 0; -520 0" dur="11s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-620 0; 620 0; -620 0" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="flowText" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#e4f6f0"/>
@@ -30,13 +30,12 @@
   <g font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
     <text x="450" y="46" text-anchor="middle" font-size="12.5" letter-spacing="1" fill="#86868b">요청부터 응답까지, 하나의 흐름으로</text>
 
-    <path stroke="url(#flowLine)" stroke-width="1.8" stroke-linecap="round" filter="url(#softGlow)"
-      d="M78 122 C244 111 384 135 450 122 S656 112 822 122">
-      <animate attributeName="d" dur="16s" repeatCount="indefinite"
-        values="M78 122 C244 111 384 135 450 122 S656 112 822 122;
-                M78 121 C244 132 384 112 450 124 S656 132 822 121;
-                M78 122 C244 111 384 135 450 122 S656 112 822 122"/>
-    </path>
+    <path
+      d="M78 122 C100 121 118 119.4 137 119.4 C204 119.4 282 124.8 346 124.8 C430 124.8 486 113.6 555 113.6 C624 113.6 700 118.8 764 118.8 C786 118.8 804 120 822 122"
+      stroke="url(#flowLine)" stroke-width="5.2" stroke-linecap="round" opacity="0.38" filter="url(#softGlow)"/>
+    <path
+      d="M78 122 C100 121 118 119.4 137 119.4 C204 119.4 282 124.8 346 124.8 C430 124.8 486 113.6 555 113.6 C624 113.6 700 118.8 764 118.8 C786 118.8 804 120 822 122"
+      stroke="url(#flowLine)" stroke-width="2.1" stroke-linecap="round"/>
 
     <g text-anchor="middle">
       <circle cx="137" cy="119.4" r="2.3" fill="#e4f6f0" opacity="0.82"/>
