@@ -75,6 +75,11 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
   <img src="https://raw.githubusercontent.com/DO-MADO/DO-MADO/output/github-snake.svg" alt="contribution snake" />
 </picture>
 
+<br>
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DO-MADO&hide_border=true&area=true&bg_color=00000000&color=9dcfca&line=6b95ac&point=e4f6f0&area_color=9dcfca&title_color=f5f5f7&custom_title=52%20weeks%20of%20shipping" width="900" alt="GitHub activity graph" />
+
 </div>
 
 <br>
