@@ -5,33 +5,21 @@
       <stop offset="0.55" stop-color="#05070b"/>
       <stop offset="1" stop-color="#000000"/>
     </radialGradient>
-    <linearGradient id="flowGrad" x1="403" y1="0" x2="514" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#e8f1ff"/>
-      <stop offset="0.5" stop-color="#8fb5f0"/>
-      <stop offset="1" stop-color="#c9ddfa"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-18 0; 18 0; -18 0" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="titleApple" x1="178" y1="0" x2="722" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e4f6f0"/>
+      <stop offset="0.31" stop-color="#9dcfca"/>
+      <stop offset="0.68" stop-color="#6b95ac"/>
+      <stop offset="1" stop-color="#45657d"/>
     </linearGradient>
-    <linearGradient id="ribbonSilver" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f5f5f7" stop-opacity="0"/>
-      <stop offset="0.35" stop-color="#c9d4e3" stop-opacity="0.2"/>
-      <stop offset="0.5" stop-color="#dbe7f7" stop-opacity="0.75"/>
-      <stop offset="0.65" stop-color="#8fb5f0" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-500 0; 500 0; -500 0" dur="11s" repeatCount="indefinite"/>
+    <linearGradient id="ribbonApple" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e4f6f0" stop-opacity="0"/>
+      <stop offset="0.31" stop-color="#9dcfca" stop-opacity="0.5"/>
+      <stop offset="0.68" stop-color="#6b95ac" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#45657d" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-500 0; 500 0; -500 0" dur="13s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="ribbonBlue" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6aa5f8" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#6aa5f8" stop-opacity="0.4"/>
-      <stop offset="1" stop-color="#6aa5f8" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="500 0; -500 0; 500 0" dur="15s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="ribbonFaint" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="blur6" x="-20%" y="-120%" width="140%" height="340%">
-      <feGaussianBlur stdDeviation="6"/>
+    <filter id="blur6" x="-20%" y="-160%" width="140%" height="420%">
+      <feGaussianBlur stdDeviation="9"/>
     </filter>
     <filter id="blur2" x="-20%" y="-120%" width="140%" height="340%">
       <feGaussianBlur stdDeviation="1.2"/>
@@ -49,8 +37,8 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="1.2s" fill="freeze"/>
     </text>
 
-    <text x="450" y="188" font-size="42" font-weight="700" fill="#f5f5f7" opacity="0">
-      기능을 넘어, <tspan fill="url(#flowGrad)">흐름</tspan>을 만듭니다.
+    <text x="450" y="188" font-size="42" font-weight="700" fill="url(#titleApple)" opacity="0">
+      기능을 넘어, 흐름을 만듭니다.
       <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1.4s" fill="freeze"/>
     </text>
 
@@ -71,8 +59,8 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1s" dur="2s" fill="freeze"/>
 
-    <!-- glow layer -->
-    <path stroke="url(#ribbonBlue)" stroke-width="10" stroke-linecap="round" filter="url(#blur6)"
+    <!-- wide glow band -->
+    <path stroke="url(#ribbonApple)" stroke-width="34" stroke-linecap="round" filter="url(#blur6)"
       d="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350">
       <animate attributeName="d" dur="16s" repeatCount="indefinite"
         values="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350;
@@ -80,31 +68,13 @@
                 M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350"/>
     </path>
 
-    <!-- silver main strand -->
-    <path stroke="url(#ribbonSilver)" stroke-width="1.6" filter="url(#blur2)"
+    <!-- core band -->
+    <path stroke="url(#ribbonApple)" stroke-width="5" stroke-linecap="round" filter="url(#blur2)"
       d="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350">
       <animate attributeName="d" dur="16s" repeatCount="indefinite"
         values="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350;
                 M-40 350 C160 384 300 318 450 354 C600 388 740 320 940 352;
                 M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350"/>
-    </path>
-
-    <!-- companion strand -->
-    <path stroke="url(#ribbonFaint)" stroke-width="1.2"
-      d="M-40 366 C180 396 320 330 460 364 C610 398 750 334 940 366">
-      <animate attributeName="d" dur="21s" repeatCount="indefinite"
-        values="M-40 366 C180 396 320 330 460 364 C610 398 750 334 940 366;
-                M-40 364 C180 334 320 398 460 362 C610 330 750 396 940 364;
-                M-40 366 C180 396 320 330 460 364 C610 398 750 334 940 366"/>
-    </path>
-
-    <!-- upper faint strand -->
-    <path stroke="url(#ribbonFaint)" stroke-width="1"
-      d="M-40 338 C200 312 340 366 480 340 C630 314 760 364 940 336">
-      <animate attributeName="d" dur="26s" repeatCount="indefinite"
-        values="M-40 338 C200 312 340 366 480 340 C630 314 760 364 940 336;
-                M-40 336 C200 362 340 310 480 342 C630 368 760 312 940 338;
-                M-40 338 C200 312 340 366 480 340 C630 314 760 364 940 336"/>
     </path>
 
   </g>

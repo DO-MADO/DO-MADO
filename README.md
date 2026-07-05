@@ -69,7 +69,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 <br>
 <br>
 
-<img src="https://streak-stats.demolab.com?user=DO-MADO&hide_border=true&background=00000000&ring=8FB5F0&fire=8FB5F0&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=8FB5F0&sideLabels=86868B&dates=48484A" alt="streak stats" />
+<img src="https://streak-stats.demolab.com?user=DO-MADO&hide_border=true&background=00000000&ring=9DCFCA&fire=9DCFCA&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=9DCFCA&sideLabels=86868B&dates=48484A" alt="streak stats" />
 
 <br>
 <br>

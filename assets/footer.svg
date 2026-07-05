@@ -5,12 +5,18 @@
       <stop offset="1" stop-color="#000000"/>
     </radialGradient>
     <linearGradient id="fStrand" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f5f5f7" stop-opacity="0"/>
-      <stop offset="0.35" stop-color="#c9d4e3" stop-opacity="0.15"/>
-      <stop offset="0.5" stop-color="#dbe7f7" stop-opacity="0.6"/>
-      <stop offset="0.65" stop-color="#8fb5f0" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e4f6f0" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#9dcfca" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#e4f6f0" stop-opacity="0.6"/>
+      <stop offset="0.65" stop-color="#6b95ac" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#45657d" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-500 0; 500 0; -500 0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="fApple" x1="330" y1="0" x2="570" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e4f6f0"/>
+      <stop offset="0.31" stop-color="#9dcfca"/>
+      <stop offset="0.68" stop-color="#6b95ac"/>
+      <stop offset="1" stop-color="#45657d"/>
     </linearGradient>
     <filter id="fBlur" x="-20%" y="-200%" width="140%" height="500%">
       <feGaussianBlur stdDeviation="1"/>
@@ -28,6 +34,6 @@
               M-40 38 C180 52 340 26 460 42 C600 54 740 28 940 40;
               M-40 40 C180 26 340 54 460 40 C600 26 740 52 940 38"/>
   </path>
-  <text x="450" y="86" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16.5" font-weight="600" fill="#f5f5f7">좋은 흐름은, <tspan fill="#8fb5f0">함께</tspan> 만들어집니다.</text>
+  <text x="450" y="86" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16.5" font-weight="600" fill="url(#fApple)">좋은 흐름은, 함께 만들어집니다.</text>
   <text x="450" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="11" fill="#48484a">Thanks for reading — hope to see you again soon</text>
 </svg>
