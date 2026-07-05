@@ -29,9 +29,8 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 <sub>도메인 API 고도화 · 로딩 성능 최적화 · 서버 관제/보안 대응 · CI/배포 검증 흐름</sub>
 
 <br>
-<br>
 
-## · Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -40,10 +39,10 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 <sub>Also experienced — Kotlin · Dart · C / C++ / C# · Bash · Flask · JWT · Pandas / NumPy · Rocky Linux · systemd · UFW · OpenSSH · tmux · logrotate · NotebookLM</sub>
 
 </div>
-
-> 🤖 **AI-Native Workflow** — Claude · Codex · Gemini를 설계 리뷰와 검증 파트너로 활용하되,<br> 아키텍처 결정과 트레이드오프 판단은 직접 합니다. 도구가 바뀌어도 **원리 · 제약 · 검증** 기준은 지킵니다.
-
 <br>
+
+> **AI-Native Workflow** — Claude · Codex · Gemini를 설계 리뷰와 검증 파트너로 활용하되,<br> 아키텍처 결정과 트레이드오프 판단은 직접 합니다. 도구가 바뀌어도 **원리 · 제약 · 검증** 기준은 지킵니다.
+
 <br>
 
 ## Featured Projects
@@ -60,7 +59,6 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <sub>그 외 프로젝트 : [Phishing Signal MCP](https://github.com/DO-MADO/phishing-signal-mcp) · [STM32 Bare-Metal Porting](https://github.com/DO-MADO/Realtime-Sensor-Platform_STM32-Bare_Metal-Porting) · [레거시 쇼핑몰 결제 리팩터링](https://parkgeonhoportfolio.notion.site/UI-UX-23631721b589815f99d3ce79146dda1b) · [코사인 유사도 레시피 추천](https://parkgeonhoportfolio.notion.site/23631721b5898126bdd3e3ce77c5fcba)</sub>
 
-<br>
 <br>
 
 ## GitHub
