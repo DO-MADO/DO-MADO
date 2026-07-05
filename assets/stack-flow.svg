@@ -11,11 +11,13 @@
       <stop offset="0.54" stop-color="#9dcfca"/>
       <stop offset="0.78" stop-color="#6b95ac" stop-opacity="0.75"/>
       <stop offset="1" stop-color="#45657d" stop-opacity="0.18"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-460 0; 460 0; -460 0" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="flowText" x1="180" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="flowText" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#e4f6f0"/>
-      <stop offset="0.45" stop-color="#9dcfca"/>
-      <stop offset="1" stop-color="#6b95ac"/>
+      <stop offset="0.31" stop-color="#9dcfca"/>
+      <stop offset="0.68" stop-color="#6b95ac"/>
+      <stop offset="1" stop-color="#45657d"/>
     </linearGradient>
     <filter id="softGlow" x="-30%" y="-180%" width="160%" height="460%">
       <feGaussianBlur stdDeviation="2.6"/>
@@ -32,36 +34,37 @@
     <path d="M78 122 C244 111 384 135 450 122 S656 112 822 122" stroke="url(#flowLine)" stroke-width="1.2" stroke-linecap="round"/>
 
     <g text-anchor="middle">
-      <g transform="translate(137 119.4)">
-        <circle r="2.3" fill="#e4f6f0" opacity="0.82"/>
-        <text y="-34" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">CLIENT</text>
-        <text y="44" font-size="14.5" fill="#f5f5f7">React</text>
-        <text y="69" font-size="14.5" fill="#f5f5f7">Flutter</text>
-        <text y="94" font-size="12.2" fill="#6e6e73">TailwindCSS · Vite</text>
+      <circle cx="137" cy="119.4" r="2.3" fill="#e4f6f0" opacity="0.82"/>
+      <circle cx="346" cy="124.8" r="2.3" fill="#9dcfca" opacity="0.82"/>
+      <circle cx="555" cy="113.6" r="2.3" fill="#6b95ac" opacity="0.82"/>
+      <circle cx="764" cy="118.8" r="2.3" fill="#45657d" opacity="0.82"/>
+
+      <g>
+        <text x="137" y="90" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">CLIENT</text>
+        <text x="137" y="166" font-size="14.5" fill="#f5f5f7">React</text>
+        <text x="137" y="191" font-size="14.5" fill="#f5f5f7">Flutter</text>
+        <text x="137" y="216" font-size="12.2" fill="#48484a">TailwindCSS · Vite</text>
       </g>
 
-      <g transform="translate(346 124.8)">
-        <circle r="2.3" fill="#9dcfca" opacity="0.82"/>
-        <text y="-34" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">SERVER</text>
-        <text y="44" font-size="14.5" fill="#f5f5f7">NestJS · FastAPI</text>
-        <text y="69" font-size="14.5" fill="#f5f5f7">Express</text>
-        <text y="94" font-size="12.2" fill="#6e6e73">WebSocket · Pydantic</text>
+      <g>
+        <text x="346" y="90" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">SERVER</text>
+        <text x="346" y="166" font-size="14.5" fill="#f5f5f7">NestJS · FastAPI</text>
+        <text x="346" y="191" font-size="14.5" fill="#f5f5f7">Express</text>
+        <text x="346" y="216" font-size="12.2" fill="#48484a">WebSocket · Pydantic</text>
       </g>
 
-      <g transform="translate(555 113.6)">
-        <circle r="2.3" fill="#6b95ac" opacity="0.82"/>
-        <text y="-34" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">DATA</text>
-        <text y="44" font-size="14.5" fill="#f5f5f7">MySQL</text>
-        <text y="69" font-size="14.5" fill="#f5f5f7">MariaDB</text>
-        <text y="94" font-size="12.2" fill="#6e6e73">Oracle · Supabase</text>
+      <g>
+        <text x="555" y="90" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">DATA</text>
+        <text x="555" y="166" font-size="14.5" fill="#f5f5f7">MySQL</text>
+        <text x="555" y="191" font-size="14.5" fill="#f5f5f7">MariaDB</text>
+        <text x="555" y="216" font-size="12.2" fill="#48484a">Oracle · Supabase</text>
       </g>
 
-      <g transform="translate(764 118.8)">
-        <circle r="2.3" fill="#45657d" opacity="0.82"/>
-        <text y="-34" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">INFRA · OPS</text>
-        <text y="44" font-size="14.5" fill="#f5f5f7">Ubuntu · Nginx · PM2</text>
-        <text y="69" font-size="14.5" fill="#f5f5f7">Docker · GitHub Actions</text>
-        <text y="94" font-size="12.2" fill="#6e6e73">Certbot · Falco · Netdata</text>
+      <g>
+        <text x="764" y="90" font-size="10.5" letter-spacing="2.4" fill="url(#flowText)">INFRA · OPS</text>
+        <text x="764" y="166" font-size="14.5" fill="#f5f5f7">Ubuntu · Nginx · PM2</text>
+        <text x="764" y="191" font-size="14.5" fill="#f5f5f7">Docker · GitHub Actions</text>
+        <text x="764" y="216" font-size="12.2" fill="#48484a">Certbot · Falco · Netdata</text>
       </g>
     </g>
 
@@ -70,11 +73,11 @@
     <g text-anchor="middle" font-size="12.8">
       <text x="286" y="282">
         <tspan fill="#9dcfca" letter-spacing="1.8" font-size="10.8">AI</tspan>
-        <tspan fill="#a1a1a6" dx="11">Claude · Codex · Gemini</tspan>
+        <tspan fill="#48484a" dx="11">Claude · Codex · Gemini</tspan>
       </text>
       <text x="614" y="282">
         <tspan fill="#6b95ac" letter-spacing="1.8" font-size="10.8">LANGUAGES</tspan>
-        <tspan fill="#a1a1a6" dx="11">Python · JavaScript / TypeScript</tspan>
+        <tspan fill="#48484a" dx="11">Python · JavaScript / TypeScript</tspan>
       </text>
     </g>
   </g>
