@@ -1,8 +1,8 @@
 <svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="ambient" cx="0.5" cy="0.42" r="0.75">
-      <stop offset="0" stop-color="#0d1420"/>
-      <stop offset="0.55" stop-color="#05070b"/>
+    <radialGradient id="neutralVignette" cx="0.5" cy="0.38" r="0.78">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.58" stop-color="#030303"/>
       <stop offset="1" stop-color="#000000"/>
     </radialGradient>
     <linearGradient id="titleApple" x1="178" y1="0" x2="722" y2="0" gradientUnits="userSpaceOnUse">
@@ -27,7 +27,7 @@
   </defs>
 
   <!-- background -->
-  <rect width="900" height="420" rx="20" fill="url(#ambient)"/>
+  <rect width="900" height="420" rx="20" fill="url(#neutralVignette)"/>
   <rect x="0.5" y="0.5" width="899" height="419" rx="19.5" stroke="#1a1d22"/>
 
   <!-- ── typography ── -->
@@ -49,7 +49,7 @@
 
     <!-- pill chip -->
     <g opacity="0">
-      <rect x="252" y="252" width="396" height="32" rx="16" fill="#111214" stroke="#26282c"/>
+      <rect x="270" y="252" width="360" height="32" rx="16" fill="#111214" stroke="#26282c"/>
       <text x="450" y="272" font-size="12" fill="#86868b">Frontend&#160;&#160;·&#160;&#160;Mobile&#160;&#160;·&#160;&#160;Backend&#160;&#160;·&#160;&#160;Database&#160;&#160;·&#160;&#160;Infra</text>
       <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="1.4s" fill="freeze"/>
     </g>
@@ -61,11 +61,11 @@
 
     <!-- core band -->
     <path stroke="url(#ribbonApple)" stroke-width="3" stroke-linecap="round" filter="url(#blur2)"
-      d="M-40 360 C150 300 305 400 450 350 C595 294 742 398 940 342">
+      d="M-40 352 C90 314 192 314 296 350 C394 384 506 386 606 348 C716 306 812 310 940 354">
       <animate attributeName="d" dur="16s" repeatCount="indefinite"
-        values="M-40 360 C150 300 305 400 450 350 C595 294 742 398 940 342;
-                M-40 336 C154 398 304 292 450 366 C596 406 746 304 940 358;
-                M-40 360 C150 300 305 400 450 350 C595 294 742 398 940 342"/>
+        values="M-40 352 C90 314 192 314 296 350 C394 384 506 386 606 348 C716 306 812 310 940 354;
+                M-40 350 C96 392 198 390 298 352 C396 314 506 310 606 350 C712 392 816 390 940 348;
+                M-40 352 C90 314 192 314 296 350 C394 384 506 386 606 348 C716 306 812 310 940 354"/>
     </path>
 
   </g>
