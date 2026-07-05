@@ -22,7 +22,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
-## 🌱 Now
+## Now
 
 **인테리어 시뮬레이션 서비스 (NestJS · MariaDB) — 백엔드 개발·운영 중**
 
@@ -30,7 +30,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
-## ⚙️ Tech Stack — 요청부터 응답까지, 하나의 흐름으로
+## Tech Stack
 
 <div align="center">
 
@@ -44,7 +44,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -60,7 +60,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
-## 📊 GitHub
+## GitHub
 
 <div align="center">
 
