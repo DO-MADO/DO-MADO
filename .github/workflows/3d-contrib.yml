@@ -23,6 +23,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Rewrite language chart
+        run: node .github/scripts/rewrite-3d-language-chart.cjs
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
