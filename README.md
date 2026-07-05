@@ -1,9 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=Blur&color=gradient&customColorList=0&height=220&section=header&text=DOMADO&fontSize=40&fontAlign=50&animation=fadeIn&fontColor=FFFAF0" />
+<img src="assets/hero.svg" width="900" alt="기능을 넘어, 흐름을 만듭니다 — DO-MADO" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Noto+Sans+KR&weight=600&size=24&duration=3200&pause=900&center=true&vCenter=true&width=640&height=60&color=58A6FF&lines=%EA%B8%B0%EB%8A%A5%EC%9D%84+%EB%84%98%EC%96%B4%2C+%ED%9D%90%EB%A6%84%EC%9D%84+%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4.;AI%EA%B0%80+%EC%BD%94%EB%93%9C%EB%A5%BC+%EB%A7%8C%EB%93%A4%EC%88%98%EB%A1%9D%2C+%27%EA%B5%AC%EC%A1%B0%27%EA%B0%80+%EA%B2%BD%EC%9F%81%EB%A0%A5%EC%9E%85%EB%8B%88%EB%8B%A4.;%EC%9A%94%EC%B2%AD%EB%B6%80%ED%84%B0+%EC%9D%91%EB%8B%B5%EA%B9%8C%EC%A7%80%2C+%EC%A0%84%EC%B2%B4+%EC%97%B0%EA%B2%B0%EC%9D%84+%EC%84%A4%EA%B3%84%ED%95%A9%EB%8B%88%EB%8B%A4." alt="기능을 넘어, 흐름을 만듭니다" />
-
+<br>
 <br>
 
 Frontend · Backend · Infra를 분리된 기술이 아니라 **하나의 서비스 흐름**으로 설계하는
@@ -52,6 +51,18 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
+## 🖥️ How I Operate
+
+<div align="center">
+
+<img src="assets/terminal.svg" width="900" alt="deploy · monitor · stream — 실제 운영 루틴" />
+
+<sub>animated SVG, no JS — 실제 운영 루틴(배포 → 헬스체크 → 관측 → 스트리밍)을 그대로 옮겼습니다.</sub>
+
+</div>
+
+<br>
+
 ## 🚀 Featured Projects
 
 | 프로젝트 | 한 줄 요약 | 임팩트 |
@@ -68,8 +79,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DO-MADO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="github stats" />
-<img height="165" src="https://streak-stats.demolab.com?user=DO-MADO&theme=tokyonight&hide_border=true&background=00000000" alt="streak stats" />
+<img src="https://streak-stats.demolab.com?user=DO-MADO&theme=tokyonight&hide_border=true&background=00000000" alt="streak stats" />
 
 <br>
 <br>
@@ -85,8 +95,6 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <div align="center">
 
-<sub>실력만큼이나 사람 사이의 신뢰와 조화를 중요하게 생각합니다. 좋은 흐름은, 함께 만들어집니다. 🤝</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0&height=120&section=footer" />
+<img src="assets/footer.svg" width="900" alt="좋은 흐름은, 함께 만들어집니다" />
 
 </div>

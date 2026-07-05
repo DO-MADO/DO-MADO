@@ -1,0 +1,123 @@
+<svg width="900" height="340" viewBox="0 0 900 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05060a"/>
+      <stop offset="0.6" stop-color="#0a0d14"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="60" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ee787"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-80 0; 80 0; -80 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="340" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="339" rx="15.5" stroke="#21262d"/>
+
+  <!-- subtle grid -->
+  <g stroke="#58a6ff" stroke-opacity="0.05">
+    <path d="M0 60H900M0 120H900M0 180H900M0 240H900M0 300H900"/>
+    <path d="M100 0V340M200 0V340M300 0V340M400 0V340M500 0V340M600 0V340M700 0V340M800 0V340"/>
+  </g>
+
+  <!-- ambient glow -->
+  <ellipse cx="450" cy="120" rx="360" ry="130" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- mono label -->
+  <text x="60" y="72" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="13" fill="#7d8590">~/DO-MADO<tspan fill="#3d444d"> · </tspan><tspan fill="#58a6ff">web</tspan><tspan fill="#3d444d"> · </tspan><tspan fill="#58a6ff">mobile</tspan><tspan fill="#3d444d"> · </tspan><tspan fill="#58a6ff">fullstack developer</tspan></text>
+
+  <!-- title -->
+  <text x="60" y="132" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="38" font-weight="800" fill="url(#titleGrad)">기능을 넘어, 흐름을 만듭니다.</text>
+
+  <!-- typing subtitle -->
+  <g font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16">
+    <mask id="typeMask">
+      <rect x="60" y="152" width="0" height="26" fill="#fff">
+        <animate attributeName="width" values="0;0;450;450;450;0" keyTimes="0;0.08;0.42;0.9;0.98;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </mask>
+    <text x="60" y="171" fill="#9ba7b4" mask="url(#typeMask)">요청부터 응답까지, 전체 연결을 설계합니다.</text>
+    <rect y="157" width="9" height="18" fill="#58a6ff">
+      <animate attributeName="x" values="62;62;512;512;512;62" keyTimes="0;0.08;0.42;0.9;0.98;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- signature -->
+  <text x="840" y="72" text-anchor="end" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="12" fill="#3d444d">PARK GEON HO</text>
+
+  <!-- ═══ flow pipeline ═══ -->
+  <g font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace">
+    <!-- connecting rail -->
+    <path d="M150 252 H750" stroke="#30363d" stroke-width="2"/>
+    <path d="M150 252 H750" stroke="#58a6ff" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="4 10">
+      <animate attributeName="stroke-dashoffset" from="0" to="-84" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- request pulse (blue, →) -->
+    <circle r="5" fill="#58a6ff" filter="url(#soft)">
+      <animateMotion path="M150,252 H750" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5" fill="#e6edf3">
+      <animateMotion path="M150,252 H750" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- response pulse (green, ←) -->
+    <circle r="5" fill="#3fb950" filter="url(#soft)">
+      <animateMotion path="M750,252 H150" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- nodes -->
+    <g text-anchor="middle">
+      <g>
+        <rect x="75" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
+        <text x="150" y="249" font-size="12" font-weight="700" fill="#e6edf3">CLIENT</text>
+        <text x="150" y="265" font-size="9.5" fill="#7d8590">React · Flutter</text>
+      </g>
+      <g>
+        <rect x="275" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
+        <text x="350" y="249" font-size="12" font-weight="700" fill="#e6edf3">SERVER</text>
+        <text x="350" y="265" font-size="9.5" fill="#7d8590">FastAPI · NestJS · Express</text>
+      </g>
+      <g>
+        <rect x="475" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
+        <text x="550" y="249" font-size="12" font-weight="700" fill="#e6edf3">DATA</text>
+        <text x="550" y="265" font-size="9.5" fill="#7d8590">MySQL · MariaDB</text>
+      </g>
+      <g>
+        <rect x="675" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
+        <text x="750" y="249" font-size="12" font-weight="700" fill="#e6edf3">INFRA · OPS</text>
+        <text x="750" y="265" font-size="9.5" fill="#7d8590">Nginx · PM2 · Docker</text>
+      </g>
+    </g>
+
+    <!-- status -->
+    <text x="450" y="215" text-anchor="middle" font-size="10.5" fill="#3fb950">
+      <tspan fill="#58a6ff">request →</tspan><tspan fill="#3d444d">  ·  </tspan><tspan>← response 200 OK</tspan>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- end caps -->
+    <circle cx="150" cy="252" r="3" fill="#58a6ff"/>
+    <circle cx="750" cy="252" r="3" fill="#58a6ff"/>
+  </g>
+
+  <!-- bottom hairline -->
+  <path d="M60 306 H840" stroke="#21262d"/>
+  <text x="60" y="325" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="10.5" fill="#3d444d">AI가 코드를 만들수록, '구조'가 경쟁력입니다 — 도구가 바뀌어도 원리·제약·검증은 지킵니다.</text>
+  <text x="840" y="325" text-anchor="end" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="10.5" fill="#3d444d">est. flow, not features</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="900" height="120" viewBox="0 0 900 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#05060a"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fsoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="120" rx="16" fill="url(#fbg)"/>
+  <rect x="0.5" y="0.5" width="899" height="119" rx="15.5" stroke="#21262d"/>
+
+  <!-- flow line -->
+  <path d="M40 38 H860" stroke="url(#fline)" stroke-width="1.5" stroke-opacity="0.6"/>
+  <circle r="4" fill="#58a6ff" filter="url(#fsoft)">
+    <animateMotion path="M40,38 H860" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#e6edf3">
+    <animateMotion path="M40,38 H860" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="450" y="78" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#e6edf3">좋은 흐름은, <tspan fill="#58a6ff">함께</tspan> 만들어집니다.</text>
+  <text x="450" y="100" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="11" fill="#3d444d">Thanks for reading — hope to see you again soon 🫡</text>
+</svg>
