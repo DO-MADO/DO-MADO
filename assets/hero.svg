@@ -1,123 +1,121 @@
-<svg width="900" height="340" viewBox="0 0 900 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#05060a"/>
-      <stop offset="0.6" stop-color="#0a0d14"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <linearGradient id="titleGrad" x1="60" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7ee787"/>
-      <stop offset="0.5" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#bc8cff"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-80 0; 80 0; -80 0" dur="7s" repeatCount="indefinite"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    <radialGradient id="ambient" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#0d1420"/>
+      <stop offset="0.55" stop-color="#05070b"/>
+      <stop offset="1" stop-color="#000000"/>
     </radialGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3"/>
+    <linearGradient id="titleIce" x1="180" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e8f1ff"/>
+      <stop offset="0.45" stop-color="#a8c7fa"/>
+      <stop offset="0.75" stop-color="#dbe7f7"/>
+      <stop offset="1" stop-color="#f5f5f7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-140 0; 140 0; -140 0" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ribbonSilver" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f7" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#c9d4e3" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#8fb5f0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribbonBlue" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6aa5f8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6aa5f8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6aa5f8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribbonFaint" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur6" x="-20%" y="-120%" width="140%" height="340%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="blur2" x="-20%" y="-120%" width="140%" height="340%">
+      <feGaussianBlur stdDeviation="1.2"/>
     </filter>
   </defs>
 
   <!-- background -->
-  <rect width="900" height="340" rx="16" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="899" height="339" rx="15.5" stroke="#21262d"/>
+  <rect width="900" height="420" rx="20" fill="url(#ambient)"/>
+  <rect x="0.5" y="0.5" width="899" height="419" rx="19.5" stroke="#1a1d22"/>
 
-  <!-- subtle grid -->
-  <g stroke="#58a6ff" stroke-opacity="0.05">
-    <path d="M0 60H900M0 120H900M0 180H900M0 240H900M0 300H900"/>
-    <path d="M100 0V340M200 0V340M300 0V340M400 0V340M500 0V340M600 0V340M700 0V340M800 0V340"/>
+  <!-- ── typography ── -->
+  <g text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
+    <text x="450" y="128" font-size="12" letter-spacing="4" fill="#86868b" opacity="0">
+      WEB &amp; MOBILE FULLSTACK DEVELOPER
+      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="1.2s" fill="freeze"/>
+    </text>
+
+    <text x="450" y="188" font-size="42" font-weight="700" fill="url(#titleIce)" opacity="0">
+      기능을 넘어, 흐름을 만듭니다.
+      <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1.4s" fill="freeze"/>
+    </text>
+
+    <text x="450" y="228" font-size="15.5" fill="#a1a1a6" opacity="0">
+      요청부터 응답까지, 전체 연결을 설계합니다.
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="1.4s" fill="freeze"/>
+    </text>
+
+    <!-- pill chip -->
+    <g opacity="0">
+      <rect x="285" y="252" width="330" height="32" rx="16" fill="#111214" stroke="#26282c"/>
+      <text x="450" y="272" font-size="12" fill="#86868b">Frontend&#160;&#160;·&#160;&#160;Mobile&#160;&#160;·&#160;&#160;Backend&#160;&#160;·&#160;&#160;Database</text>
+      <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="1.4s" fill="freeze"/>
+    </g>
   </g>
 
-  <!-- ambient glow -->
-  <ellipse cx="450" cy="120" rx="360" ry="130" fill="url(#glow)">
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
-  </ellipse>
+  <!-- ── fluid ribbons ── -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1s" dur="2s" fill="freeze"/>
 
-  <!-- mono label -->
-  <text x="60" y="72" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="13" fill="#7d8590">~/DO-MADO<tspan fill="#3d444d"> · </tspan><tspan fill="#58a6ff">web</tspan><tspan fill="#3d444d"> · </tspan><tspan fill="#58a6ff">mobile</tspan><tspan fill="#3d444d"> · </tspan><tspan fill="#58a6ff">fullstack developer</tspan></text>
+    <!-- glow layer -->
+    <path stroke="url(#ribbonBlue)" stroke-width="10" stroke-linecap="round" filter="url(#blur6)"
+      d="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        values="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350;
+                M-40 350 C160 384 300 318 450 354 C600 388 740 320 940 352;
+                M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350"/>
+    </path>
 
-  <!-- title -->
-  <text x="60" y="132" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="38" font-weight="800" fill="url(#titleGrad)">기능을 넘어, 흐름을 만듭니다.</text>
+    <!-- silver main strand -->
+    <path stroke="url(#ribbonSilver)" stroke-width="1.6" filter="url(#blur2)"
+      d="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        values="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350;
+                M-40 350 C160 384 300 318 450 354 C600 388 740 320 940 352;
+                M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350"/>
+    </path>
 
-  <!-- typing subtitle -->
-  <g font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16">
-    <mask id="typeMask">
-      <rect x="60" y="152" width="0" height="26" fill="#fff">
-        <animate attributeName="width" values="0;0;450;450;450;0" keyTimes="0;0.08;0.42;0.9;0.98;1" dur="9s" repeatCount="indefinite"/>
-      </rect>
-    </mask>
-    <text x="60" y="171" fill="#9ba7b4" mask="url(#typeMask)">요청부터 응답까지, 전체 연결을 설계합니다.</text>
-    <rect y="157" width="9" height="18" fill="#58a6ff">
-      <animate attributeName="x" values="62;62;512;512;512;62" keyTimes="0;0.08;0.42;0.9;0.98;1" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
-    </rect>
+    <!-- companion strand -->
+    <path stroke="url(#ribbonFaint)" stroke-width="1.2"
+      d="M-40 366 C180 396 320 330 460 364 C610 398 750 334 940 366">
+      <animate attributeName="d" dur="21s" repeatCount="indefinite"
+        values="M-40 366 C180 396 320 330 460 364 C610 398 750 334 940 366;
+                M-40 364 C180 334 320 398 460 362 C610 330 750 396 940 364;
+                M-40 366 C180 396 320 330 460 364 C610 398 750 334 940 366"/>
+    </path>
+
+    <!-- upper faint strand -->
+    <path stroke="url(#ribbonFaint)" stroke-width="1"
+      d="M-40 338 C200 312 340 366 480 340 C630 314 760 364 940 336">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite"
+        values="M-40 338 C200 312 340 366 480 340 C630 314 760 364 940 336;
+                M-40 336 C200 362 340 310 480 342 C630 368 760 312 940 338;
+                M-40 338 C200 312 340 366 480 340 C630 314 760 364 940 336"/>
+    </path>
+
+    <!-- traveling light -->
+    <circle r="2.2" fill="#dbe7f7" opacity="0.9" filter="url(#blur2)">
+      <animateMotion dur="9s" repeatCount="indefinite"
+        path="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.12;0.88;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
   <!-- signature -->
-  <text x="840" y="72" text-anchor="end" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="12" fill="#3d444d">PARK GEON HO</text>
-
-  <!-- ═══ flow pipeline ═══ -->
-  <g font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace">
-    <!-- connecting rail -->
-    <path d="M150 252 H750" stroke="#30363d" stroke-width="2"/>
-    <path d="M150 252 H750" stroke="#58a6ff" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="4 10">
-      <animate attributeName="stroke-dashoffset" from="0" to="-84" dur="2s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- request pulse (blue, →) -->
-    <circle r="5" fill="#58a6ff" filter="url(#soft)">
-      <animateMotion path="M150,252 H750" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="2.5" fill="#e6edf3">
-      <animateMotion path="M150,252 H750" dur="3s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- response pulse (green, ←) -->
-    <circle r="5" fill="#3fb950" filter="url(#soft)">
-      <animateMotion path="M750,252 H150" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- nodes -->
-    <g text-anchor="middle">
-      <g>
-        <rect x="75" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
-        <text x="150" y="249" font-size="12" font-weight="700" fill="#e6edf3">CLIENT</text>
-        <text x="150" y="265" font-size="9.5" fill="#7d8590">React · Flutter</text>
-      </g>
-      <g>
-        <rect x="275" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
-        <text x="350" y="249" font-size="12" font-weight="700" fill="#e6edf3">SERVER</text>
-        <text x="350" y="265" font-size="9.5" fill="#7d8590">FastAPI · NestJS · Express</text>
-      </g>
-      <g>
-        <rect x="475" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
-        <text x="550" y="249" font-size="12" font-weight="700" fill="#e6edf3">DATA</text>
-        <text x="550" y="265" font-size="9.5" fill="#7d8590">MySQL · MariaDB</text>
-      </g>
-      <g>
-        <rect x="675" y="230" width="150" height="44" rx="10" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.45"/>
-        <text x="750" y="249" font-size="12" font-weight="700" fill="#e6edf3">INFRA · OPS</text>
-        <text x="750" y="265" font-size="9.5" fill="#7d8590">Nginx · PM2 · Docker</text>
-      </g>
-    </g>
-
-    <!-- status -->
-    <text x="450" y="215" text-anchor="middle" font-size="10.5" fill="#3fb950">
-      <tspan fill="#58a6ff">request →</tspan><tspan fill="#3d444d">  ·  </tspan><tspan>← response 200 OK</tspan>
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- end caps -->
-    <circle cx="150" cy="252" r="3" fill="#58a6ff"/>
-    <circle cx="750" cy="252" r="3" fill="#58a6ff"/>
-  </g>
-
-  <!-- bottom hairline -->
-  <path d="M60 306 H840" stroke="#21262d"/>
-  <text x="60" y="325" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="10.5" fill="#3d444d">AI가 코드를 만들수록, '구조'가 경쟁력입니다 — 도구가 바뀌어도 원리·제약·검증은 지킵니다.</text>
-  <text x="840" y="325" text-anchor="end" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="10.5" fill="#3d444d">est. flow, not features</text>
+  <text x="852" y="398" text-anchor="end" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="10.5" fill="#3a3a3c" opacity="0">
+    박건호 — Fullstack Developer
+    <animate attributeName="opacity" from="0" to="1" begin="2s" dur="1.5s" fill="freeze"/>
+  </text>
 </svg>

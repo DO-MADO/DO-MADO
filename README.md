@@ -51,18 +51,6 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
-## 🖥️ How I Operate
-
-<div align="center">
-
-<img src="assets/terminal.svg" width="900" alt="deploy · monitor · stream — 실제 운영 루틴" />
-
-<sub>animated SVG, no JS — 실제 운영 루틴(배포 → 헬스체크 → 관측 → 스트리밍)을 그대로 옮겼습니다.</sub>
-
-</div>
-
-<br>
-
 ## 🚀 Featured Projects
 
 | 프로젝트 | 한 줄 요약 | 임팩트 |

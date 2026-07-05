@@ -1,33 +1,37 @@
-<svg width="900" height="120" viewBox="0 0 900 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="130" viewBox="0 0 900 130" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#05060a"/>
+    <radialGradient id="fAmbient" cx="0.5" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#0a0e15"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="fStrand" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f7" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#c9d4e3" stop-opacity="0.4"/>
+      <stop offset="0.65" stop-color="#8fb5f0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="fline" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#bc8cff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="fsoft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.5"/>
+    <filter id="fBlur" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="1"/>
     </filter>
   </defs>
 
-  <rect width="900" height="120" rx="16" fill="url(#fbg)"/>
-  <rect x="0.5" y="0.5" width="899" height="119" rx="15.5" stroke="#21262d"/>
+  <rect width="900" height="130" rx="20" fill="url(#fAmbient)"/>
+  <rect x="0.5" y="0.5" width="899" height="129" rx="19.5" stroke="#1a1d22"/>
 
-  <!-- flow line -->
-  <path d="M40 38 H860" stroke="url(#fline)" stroke-width="1.5" stroke-opacity="0.6"/>
-  <circle r="4" fill="#58a6ff" filter="url(#fsoft)">
-    <animateMotion path="M40,38 H860" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#e6edf3">
-    <animateMotion path="M40,38 H860" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite"/>
+  <!-- fluid strand -->
+  <path stroke="url(#fStrand)" stroke-width="1.3" filter="url(#fBlur)"
+    d="M-40 40 C180 26 340 54 460 40 C600 26 740 52 940 38">
+    <animate attributeName="d" dur="18s" repeatCount="indefinite"
+      values="M-40 40 C180 26 340 54 460 40 C600 26 740 52 940 38;
+              M-40 38 C180 52 340 26 460 42 C600 54 740 28 940 40;
+              M-40 40 C180 26 340 54 460 40 C600 26 740 52 940 38"/>
+  </path>
+  <circle r="1.8" fill="#dbe7f7" opacity="0.85" filter="url(#fBlur)">
+    <animateMotion dur="10s" repeatCount="indefinite"
+      path="M-40 40 C180 26 340 54 460 40 C600 26 740 52 940 38"/>
+    <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.12;0.88;1" dur="10s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="450" y="78" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#e6edf3">좋은 흐름은, <tspan fill="#58a6ff">함께</tspan> 만들어집니다.</text>
-  <text x="450" y="100" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="11" fill="#3d444d">Thanks for reading — hope to see you again soon 🫡</text>
+  <text x="450" y="86" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16.5" font-weight="600" fill="#f5f5f7">좋은 흐름은, <tspan fill="#8fb5f0">함께</tspan> 만들어집니다.</text>
+  <text x="450" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="11" fill="#48484a">Thanks for reading — hope to see you again soon</text>
 </svg>
