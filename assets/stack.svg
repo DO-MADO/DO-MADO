@@ -1,0 +1,70 @@
+<svg width="900" height="290" viewBox="0 0 900 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sAmbient" cx="0.5" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#0a0e15"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="sRail" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8fb5f0" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sBlur" x="-50%" y="-300%" width="200%" height="700%">
+      <feGaussianBlur stdDeviation="1"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="290" rx="20" fill="url(#sAmbient)"/>
+  <rect x="0.5" y="0.5" width="899" height="289" rx="19.5" stroke="#1a1d22"/>
+
+  <!-- flow rail -->
+  <path d="M60 64 H840" stroke="url(#sRail)" stroke-width="1.2"/>
+  <circle r="2" fill="#dbe7f7" opacity="0.9" filter="url(#sBlur)">
+    <animateMotion path="M60,64 H840" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.9;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="143" cy="64" r="2.5" fill="#8fb5f0"/>
+  <circle cx="348" cy="64" r="2.5" fill="#8fb5f0"/>
+  <circle cx="553" cy="64" r="2.5" fill="#8fb5f0"/>
+  <circle cx="758" cy="64" r="2.5" fill="#8fb5f0"/>
+
+  <!-- column hairlines -->
+  <path d="M245 96 V196 M450 96 V196 M655 96 V196" stroke="#15181d"/>
+
+  <g font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" text-anchor="middle">
+    <!-- CLIENT -->
+    <text x="143" y="98" font-size="11" letter-spacing="3" fill="#86868b">CLIENT</text>
+    <text x="143" y="130" font-size="14.5" fill="#f5f5f7">React · Flutter</text>
+    <text x="143" y="156" font-size="14.5" fill="#f5f5f7">TailwindCSS</text>
+    <text x="143" y="182" font-size="12.5" fill="#48484a">Vite · Chart.js</text>
+
+    <!-- SERVER -->
+    <text x="348" y="98" font-size="11" letter-spacing="3" fill="#86868b">SERVER</text>
+    <text x="348" y="130" font-size="14.5" fill="#f5f5f7">FastAPI · NestJS</text>
+    <text x="348" y="156" font-size="14.5" fill="#f5f5f7">Express</text>
+    <text x="348" y="182" font-size="12.5" fill="#48484a">WebSocket · Pydantic</text>
+
+    <!-- DATA -->
+    <text x="553" y="98" font-size="11" letter-spacing="3" fill="#86868b">DATA</text>
+    <text x="553" y="130" font-size="14.5" fill="#f5f5f7">MySQL</text>
+    <text x="553" y="156" font-size="14.5" fill="#f5f5f7">MariaDB</text>
+    <text x="553" y="182" font-size="12.5" fill="#48484a">Oracle · Supabase</text>
+
+    <!-- INFRA · OPS -->
+    <text x="758" y="98" font-size="11" letter-spacing="3" fill="#86868b">INFRA · OPS</text>
+    <text x="758" y="130" font-size="14.5" fill="#f5f5f7">Ubuntu · Nginx · PM2</text>
+    <text x="758" y="156" font-size="14.5" fill="#f5f5f7">Docker · GitHub Actions</text>
+    <text x="758" y="182" font-size="12.5" fill="#48484a">Certbot · Falco · Netdata</text>
+
+    <!-- bottom band -->
+    <path d="M60 218 H840" stroke="#15181d"/>
+    <text x="270" y="252" font-size="13">
+      <tspan fill="#8fb5f0" letter-spacing="2" font-size="11">AI</tspan>
+      <tspan fill="#a1a1a6" dx="10">Claude · Codex · Gemini</tspan>
+    </text>
+    <text x="630" y="252" font-size="13">
+      <tspan fill="#8fb5f0" letter-spacing="2" font-size="11">LANGUAGES</tspan>
+      <tspan fill="#a1a1a6" dx="10">Python · JavaScript / TypeScript</tspan>
+    </text>
+  </g>
+</svg>
