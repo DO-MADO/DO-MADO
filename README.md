@@ -36,6 +36,11 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <img src="assets/stack.svg" width="900" alt="Client → Server → Data → Infra·Ops 핵심 기술 스택" />
 
+<br>
+<br>
+
+<img src="assets/stack-flow.svg" width="900" alt="요청부터 응답까지 이어지는 핵심 기술 스택 흐름" />
+
 <sub>Also experienced — Kotlin · Dart · C / C++ / C# · Bash · Flask · JWT · Pandas / NumPy · Rocky Linux · systemd · UFW · OpenSSH · tmux · logrotate · NotebookLM</sub>
 
 </div>
