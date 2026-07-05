@@ -24,27 +24,24 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 ## 🌱 Now
 
-- **NestJS · MariaDB 기반 인테리어 시뮬레이션 백엔드 API 개발·운영** — 데이터 정합성 검증, 유니티 연동 견적 로직, 운영 로그 기반 이슈 대응
-- **AI 데이터 품질 관리** — 타 부서 협업으로 라벨링 규칙 합의·표준화, 이슈 트래킹 기반 실데이터 수집 프로토콜 정립
+**NestJS · MariaDB 기반 인테리어 시뮬레이션 서비스 — 백엔드 개발·운영 중**
+
+- **실서비스 견적 도메인 API 고도화** — V2/V3 레거시 견적 구조 분석, 조명·TV·주방가구 등 견적 항목의 계산·저장·조회 흐름 개선
+- **홈 화면 로딩 성능 개선** — API N+1 제거, WebP 전환, Flutter 병렬 처리 폴백 설계로 운영 기준 로딩 지연·전송량 대폭 감소
+- **운영 안정성·보안 관제 체계 구축** — 침해 이슈 대응 후 Falco · Netdata · Slack 기반 실시간 관제, 비파괴 증거 수집·가역 봉쇄 프로세스 정립
+- **협업 품질 게이트 구축** — GitHub Actions CI · PR 템플릿 · Lint/Format 기준 도입으로 PR 검증 흐름 정비
 
 <br>
 
 ## ⚙️ Tech Stack — 요청부터 응답까지, 하나의 흐름으로
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,js,ts,react,flutter,fastapi,nestjs,express,mysql,mariadb,nginx,ubuntu,docker&perline=13" alt="core stack" />
-
-</div>
-
-<br>
 
 | 흐름 | Core | Experienced |
 |:---:|:---|:---|
 | 🖥️ **Client** | React · Flutter · TailwindCSS | Vite · Chart.js · Axios · HTML/CSS |
 | ⚙️ **Server** | FastAPI · NestJS · Express | Flask · WebSocket · JWT · Pydantic · Pandas / NumPy |
 | 🗄️ **Data** | MySQL · MariaDB | Oracle · Supabase |
-| 📦 **Infra · Ops** | Ubuntu · Nginx · PM2 · Docker | Rocky Linux · systemd · Certbot · UFW · Netdata · tmux · logrotate |
+| 📦 **Infra · Ops** | Ubuntu · Nginx · PM2 · Docker · GitHub Actions | Rocky Linux · systemd · Certbot · UFW · OpenSSH · Falco · Netdata · tmux · logrotate |
+| 🤖 **AI** | Claude · Codex · Gemini | DeepSeek · NotebookLM · Google AI Studio · Antigravity · Hyperbrowser |
 | 📝 **Language** | Python · JavaScript / TypeScript | Kotlin · Dart · C · C++ · C# · Bash |
 
 > 🤖 **AI-Native Workflow** — Claude · Codex · Gemini를 설계 리뷰와 검증 파트너로 활용하되, 아키텍처 결정과 트레이드오프 판단은 직접 합니다. 도구가 바뀌어도 **원리 · 제약 · 검증** 기준은 지킵니다.
@@ -67,7 +64,12 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=DO-MADO&theme=tokyonight&hide_border=true&background=00000000" alt="streak stats" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DO-MADO&bg_color=00000000&color=86868b&line=8fb5f0&point=f5f5f7&area=true&area_color=1a2f4a&hide_border=true&radius=16&custom_title=Contribution%20Flow" width="900" alt="contribution graph" />
+
+<br>
+<br>
+
+<img src="https://streak-stats.demolab.com?user=DO-MADO&hide_border=true&background=00000000&ring=8FB5F0&fire=8FB5F0&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=8FB5F0&sideLabels=86868B&dates=48484A" alt="streak stats" />
 
 <br>
 <br>

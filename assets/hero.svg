@@ -59,8 +59,8 @@
 
     <!-- pill chip -->
     <g opacity="0">
-      <rect x="285" y="252" width="330" height="32" rx="16" fill="#111214" stroke="#26282c"/>
-      <text x="450" y="272" font-size="12" fill="#86868b">Frontend&#160;&#160;·&#160;&#160;Mobile&#160;&#160;·&#160;&#160;Backend&#160;&#160;·&#160;&#160;Database</text>
+      <rect x="252" y="252" width="396" height="32" rx="16" fill="#111214" stroke="#26282c"/>
+      <text x="450" y="272" font-size="12" fill="#86868b">Frontend&#160;&#160;·&#160;&#160;Mobile&#160;&#160;·&#160;&#160;Backend&#160;&#160;·&#160;&#160;Database&#160;&#160;·&#160;&#160;Infra</text>
       <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="1.4s" fill="freeze"/>
     </g>
   </g>
