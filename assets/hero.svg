@@ -59,17 +59,8 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="1s" dur="2s" fill="freeze"/>
 
-    <!-- wide glow band -->
-    <path stroke="url(#ribbonApple)" stroke-width="34" stroke-linecap="round" filter="url(#blur6)"
-      d="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350">
-      <animate attributeName="d" dur="16s" repeatCount="indefinite"
-        values="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350;
-                M-40 350 C160 384 300 318 450 354 C600 388 740 320 940 352;
-                M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350"/>
-    </path>
-
     <!-- core band -->
-    <path stroke="url(#ribbonApple)" stroke-width="5" stroke-linecap="round" filter="url(#blur2)"
+    <path stroke="url(#ribbonApple)" stroke-width="3" stroke-linecap="round" filter="url(#blur2)"
       d="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350">
       <animate attributeName="d" dur="16s" repeatCount="indefinite"
         values="M-40 352 C160 322 300 386 450 352 C600 318 740 384 940 350;
