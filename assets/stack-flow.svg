@@ -68,16 +68,16 @@
       </g>
     </g>
 
-    <path d="M82 244 H818" stroke="#15181d"/>
+    <path d="M82 244 H818" stroke="#1f232a"/>
 
     <g text-anchor="middle" font-size="12.8">
       <text x="286" y="282">
         <tspan fill="#9dcfca" letter-spacing="1.8" font-size="10.8">AI</tspan>
-        <tspan fill="#48484a" dx="11">Claude · Codex · Gemini</tspan>
+        <tspan fill="#a1a1a6" dx="11">Claude · Codex · Gemini</tspan>
       </text>
       <text x="614" y="282">
         <tspan fill="#6b95ac" letter-spacing="1.8" font-size="10.8">LANGUAGES</tspan>
-        <tspan fill="#48484a" dx="11">Python · JavaScript / TypeScript</tspan>
+        <tspan fill="#a1a1a6" dx="11">Python · JavaScript / TypeScript</tspan>
       </text>
     </g>
   </g>
