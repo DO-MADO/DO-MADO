@@ -64,7 +64,7 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DO-MADO&bg_color=00000000&color=86868b&line=8fb5f0&point=f5f5f7&area=true&area_color=1a2f4a&hide_border=true&radius=16&custom_title=Contribution%20Flow" width="900" alt="contribution graph" />
+<img src="profile-3d-contrib/profile-night-rainbow.svg" width="900" alt="3D contribution calendar" />
 
 <br>
 <br>
