@@ -9,10 +9,21 @@
 .val{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca}
 .foot{font:400 11px 'Segoe UI',Ubuntu,sans-serif;fill:#86868b}
 .fade{opacity:0;animation:fadeIn .8s ease-in-out forwards}
+.ai-link{fill:none;stroke:#9dcfca;stroke-width:1.2;stroke-linecap:round;opacity:.45}
+.ai-node{fill:#9dcfca;animation:nodePulse 2.4s ease-in-out infinite}
+.ai-node:nth-child(3){animation-delay:.4s}
+.ai-node:nth-child(4){animation-delay:.8s}
 @keyframes fadeIn{to{opacity:1}}
+@keyframes nodePulse{0%,60%,100%{opacity:.35}30%{opacity:1}}
 </style>
 <rect width="845" height="194" x="0.5" y="0.5" rx="19.5" fill="#030303" stroke="#1a1d22" stroke-width="1"/>
-<text x="30" y="34" class="t fade">AI-NATIVE USAGE</text>
+<g class="fade" aria-hidden="true">
+<path d="M31 29 L37 23 L45 30 M37 23 L39 33" class="ai-link"/>
+<circle cx="31" cy="29" r="2.2" class="ai-node"/>
+<circle cx="37" cy="23" r="2.2" class="ai-node"/>
+<circle cx="45" cy="30" r="2.2" class="ai-node"/>
+</g>
+<text x="55" y="34" class="t fade">AI-NATIVE USAGE</text>
 <text x="816" y="34" text-anchor="end" class="user fade">@DO-MADO</text>
 <text x="816" y="49" text-anchor="end" class="foot fade">API-equivalent &#183; 2026-07-30</text>
 <line x1="200" y1="60" x2="200" y2="175" stroke="#26282c" stroke-width="1"/>
