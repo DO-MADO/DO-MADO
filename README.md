@@ -45,6 +45,16 @@ Web & Mobile 풀스택 개발자 **박건호**입니다.
 
 <br>
 
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/DO-MADO/DO-MADO/main/cards/ai-usage-combo.svg"
+    width="100%"
+    alt="AI coding usage"
+  />
+</div>
+
+<br>
+
 ## Featured Projects
 
 <div align="center">
