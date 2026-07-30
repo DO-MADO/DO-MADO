@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-main",
-  "updatedAt": "2026-07-30T05:47:24.632Z",
+  "updatedAt": "2026-07-30T06:03:27.714Z",
   "totals": {
-    "totalTokens": 3755853945,
-    "inputTokens": 213602437,
-    "outputTokens": 19466125,
+    "totalTokens": 3762048657,
+    "inputTokens": 213779291,
+    "outputTokens": 19489743,
     "cacheCreationTokens": 52814093,
-    "cacheReadTokens": 3469971290,
-    "totalCost": 3837.7321656999998
+    "cacheReadTokens": 3475965530,
+    "totalCost": 3842.3220957
   },
   "daily": [
     {
@@ -2195,31 +2195,31 @@
     },
     {
       "period": "2026-07-30",
-      "totalTokens": 128779586,
-      "inputTokens": 6536253,
-      "outputTokens": 575493,
+      "totalTokens": 134974298,
+      "inputTokens": 6713107,
+      "outputTokens": 599111,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 121667840,
-      "totalCost": 110.77997500000001,
+      "cacheReadTokens": 127662080,
+      "totalCost": 115.36990500000002,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 76.647673,
+          "cost": 80.94269600000001,
           "totalTokens": 0,
-          "inputTokens": 4149735,
-          "outputTokens": 385749,
+          "inputTokens": 4278412,
+          "outputTokens": 408074,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 88653056,
+          "cacheReadTokens": 94616832,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.5",
-          "cost": 34.132302,
+          "cost": 34.427209000000005,
           "totalTokens": 0,
-          "inputTokens": 2386518,
-          "outputTokens": 189744,
+          "inputTokens": 2434695,
+          "outputTokens": 191037,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 33014784,
+          "cacheReadTokens": 33045248,
           "totalCost": 0
         }
       ]
@@ -2227,7 +2227,7 @@
   ],
   "toolDaily": {
     "Codex": {
-      "undefined": 110.77997500000001
+      "undefined": 115.36990500000002
     },
     "Gemini": {},
     "Copilot": {}
