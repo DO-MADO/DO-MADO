@@ -1,23 +1,43 @@
 <svg width="423" height="195" viewBox="0 0 423 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI usage">
+<defs>
+<linearGradient id="ai-accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffa532"/>
+<stop offset="38%" stop-color="#ff4fa0"/>
+<stop offset="68%" stop-color="#6f5cff"/>
+<stop offset="100%" stop-color="#32beff"/>
+</linearGradient>
+</defs>
 <style>
-.t{font:600 15px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca;letter-spacing:1.4px}
+.t{font:600 15px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca;fill:url(#ai-accent);letter-spacing:1.4px}
 .user{font:600 14px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .hdr{font:600 11px 'Segoe UI',Ubuntu,sans-serif;fill:#86868b;letter-spacing:1.5px}
-.big{font:800 44px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca}
+.big{font:800 44px 'Segoe UI',Ubuntu,sans-serif;fill:#f5f5f7;fill:url(#ai-accent)}
 .sub{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .lbl{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
-.val{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca}
+.val{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#c7c7cc}
 .foot{font:400 11px 'Segoe UI',Ubuntu,sans-serif;fill:#86868b}
 .fade{opacity:0;animation:fadeIn .8s ease-in-out forwards}
+.ai-link{fill:none;stroke:#6f5cff;stroke:url(#ai-accent);stroke-width:1.2;stroke-linecap:round;opacity:.75}
+.ai-node{animation:nodePulse 2.4s ease-in-out infinite}
+.ai-node:nth-child(2){fill:#ffa532}
+.ai-node:nth-child(3){fill:#ff4fa0;animation-delay:.4s}
+.ai-node:nth-child(4){fill:#32beff;animation-delay:.8s}
 @keyframes fadeIn{to{opacity:1}}
+@keyframes nodePulse{0%,60%,100%{opacity:.35}30%{opacity:1}}
 </style>
 <rect width="422" height="194" x="0.5" y="0.5" rx="19.5" fill="#030303" stroke="#1a1d22" stroke-width="1"/>
-<text x="30" y="34" class="t fade">AI-NATIVE USAGE</text>
+<g class="fade" aria-hidden="true">
+<path d="M31 29 L37 23 L45 30" class="ai-link"/>
+<circle cx="31" cy="29" r="2.2" class="ai-node"/>
+<circle cx="37" cy="23" r="2.2" class="ai-node"/>
+<circle cx="45" cy="30" r="2.2" class="ai-node"/>
+</g>
+<text x="55" y="34" class="t fade">AI-NATIVE USAGE</text>
 <text x="393" y="34" text-anchor="end" class="user fade">@DO-MADO</text>
 <text x="393" y="49" text-anchor="end" class="foot fade">API-equivalent &#183; 2026-07-30</text>
 <line x1="200" y1="60" x2="200" y2="175" stroke="#26282c" stroke-width="1"/>
 <g class="fade" style="animation-delay:150ms"><text x="30" y="74" class="hdr">ALL-TIME</text>
-<text x="30" y="140" class="big">3.8B</text>
-<text x="30" y="165" class="sub">tokens &#183; 92.4% cache-hit</text></g>
-<g class="fade" style="animation-delay:300ms"><text x="222" y="74" class="hdr">COST</text><text x="222" y="98" class="lbl">USD</text><text x="393" y="98" text-anchor="end" class="val">$ 3,842</text><text x="222" y="123" class="lbl">KRW</text><text x="393" y="123" text-anchor="end" class="val">₩ 5,567,478</text><text x="222" y="148" class="lbl">EUR</text><text x="393" y="148" text-anchor="end" class="val">€ 3,364</text><text x="222" y="173" class="lbl">CNY</text><text x="393" y="173" text-anchor="end" class="val">¥ 26,027</text></g>
+<text x="30" y="140" class="big">7.1B</text>
+<text x="30" y="165" class="sub">tokens &#183; 93.2% cache-hit</text></g>
+<g class="fade" style="animation-delay:300ms"><text x="222" y="74" class="hdr">COST</text><text x="222" y="98" class="lbl">USD</text><text x="393" y="98" text-anchor="end" class="val">$ 6,861</text><text x="222" y="123" class="lbl">KRW</text><text x="393" y="123" text-anchor="end" class="val">₩ 9,940,783</text><text x="222" y="148" class="lbl">EUR</text><text x="393" y="148" text-anchor="end" class="val">€ 6,007</text><text x="222" y="173" class="lbl">CNY</text><text x="393" y="173" text-anchor="end" class="val">¥ 46,471</text></g>
 </svg>
