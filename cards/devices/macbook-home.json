@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-07-30T12:13:02.414Z",
+  "updatedAt": "2026-07-30T13:08:32.585Z",
   "totals": {
-    "totalTokens": 3327674664,
-    "inputTokens": 177355545,
-    "outputTokens": 13047051,
+    "totalTokens": 3351188055,
+    "inputTokens": 178322852,
+    "outputTokens": 13115311,
     "cacheCreationTokens": 9071387,
-    "cacheReadTokens": 3128200681,
-    "totalCost": 3018.17877855
+    "cacheReadTokens": 3150678505,
+    "totalCost": 3036.30202555
   },
   "daily": [
     {
@@ -1488,31 +1488,31 @@
     },
     {
       "period": "2026-07-30",
-      "totalTokens": 185206825,
-      "inputTokens": 7109201,
-      "outputTokens": 671448,
+      "totalTokens": 208720216,
+      "inputTokens": 8076508,
+      "outputTokens": 739708,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 177426176,
-      "totalCost": 144.402533,
+      "cacheReadTokens": 199904000,
+      "totalCost": 162.52578,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 131.464689,
+          "cost": 148.086832,
           "totalTokens": 0,
-          "inputTokens": 5613749,
-          "outputTokens": 657612,
+          "inputTokens": 6348036,
+          "outputTokens": 723090,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 167335168,
+          "cacheReadTokens": 189307904,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.5",
-          "cost": 12.937844,
+          "cost": 14.438948,
           "totalTokens": 0,
-          "inputTokens": 1495452,
-          "outputTokens": 13836,
+          "inputTokens": 1728472,
+          "outputTokens": 16618,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 10091008,
+          "cacheReadTokens": 10596096,
           "totalCost": 0
         }
       ]
@@ -1520,7 +1520,7 @@
   ],
   "toolDaily": {
     "Codex": {
-      "undefined": 144.402533
+      "undefined": 162.604972
     },
     "Gemini": {},
     "Copilot": {}
