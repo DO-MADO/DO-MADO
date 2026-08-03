@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-main",
-  "updatedAt": "2026-07-31T08:00:07.472Z",
+  "updatedAt": "2026-08-03T08:00:11.576Z",
   "totals": {
-    "totalTokens": 3948611891,
-    "inputTokens": 224187584,
-    "outputTokens": 20198668,
+    "totalTokens": 3971408389,
+    "inputTokens": 225550038,
+    "outputTokens": 20291784,
     "cacheCreationTokens": 52814093,
-    "cacheReadTokens": 3651411546,
-    "totalCost": 4002.7002779
+    "cacheReadTokens": 3672752474,
+    "totalCost": 4022.1557224999997
   },
   "daily": [
     {
@@ -2226,41 +2226,72 @@
     },
     {
       "period": "2026-07-31",
-      "totalTokens": 149786256,
-      "inputTokens": 8333708,
-      "outputTokens": 570884,
+      "totalTokens": 153246722,
+      "inputTokens": 8615790,
+      "outputTokens": 582548,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 140881664,
-      "totalCost": 128.58185120000002,
+      "cacheReadTokens": 144048384,
+      "totalCost": 131.1047718,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 122.411823,
+          "cost": 124.239951,
           "totalTokens": 0,
-          "inputTokens": 7317651,
-          "outputTokens": 563352,
+          "inputTokens": 7369551,
+          "outputTokens": 573502,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 137846016,
+          "cacheReadTokens": 140374272,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.5",
-          "cost": 5.734001,
+          "cost": 5.881614000000001,
           "totalTokens": 0,
-          "inputTokens": 827735,
-          "outputTokens": 5937,
+          "inputTokens": 853306,
+          "outputTokens": 6058,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 2834432,
+          "cacheReadTokens": 2866688,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.6-terra",
-          "cost": 0.43602719999999995,
+          "cost": 0.9832067999999999,
           "totalTokens": 0,
-          "inputTokens": 188322,
-          "outputTokens": 1595,
+          "inputTokens": 392933,
+          "outputTokens": 2988,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 201216,
+          "cacheReadTokens": 807424,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-03",
+      "totalTokens": 19336032,
+      "inputTokens": 1080372,
+      "outputTokens": 81452,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 18174208,
+      "totalCost": 16.932523999999997,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-sol",
+          "cost": 16.596261,
+          "totalTokens": 0,
+          "inputTokens": 1037467,
+          "outputTokens": 80641,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 17979392,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.5",
+          "cost": 0.33626300000000003,
+          "totalTokens": 0,
+          "inputTokens": 42905,
+          "outputTokens": 811,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 194816,
           "totalCost": 0
         }
       ]
