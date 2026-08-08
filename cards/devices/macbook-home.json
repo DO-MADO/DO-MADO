@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-08-07T10:00:20.295Z",
+  "updatedAt": "2026-08-08T10:00:25.503Z",
   "totals": {
-    "totalTokens": 3963241970,
-    "inputTokens": 209738443,
-    "outputTokens": 15489827,
+    "totalTokens": 4002214520,
+    "inputTokens": 211340920,
+    "outputTokens": 15699324,
     "cacheCreationTokens": 9071387,
-    "cacheReadTokens": 3728942313,
-    "totalCost": 3523.4247011499997
+    "cacheReadTokens": 3766102889,
+    "totalCost": 3554.3888657999996
   },
   "daily": [
     {
@@ -1678,6 +1678,58 @@
           "outputTokens": 1087,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 2516224,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-07",
+      "totalTokens": 36666865,
+      "inputTokens": 1368478,
+      "outputTokens": 178899,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 35119488,
+      "totalCost": 29.769104,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-sol",
+          "cost": 29.236756,
+          "totalTokens": 0,
+          "inputTokens": 1278978,
+          "outputTokens": 178123,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 34996352,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.5",
+          "cost": 0.5323479999999999,
+          "totalTokens": 0,
+          "inputTokens": 89500,
+          "outputTokens": 776,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 123136,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-08",
+      "totalTokens": 2305685,
+      "inputTokens": 233999,
+      "outputTokens": 30598,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 2041088,
+      "totalCost": 1.1950606499999998,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.3-codex-spark",
+          "cost": 1.1950606499999998,
+          "totalTokens": 0,
+          "inputTokens": 233999,
+          "outputTokens": 30598,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2041088,
           "totalCost": 0
         }
       ]
