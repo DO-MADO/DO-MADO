@@ -11,7 +11,7 @@
 .t{font:600 15px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca;fill:url(#ai-accent);letter-spacing:1.4px}
 .user{font:600 14px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .hdr{font:600 11px 'Segoe UI',Ubuntu,sans-serif;fill:#86868b;letter-spacing:1.5px}
-.big{font:800 44px 'Segoe UI',Ubuntu,sans-serif;fill:#f5f5f7;fill:url(#ai-accent)}
+.big{font:800 44px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca;fill:url(#ai-accent)}
 .sub{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .lbl{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .val{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#c7c7cc}
@@ -34,13 +34,13 @@
 </g>
 <text x="55" y="38" class="t fade">AI-NATIVE USAGE</text>
 <text x="816" y="38" text-anchor="end" class="user fade">@DO-MADO</text>
-<text x="816" y="53" text-anchor="end" class="foot fade">API-equivalent &#183; 2026-08-09</text>
+<text x="816" y="53" text-anchor="end" class="foot fade">API-equivalent &#183; 2026-08-10</text>
 <line x1="215" y1="62" x2="215" y2="178" stroke="#26282c" stroke-width="1"/><line x1="445" y1="62" x2="445" y2="178" stroke="#26282c" stroke-width="1"/><line x1="645" y1="62" x2="645" y2="178" stroke="#26282c" stroke-width="1"/>
 <g class="fade" style="animation-delay:150ms"><text x="30" y="72" class="hdr">ALL-TIME</text>
 <text x="30" y="135" class="big">8.5B</text>
 <text x="30" y="160" class="sub">tokens &#183; 93.4% cache-hit</text></g>
-<g class="fade" style="animation-delay:300ms"><text x="235" y="72" class="hdr">COST</text><text x="235" y="98" class="lbl">USD</text><text x="430" y="98" text-anchor="end" class="val">$ 7,945</text><text x="235" y="123" class="lbl">KRW</text><text x="430" y="123" text-anchor="end" class="val">₩ 11,219,757</text><text x="235" y="148" class="lbl">EUR</text><text x="430" y="148" text-anchor="end" class="val">€ 6,880</text><text x="235" y="173" class="lbl">CNY</text><text x="430" y="173" text-anchor="end" class="val">¥ 53,748</text></g>
-<g class="fade" style="animation-delay:450ms"><text x="465" y="72" class="hdr">TOKEN MIX</text><text x="465" y="98" class="lbl">Output</text><text x="630" y="98" text-anchor="end" class="val">38.1M</text><text x="465" y="123" class="lbl">Input</text><text x="630" y="123" text-anchor="end" class="val">461.9M</text><text x="465" y="148" class="lbl">Cache read</text><text x="630" y="148" text-anchor="end" class="val">7.9B</text><text x="465" y="173" class="lbl">Cache write</text><text x="630" y="173" text-anchor="end" class="val">61.9M</text></g>
-<g class="fade" style="animation-delay:600ms"><text x="665" y="72" class="hdr">ACTIVITY</text><text x="665" y="98" class="lbl">Active days</text><text x="816" y="98" text-anchor="end" class="val">103</text><text x="665" y="123" class="lbl">Avg / day</text><text x="816" y="123" text-anchor="end" class="val">$ 77</text><text x="665" y="148" class="lbl">Peak day</text><text x="816" y="148" text-anchor="end" class="val">$ 629</text><text x="665" y="173" class="lbl">Top model</text><text x="816" y="173" text-anchor="end" class="val">gpt-5.6-sol</text></g>
-<g class="fade" style="animation-delay:750ms"><text x="30" y="205" class="hdr">BY TOOL</text><text x="110" y="205"><tspan class="lbl">Claude Code</tspan> <tspan class="val">$ 7,490</tspan><tspan class="foot"> (94%)</tspan><tspan class="foot">&#160;&#160;&#183;&#160;&#160;</tspan><tspan class="lbl">Codex</tspan> <tspan class="val">$ 455</tspan><tspan class="foot"> (6%)</tspan></text></g>
+<g class="fade" style="animation-delay:300ms"><text x="235" y="72" class="hdr">COST</text><text x="235" y="98" class="lbl">USD</text><text x="430" y="98" text-anchor="end" class="val">$ 10,080</text><text x="235" y="123" class="lbl">KRW</text><text x="430" y="123" text-anchor="end" class="val">₩ 14,209,810</text><text x="235" y="148" class="lbl">EUR</text><text x="430" y="148" text-anchor="end" class="val">€ 8,725</text><text x="235" y="173" class="lbl">CNY</text><text x="430" y="173" text-anchor="end" class="val">¥ 68,066</text></g>
+<g class="fade" style="animation-delay:450ms"><text x="465" y="72" class="hdr">TOKEN MIX</text><text x="465" y="98" class="lbl">Output</text><text x="630" y="98" text-anchor="end" class="val">38.4M</text><text x="465" y="123" class="lbl">Input</text><text x="630" y="123" text-anchor="end" class="val">465.0M</text><text x="465" y="148" class="lbl">Cache read</text><text x="630" y="148" text-anchor="end" class="val">7.9B</text><text x="465" y="173" class="lbl">Cache write</text><text x="630" y="173" text-anchor="end" class="val">61.9M</text></g>
+<g class="fade" style="animation-delay:600ms"><text x="665" y="72" class="hdr">ACTIVITY</text><text x="665" y="98" class="lbl">Active days</text><text x="816" y="98" text-anchor="end" class="val">104</text><text x="665" y="123" class="lbl">Avg / day</text><text x="816" y="123" text-anchor="end" class="val">$ 97</text><text x="665" y="148" class="lbl">Peak day</text><text x="816" y="148" text-anchor="end" class="val">$ 629</text><text x="665" y="173" class="lbl">Top model</text><text x="816" y="173" text-anchor="end" class="val">gpt-5.6-sol</text></g>
+<g class="fade" style="animation-delay:750ms"><text x="30" y="205" class="hdr">BY TOOL</text><text x="110" y="205"><tspan class="lbl">Claude Code</tspan> <tspan class="val">$ 9,625</tspan><tspan class="foot"> (95%)</tspan><tspan class="foot">&#160;&#160;&#183;&#160;&#160;</tspan><tspan class="lbl">Codex</tspan> <tspan class="val">$ 455</tspan><tspan class="foot"> (5%)</tspan></text></g>
 </svg>
