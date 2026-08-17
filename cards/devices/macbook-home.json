@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-08-16T10:00:29.068Z",
+  "updatedAt": "2026-08-17T10:00:25.390Z",
   "totals": {
-    "totalTokens": 5085407289,
-    "inputTokens": 265820553,
-    "outputTokens": 19597996,
+    "totalTokens": 5322730016,
+    "inputTokens": 279486540,
+    "outputTokens": 20340048,
     "cacheCreationTokens": 9071387,
-    "cacheReadTokens": 4790917353,
-    "totalCost": 5858.1254263
+    "cacheReadTokens": 5013832041,
+    "totalCost": 6052.0285792
   },
   "daily": [
     {
@@ -1993,41 +1993,102 @@
     },
     {
       "period": "2026-08-16",
-      "totalTokens": 74282340,
-      "inputTokens": 3227271,
-      "outputTokens": 257885,
+      "totalTokens": 153139432,
+      "inputTokens": 7989289,
+      "outputTokens": 532159,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 70797184,
-      "totalCost": 58.67072850000001,
+      "cacheReadTokens": 144617984,
+      "totalCost": 124.77267515,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 48.942975000000004,
+          "cost": 101.482267,
           "totalTokens": 0,
-          "inputTokens": 1961761,
-          "outputTokens": 243427,
+          "inputTokens": 4627193,
+          "outputTokens": 474737,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 63662720,
+          "cacheReadTokens": 128208384,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.5",
-          "cost": 9.362952000000002,
+          "cost": 21.070581,
           "totalTokens": 0,
-          "inputTokens": 1195996,
-          "outputTokens": 6786,
+          "inputTokens": 3043191,
+          "outputTokens": 15647,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 6358784,
+          "cacheReadTokens": 10770432,
           "totalCost": 0
         },
         {
           "modelName": "gpt-5.3-codex-spark",
-          "cost": 0.3648015,
+          "cost": 0.85789515,
           "totalTokens": 0,
-          "inputTokens": 69514,
-          "outputTokens": 7672,
+          "inputTokens": 175045,
+          "outputTokens": 18860,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 775680,
+          "cacheReadTokens": 1643008,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.6-terra",
+          "cost": 1.361932,
+          "totalTokens": 0,
+          "inputTokens": 143860,
+          "outputTokens": 22915,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 3996160,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-17",
+      "totalTokens": 158465635,
+      "inputTokens": 8903969,
+      "outputTokens": 467778,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 149093888,
+      "totalCost": 127.80120625,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-sol",
+          "cost": 87.377108,
+          "totalTokens": 0,
+          "inputTokens": 4110008,
+          "outputTokens": 394754,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 109968896,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.5",
+          "cost": 33.5200985,
+          "totalTokens": 0,
+          "inputTokens": 3975358,
+          "outputTokens": 20753,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 25740288,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.6-terra",
+          "cost": 6.050566399999999,
+          "totalTokens": 0,
+          "inputTokens": 587850,
+          "outputTokens": 35074,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 12191232,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.3-codex-spark",
+          "cost": 0.85343335,
+          "totalTokens": 0,
+          "inputTokens": 230753,
+          "outputTokens": 17197,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1193472,
           "totalCost": 0
         }
       ]
