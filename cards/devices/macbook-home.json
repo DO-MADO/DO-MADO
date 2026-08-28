@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-08-27T10:00:28.480Z",
+  "updatedAt": "2026-08-28T10:00:33.861Z",
   "totals": {
-    "totalTokens": 5825855724,
-    "inputTokens": 304902762,
-    "outputTokens": 22221694,
+    "totalTokens": 5830408348,
+    "inputTokens": 305193304,
+    "outputTokens": 22256192,
     "cacheCreationTokens": 9071387,
-    "cacheReadTokens": 5489659881,
-    "totalCost": 6466.371432300001
+    "cacheReadTokens": 5493887465,
+    "totalCost": 6473.524636000001
   },
   "daily": [
     {
@@ -2336,6 +2336,37 @@
           "outputTokens": 310,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 56576,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-08-28",
+      "totalTokens": 4552624,
+      "inputTokens": 290542,
+      "outputTokens": 34498,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 4227584,
+      "totalCost": 7.1532037,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-sol",
+          "cost": 6.9754912,
+          "totalTokens": 0,
+          "inputTokens": 280295,
+          "outputTokens": 34135,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 4209664,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.5",
+          "cost": 0.1777125,
+          "totalTokens": 0,
+          "inputTokens": 10247,
+          "outputTokens": 363,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 17920,
           "totalCost": 0
         }
       ]
