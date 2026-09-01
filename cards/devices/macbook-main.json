@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-main",
-  "updatedAt": "2026-08-31T08:00:09.770Z",
+  "updatedAt": "2026-09-01T08:00:14.870Z",
   "totals": {
-    "totalTokens": 5827559904,
-    "inputTokens": 327803772,
-    "outputTokens": 29132925,
+    "totalTokens": 5832764412,
+    "inputTokens": 328159289,
+    "outputTokens": 29164764,
     "cacheCreationTokens": 52814093,
-    "cacheReadTokens": 5417809114,
-    "totalCost": 7579.864560929998
+    "cacheReadTokens": 5422626266,
+    "totalCost": 7583.922611329998
   },
   "daily": [
     {
@@ -3046,21 +3046,52 @@
     },
     {
       "period": "2026-08-31",
-      "totalTokens": 10339676,
-      "inputTokens": 679950,
-      "outputTokens": 59726,
+      "totalTokens": 10495750,
+      "inputTokens": 683983,
+      "outputTokens": 62519,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 9600000,
-      "totalCost": 7.754319999999999,
+      "cacheReadTokens": 9749248,
+      "totalCost": 7.8860111999999996,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 7.754319999999999,
+          "cost": 7.8860111999999996,
           "totalTokens": 0,
-          "inputTokens": 679950,
-          "outputTokens": 59726,
+          "inputTokens": 683983,
+          "outputTokens": 62519,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 9600000,
+          "cacheReadTokens": 9749248,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-01",
+      "totalTokens": 5048434,
+      "inputTokens": 351484,
+      "outputTokens": 29046,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 4667904,
+      "totalCost": 3.9263592,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-sol",
+          "cost": 3.5864512,
+          "totalTokens": 0,
+          "inputTokens": 303380,
+          "outputTokens": 27956,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 4534528,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.5",
+          "cost": 0.33990800000000004,
+          "totalTokens": 0,
+          "inputTokens": 48104,
+          "outputTokens": 1090,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 133376,
           "totalCost": 0
         }
       ]
