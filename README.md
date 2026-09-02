@@ -90,7 +90,7 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 <br>
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DO-MADO&hide_border=true&area=true&bg_color=00000000&color=9dcfca&line=6b95ac&point=e4f6f0&area_color=9dcfca&title_color=f5f5f7&custom_title=52%20weeks%20of%20shipping" width="900" alt="GitHub activity graph" />
+<img src="https://github-readme-activity-graph-steel-delta.vercel.app/graph?username=DO-MADO&hide_border=true&area=true&bg_color=00000000&color=9dcfca&line=6b95ac&point=e4f6f0&area_color=9dcfca&title_color=f5f5f7&custom_title=52%20weeks%20of%20shipping" width="900" alt="GitHub activity graph" />
 
 </div>
 
