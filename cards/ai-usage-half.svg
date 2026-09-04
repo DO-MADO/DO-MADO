@@ -11,7 +11,7 @@
 .t{font:600 15px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca;fill:url(#ai-accent);letter-spacing:1.4px}
 .user{font:600 14px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .hdr{font:600 11px 'Segoe UI',Ubuntu,sans-serif;fill:#86868b;letter-spacing:1.5px}
-.big{font:800 44px 'Segoe UI',Ubuntu,sans-serif;fill:#9dcfca;fill:url(#ai-accent)}
+.big{font:800 44px 'Segoe UI',Ubuntu,sans-serif;fill:#f5f5f7;fill:url(#ai-accent)}
 .sub{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .lbl{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#a1a1a6}
 .val{font:700 14px 'Segoe UI',Ubuntu,sans-serif;fill:#c7c7cc}
@@ -37,7 +37,7 @@
 <text x="393" y="49" text-anchor="end" class="foot fade">API-equivalent &#183; 2026-09-04</text>
 <line x1="200" y1="60" x2="200" y2="175" stroke="#26282c" stroke-width="1"/>
 <g class="fade" style="animation-delay:150ms"><text x="30" y="74" class="hdr">ALL-TIME</text>
-<text x="30" y="140" class="big">14.1B</text>
-<text x="30" y="165" class="sub">tokens &#183; 94.0% cache-hit</text></g>
-<g class="fade" style="animation-delay:300ms"><text x="222" y="74" class="hdr">COST</text><text x="222" y="98" class="lbl">USD</text><text x="393" y="98" text-anchor="end" class="val">$ 15,606</text><text x="222" y="123" class="lbl">KRW</text><text x="393" y="123" text-anchor="end" class="val">₩ 21,173,587</text><text x="222" y="148" class="lbl">EUR</text><text x="393" y="148" text-anchor="end" class="val">€ 13,431</text><text x="222" y="173" class="lbl">CNY</text><text x="393" y="173" text-anchor="end" class="val">¥ 105,117</text></g>
+<text x="30" y="140" class="big">14.5B</text>
+<text x="30" y="165" class="sub">tokens &#183; 94.1% cache-hit</text></g>
+<g class="fade" style="animation-delay:300ms"><text x="222" y="74" class="hdr">COST</text><text x="222" y="98" class="lbl">USD</text><text x="393" y="98" text-anchor="end" class="val">$ 15,865</text><text x="222" y="123" class="lbl">KRW</text><text x="393" y="123" text-anchor="end" class="val">₩ 21,524,648</text><text x="222" y="148" class="lbl">EUR</text><text x="393" y="148" text-anchor="end" class="val">€ 13,654</text><text x="222" y="173" class="lbl">CNY</text><text x="393" y="173" text-anchor="end" class="val">¥ 106,860</text></g>
 </svg>
