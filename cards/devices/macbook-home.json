@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-09-11T10:00:27.817Z",
+  "updatedAt": "2026-09-12T10:00:27.936Z",
   "totals": {
-    "totalTokens": 10348024039,
-    "inputTokens": 444415335,
-    "outputTokens": 44866689,
+    "totalTokens": 10649788246,
+    "inputTokens": 456561981,
+    "outputTokens": 47841818,
     "cacheCreationTokens": 9071387,
-    "cacheReadTokens": 9850884457,
-    "totalCost": 9524.1377984
+    "cacheReadTokens": 10137526889,
+    "totalCost": 10080.8038154
   },
   "daily": [
     {
@@ -2796,21 +2796,21 @@
     },
     {
       "period": "2026-09-11",
-      "totalTokens": 235425773,
-      "inputTokens": 9249912,
-      "outputTokens": 1836533,
+      "totalTokens": 328441927,
+      "inputTokens": 12201140,
+      "outputTokens": 2559891,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 224339328,
-      "totalCost": 388.73573660000005,
+      "cacheReadTokens": 313680896,
+      "totalCost": 543.7574845999999,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 375.34571400000004,
+          "cost": 530.3674619999999,
           "totalTokens": 0,
-          "inputTokens": 8508362,
-          "outputTokens": 1684223,
+          "inputTokens": 11459590,
+          "outputTokens": 2407581,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 206050944,
+          "cacheReadTokens": 295392512,
           "totalCost": 0
         },
         {
@@ -2834,11 +2834,42 @@
           "totalCost": 0
         }
       ]
+    },
+    {
+      "period": "2026-09-12",
+      "totalTokens": 208748053,
+      "inputTokens": 9195418,
+      "outputTokens": 2251771,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 197300864,
+      "totalCost": 401.6442690000001,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6-astra",
+          "cost": 401.4394440000001,
+          "totalTokens": 0,
+          "inputTokens": 9164537,
+          "outputTokens": 2251221,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 197233024,
+          "totalCost": 0
+        },
+        {
+          "modelName": "gpt-5.5",
+          "cost": 0.20482500000000003,
+          "totalTokens": 0,
+          "inputTokens": 30881,
+          "outputTokens": 550,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 67840,
+          "totalCost": 0
+        }
+      ]
     }
   ],
   "toolDaily": {
     "Codex": {
-      "undefined": 388.73573660000005
+      "undefined": 401.6442690000001
     },
     "Gemini": {},
     "Copilot": {}
