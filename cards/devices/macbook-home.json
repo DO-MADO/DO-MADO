@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-09-18T10:00:27.388Z",
+  "updatedAt": "2026-09-19T10:00:28.505Z",
   "totals": {
-    "totalTokens": 11413780973,
-    "inputTokens": 499995321,
-    "outputTokens": 53082141,
+    "totalTokens": 11443036516,
+    "inputTokens": 501395941,
+    "outputTokens": 53369064,
     "cacheCreationTokens": 9276129,
-    "cacheReadTokens": 10852641211,
-    "totalCost": 11258.8251064
+    "cacheReadTokens": 10880209211,
+    "totalCost": 11635.098631800001
   },
   "daily": [
     {
@@ -847,7 +847,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.080439,
+          "cost": 0.160878,
           "totalTokens": 0,
           "inputTokens": 26648,
           "outputTokens": 277,
@@ -919,7 +919,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.521614,
+          "cost": 1.043228,
           "totalTokens": 0,
           "inputTokens": 134420,
           "outputTokens": 1412,
@@ -991,7 +991,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.033190000000000004,
+          "cost": 0.06638000000000001,
           "totalTokens": 0,
           "inputTokens": 12008,
           "outputTokens": 94,
@@ -1063,7 +1063,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.119646,
+          "cost": 0.239292,
           "totalTokens": 0,
           "inputTokens": 32206,
           "outputTokens": 597,
@@ -1361,7 +1361,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 2.038701,
+          "cost": 2.6579855,
           "totalTokens": 0,
           "inputTokens": 693960,
           "outputTokens": 3255,
@@ -1402,7 +1402,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.10813800000000003,
+          "cost": 0.21627600000000005,
           "totalTokens": 0,
           "inputTokens": 42396,
           "outputTokens": 92,
@@ -1443,7 +1443,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 4.6915475,
+          "cost": 6.5431515000000005,
           "totalTokens": 0,
           "inputTokens": 1211561,
           "outputTokens": 13179,
@@ -1484,7 +1484,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 2.374764,
+          "cost": 3.8495695000000003,
           "totalTokens": 0,
           "inputTokens": 647566,
           "outputTokens": 5479,
@@ -1525,7 +1525,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.06024000000000001,
+          "cost": 0.10606050000000002,
           "totalTokens": 0,
           "inputTokens": 20840,
           "outputTokens": 116,
@@ -1576,7 +1576,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 0.36186500000000005,
+          "cost": 0.622301,
           "totalTokens": 0,
           "inputTokens": 127104,
           "outputTokens": 487,
@@ -1617,7 +1617,7 @@
         },
         {
           "modelName": "gpt-5.4",
-          "cost": 1.583147,
+          "cost": 1.782412,
           "totalTokens": 0,
           "inputTokens": 340534,
           "outputTokens": 4380,
@@ -1627,7 +1627,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.34173207999999994,
+          "cost": 0.46489067999999995,
           "totalTokens": 0,
           "inputTokens": 1197272,
           "outputTokens": 12681,
@@ -1668,7 +1668,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.24152595999999998,
+          "cost": 0.31071556,
           "totalTokens": 0,
           "inputTokens": 653215,
           "outputTokens": 6139,
@@ -1709,7 +1709,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.02239252,
+          "cost": 0.02635612,
           "totalTokens": 0,
           "inputTokens": 60185,
           "outputTokens": 796,
@@ -1760,7 +1760,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 1.0216276400000002,
+          "cost": 1.5351889600000002,
           "totalTokens": 0,
           "inputTokens": 3710327,
           "outputTokens": 33107,
@@ -1801,7 +1801,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.1612882,
+          "cost": 0.1670786,
           "totalTokens": 0,
           "inputTokens": 379115,
           "outputTokens": 4213,
@@ -1883,7 +1883,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.02129392,
+          "cost": 0.03429256,
           "totalTokens": 0,
           "inputTokens": 89500,
           "outputTokens": 776,
@@ -1934,7 +1934,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.017169239999999995,
+          "cost": 0.022177719999999995,
           "totalTokens": 0,
           "inputTokens": 48973,
           "outputTokens": 1081,
@@ -1985,7 +1985,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.40390655999999997,
+          "cost": 0.44705303999999996,
           "totalTokens": 0,
           "inputTokens": 1019118,
           "outputTokens": 16067,
@@ -2026,7 +2026,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 1.2057428,
+          "cost": 1.30868652,
           "totalTokens": 0,
           "inputTokens": 2330687,
           "outputTokens": 20941,
@@ -2067,7 +2067,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.1231018,
+          "cost": 0.14216308,
           "totalTokens": 0,
           "inputTokens": 421553,
           "outputTokens": 1798,
@@ -2118,7 +2118,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.29130156,
+          "cost": 0.321404,
           "totalTokens": 0,
           "inputTokens": 474000,
           "outputTokens": 7665,
@@ -2159,7 +2159,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.53336116,
+          "cost": 0.57336676,
           "totalTokens": 0,
           "inputTokens": 1249920,
           "outputTokens": 15777,
@@ -2241,7 +2241,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.7161382399999999,
+          "cost": 0.7581796799999999,
           "totalTokens": 0,
           "inputTokens": 2547268,
           "outputTokens": 11482,
@@ -2302,7 +2302,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.6086608,
+          "cost": 0.63188916,
           "totalTokens": 0,
           "inputTokens": 2352834,
           "outputTokens": 12337,
@@ -2363,7 +2363,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.13768395999999997,
+          "cost": 0.17251283999999997,
           "totalTokens": 0,
           "inputTokens": 475732,
           "outputTokens": 4872,
@@ -2404,7 +2404,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.00450888,
+          "cost": 0.00786396,
           "totalTokens": 0,
           "inputTokens": 18440,
           "outputTokens": 283,
@@ -2455,7 +2455,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.1263072,
+          "cost": 0.15343312,
           "totalTokens": 0,
           "inputTokens": 441024,
           "outputTokens": 3656,
@@ -2506,7 +2506,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.46252568,
+          "cost": 0.494163,
           "totalTokens": 0,
           "inputTokens": 1389628,
           "outputTokens": 8270,
@@ -2557,7 +2557,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.12329192,
+          "cost": 0.14374168,
           "totalTokens": 0,
           "inputTokens": 504448,
           "outputTokens": 2195,
@@ -2598,7 +2598,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.05819036,
+          "cost": 0.11638072,
           "totalTokens": 0,
           "inputTokens": 238281,
           "outputTokens": 2259,
@@ -2639,7 +2639,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.08472816,
+          "cost": 0.15837716,
           "totalTokens": 0,
           "inputTokens": 265260,
           "outputTokens": 4176,
@@ -2721,7 +2721,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.18997944000000003,
+          "cost": 0.21855600000000003,
           "totalTokens": 0,
           "inputTokens": 427961,
           "outputTokens": 4865,
@@ -2762,7 +2762,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.43467504,
+          "cost": 0.65989064,
           "totalTokens": 0,
           "inputTokens": 1088376,
           "outputTokens": 16366,
@@ -2803,7 +2803,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.23377107999999996,
+          "cost": 0.46154231999999995,
           "totalTokens": 0,
           "inputTokens": 633835,
           "outputTokens": 11777,
@@ -2844,7 +2844,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.3952554,
+          "cost": 0.7835778,
           "totalTokens": 0,
           "inputTokens": 1043205,
           "outputTokens": 23800,
@@ -2861,11 +2861,11 @@
       "outputTokens": 1929254,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 242726400,
-      "totalCost": 189.270083,
+      "totalCost": 262.67180207999996,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 181.597188,
+          "cost": 262.52644399999997,
           "totalTokens": 0,
           "inputTokens": 9832416,
           "outputTokens": 1920697,
@@ -2885,7 +2885,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.09688392,
+          "cost": 0.14535808,
           "totalTokens": 0,
           "inputTokens": 370044,
           "outputTokens": 3613,
@@ -2902,11 +2902,11 @@
       "outputTokens": 587555,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 78089600,
-      "totalCost": 56.923454,
+      "totalCost": 69.48964511999999,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 54.878023999999996,
+          "cost": 69.36634799999999,
           "totalTokens": 0,
           "inputTokens": 3077192,
           "outputTokens": 582210,
@@ -2926,7 +2926,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.0818172,
+          "cost": 0.12329712000000001,
           "totalTokens": 0,
           "inputTokens": 299320,
           "outputTokens": 5345,
@@ -2947,7 +2947,7 @@
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 263.1271368,
+          "cost": 270.0871168,
           "totalTokens": 0,
           "inputTokens": 12206157,
           "outputTokens": 1825272,
@@ -2977,7 +2977,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.7933175600000001,
+          "cost": 0.86645552,
           "totalTokens": 0,
           "inputTokens": 1730799,
           "outputTokens": 33504,
@@ -2994,11 +2994,11 @@
       "outputTokens": 2010490,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 318006016,
-      "totalCost": 205.25896179999998,
+      "totalCost": 316.34700336,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 198.0188648,
+          "cost": 315.99955439999997,
           "totalTokens": 0,
           "inputTokens": 8445325,
           "outputTokens": 1993244,
@@ -3018,7 +3018,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.28960388000000004,
+          "cost": 0.34744896000000003,
           "totalTokens": 0,
           "inputTokens": 637113,
           "outputTokens": 17246,
@@ -3035,11 +3035,11 @@
       "outputTokens": 1312311,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 206664960,
-      "totalCost": 140.5026042,
+      "totalCost": 201.5713846,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 124.05642639999999,
+          "cost": 200.739872,
           "totalTokens": 0,
           "inputTokens": 5280875,
           "outputTokens": 1270622,
@@ -3069,7 +3069,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.6523581599999999,
+          "cost": 0.6942887999999999,
           "totalTokens": 0,
           "inputTokens": 1771332,
           "outputTokens": 38029,
@@ -3086,11 +3086,11 @@
       "outputTokens": 1639282,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 465266432,
-      "totalCost": 281.9367014,
+      "totalCost": 290.16701624000007,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 261.8663384,
+          "cost": 289.35178160000004,
           "totalTokens": 0,
           "inputTokens": 12371479,
           "outputTokens": 1595912,
@@ -3110,7 +3110,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.80281452,
+          "cost": 0.81523464,
           "totalTokens": 0,
           "inputTokens": 2342755,
           "outputTokens": 43370,
@@ -3127,11 +3127,11 @@
       "outputTokens": 871412,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 193203456,
-      "totalCost": 135.91215599999998,
+      "totalCost": 151.86497808,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 106.08558,
+          "cost": 126.64043199999999,
           "totalTokens": 0,
           "inputTokens": 5006388,
           "outputTokens": 815539,
@@ -3151,7 +3151,7 @@
         },
         {
           "modelName": "gpt-6-astra",
-          "cost": 19.507756,
+          "cost": 24.883286,
           "totalTokens": 0,
           "inputTokens": 467709,
           "outputTokens": 42349,
@@ -3161,7 +3161,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.32145559999999995,
+          "cost": 0.34126007999999997,
           "totalTokens": 0,
           "inputTokens": 1122226,
           "outputTokens": 11914,
@@ -3219,11 +3219,11 @@
       "outputTokens": 1476095,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 201570560,
-      "totalCost": 128.415936,
+      "totalCost": 128.5645784,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 128.415936,
+          "cost": 128.5645784,
           "totalTokens": 0,
           "inputTokens": 4566453,
           "outputTokens": 1476095,
@@ -3240,11 +3240,11 @@
       "outputTokens": 81550,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 8321408,
-      "totalCost": 14.993289200000001,
+      "totalCost": 17.1778852,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 11.813310000000001,
+          "cost": 12.487842,
           "totalTokens": 0,
           "inputTokens": 448682,
           "outputTokens": 53589,
@@ -3254,7 +3254,7 @@
         },
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 3.1799792,
+          "cost": 4.6900432,
           "totalTokens": 0,
           "inputTokens": 287753,
           "outputTokens": 27961,
@@ -3271,11 +3271,11 @@
       "outputTokens": 2559891,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 313680896,
-      "totalCost": 543.7574845999999,
+      "totalCost": 598.5544158,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 530.367462,
+          "cost": 576.7655060000001,
           "totalTokens": 0,
           "inputTokens": 11459590,
           "outputTokens": 2407581,
@@ -3285,7 +3285,7 @@
         },
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 13.0849176,
+          "cost": 21.7767056,
           "totalTokens": 0,
           "inputTokens": 687265,
           "outputTokens": 151998,
@@ -3322,11 +3322,11 @@
       "outputTokens": 2530219,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 229704192,
-      "totalCost": 457.37601,
+      "totalCost": 462.36174996000005,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 456.95692800000006,
+          "cost": 462.33932000000004,
           "totalTokens": 0,
           "inputTokens": 10084824,
           "outputTokens": 2529544,
@@ -3346,7 +3346,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.01676328,
+          "cost": 0.02242996,
           "totalTokens": 0,
           "inputTokens": 72496,
           "outputTokens": 675,
@@ -3367,7 +3367,7 @@
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 332.928434,
+          "cost": 335.331296,
           "totalTokens": 0,
           "inputTokens": 9547033,
           "outputTokens": 1482300,
@@ -3387,7 +3387,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.75088192,
+          "cost": 0.76726396,
           "totalTokens": 0,
           "inputTokens": 2826766,
           "outputTokens": 17579,
@@ -3428,7 +3428,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.028116119999999998,
+          "cost": 0.0324924,
           "totalTokens": 0,
           "inputTokens": 126791,
           "outputTokens": 1078,
@@ -3537,7 +3537,7 @@
       "outputTokens": 129789,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 36391552,
-      "totalCost": 23.35063468,
+      "totalCost": 28.74613904,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
@@ -3551,7 +3551,7 @@
         },
         {
           "modelName": "gpt-6-astra",
-          "cost": 7.467131999999999,
+          "cost": 12.859282,
           "totalTokens": 0,
           "inputTokens": 93827,
           "outputTokens": 11015,
@@ -3561,7 +3561,7 @@
         },
         {
           "modelName": "gpt-5.6-luna",
-          "cost": 0.25749627999999997,
+          "cost": 0.26085063999999997,
           "totalTokens": 0,
           "inputTokens": 743993,
           "outputTokens": 9711,
@@ -3573,21 +3573,21 @@
     },
     {
       "period": "2026-09-18",
-      "totalTokens": 60548266,
-      "inputTokens": 2256440,
-      "outputTokens": 561394,
+      "totalTokens": 88182363,
+      "inputTokens": 3459586,
+      "outputTokens": 834521,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 57730432,
-      "totalCost": 42.1425624,
+      "cacheReadTokens": 83888256,
+      "totalCost": 65.33703200000001,
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.6-sol",
-          "cost": 42.0788888,
+          "cost": 65.2733584,
           "totalTokens": 0,
-          "inputTokens": 2052854,
-          "outputTokens": 559757,
+          "inputTokens": 3256000,
+          "outputTokens": 832884,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 56680832,
+          "cacheReadTokens": 82838656,
           "totalCost": 0
         },
         {
@@ -3598,6 +3598,27 @@
           "outputTokens": 1637,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 1049600,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-19",
+      "totalTokens": 1621446,
+      "inputTokens": 197474,
+      "outputTokens": 13796,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1410176,
+      "totalCost": 3.2597728,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.6-sol",
+          "cost": 3.2597728,
+          "totalTokens": 0,
+          "inputTokens": 197474,
+          "outputTokens": 13796,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1410176,
           "totalCost": 0
         }
       ]
