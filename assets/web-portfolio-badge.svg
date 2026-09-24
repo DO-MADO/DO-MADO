@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="116" height="20" viewBox="0 0 116 20" role="img" aria-label="Web Portfolio">
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="20" viewBox="0 0 101 20" role="img" aria-label="Web Portfolio">
   <title>Web Portfolio</title>
 
-  <rect width="116" height="20" rx="3" fill="#2f5137"/>
+  <rect width="101" height="20" fill="#2f5137"/>
 
-  <g transform="translate(3 2) scale(0.6667)" shape-rendering="crispEdges">
+  <g transform="translate(3.6 1.6) scale(0.7)" shape-rendering="crispEdges">
     <path fill="#2b2027" d="M2 2h20v20H2z"/>
     <path fill="#fff8df" d="M4 4h16v16H4z"/>
     <path fill="#efe3bd" d="M4 18h16v2H4zm14-14h2v16h-2z"/>
@@ -18,5 +18,5 @@
     </g>
   </g>
 
-  <text x="23" y="14" fill="#fff8df" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-rendering="geometricPrecision">Web Portfolio</text>
+  <text x="23" y="14" textLength="73" fill="#fff8df" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-rendering="geometricPrecision">Web Portfolio</text>
 </svg>
