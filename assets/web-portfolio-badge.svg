@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="20" viewBox="0 0 116 20" role="img" aria-label="Web Portfolio">
+  <title>Web Portfolio</title>
+
+  <rect width="116" height="20" rx="3" fill="#2f5137"/>
+  <rect x="0.5" y="0.5" width="115" height="19" rx="2.5" fill="none" stroke="#456d4a"/>
+
+  <g transform="translate(3 2) scale(0.6667)" shape-rendering="crispEdges">
+    <path fill="#2b2027" d="M2 2h20v20H2z"/>
+    <path fill="#fff8df" d="M4 4h16v16H4z"/>
+    <path fill="#efe3bd" d="M4 18h16v2H4zm14-14h2v16h-2z"/>
+    <g transform="translate(2.4 2.4) scale(0.8)">
+      <path fill="#7f2f2f" d="M7 9h10v2H7zM5 11h14v4H5zM7 15h12v2H7zM9 17h8v2H9z"/>
+      <path fill="#943936" d="M7 9h2v6H7z"/>
+      <path fill="#a8433d" d="M9 9h2v2H9zm6 0h2v2h-2zM9 11h4v2H9zm6 0h4v2h-4zM7 13h2v2H7zm10 0h2v4h-2z"/>
+      <path fill="#b9564b" d="M9 13h4v2H9zm6 0h2v2h-2zM11 15h6v2h-6z"/>
+      <path fill="#a8433d" d="M13 11h2v4h-2zM9 15h2v2H9z"/>
+      <path fill="#2f5137" d="M11 5h2v6h-2z"/>
+      <path fill="#456d4a" d="M7 5h2v2H7zm2 2h2v2H9zm4 0h4v2h-4zm0 2h2v2h-2z"/>
+    </g>
+  </g>
+
+  <text x="23" y="14" fill="#fff8df" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="600">Web Portfolio</text>
+</svg>

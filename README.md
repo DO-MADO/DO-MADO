@@ -18,7 +18,7 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 
 [![Notion Portfolio](https://img.shields.io/badge/Notion_Portfolio-000000?style=flat-square&logo=notion&logoColor=white)](https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74)
 [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@supernova77/posts)
-[![Web Portfolio](https://img.shields.io/badge/Web_Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://domado-three.vercel.app/)
+[![Web Portfolio](assets/web-portfolio-badge.svg)](https://domado.me/)
 
 </div>
 
