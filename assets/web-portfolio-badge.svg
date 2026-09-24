@@ -2,7 +2,6 @@
   <title>Web Portfolio</title>
 
   <rect width="116" height="20" rx="3" fill="#2f5137"/>
-  <rect x="0.5" y="0.5" width="115" height="19" rx="2.5" fill="none" stroke="#456d4a"/>
 
   <g transform="translate(3 2) scale(0.6667)" shape-rendering="crispEdges">
     <path fill="#2b2027" d="M2 2h20v20H2z"/>
@@ -19,5 +18,5 @@
     </g>
   </g>
 
-  <text x="23" y="14" fill="#fff8df" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="600">Web Portfolio</text>
+  <text x="23" y="14" fill="#fff8df" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-rendering="geometricPrecision">Web Portfolio</text>
 </svg>
