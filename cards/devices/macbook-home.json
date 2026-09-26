@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-09-25T10:00:30.014Z",
+  "updatedAt": "2026-09-26T10:00:27.717Z",
   "totals": {
-    "totalTokens": 13149992507,
-    "inputTokens": 548139553,
-    "outputTokens": 61937411,
+    "totalTokens": 13169353805,
+    "inputTokens": 549128211,
+    "outputTokens": 62011427,
     "cacheCreationTokens": 9276129,
-    "cacheReadTokens": 12531853243,
-    "totalCost": 12886.289375
+    "cacheReadTokens": 12550151867,
+    "totalCost": 12918.175379
   },
   "daily": [
     {
@@ -3743,6 +3743,27 @@
           "outputTokens": 2029,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 534784,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-09-26",
+      "totalTokens": 19361298,
+      "inputTokens": 988658,
+      "outputTokens": 74016,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 18298624,
+      "totalCost": 31.886004,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6-astra",
+          "cost": 31.886004,
+          "totalTokens": 0,
+          "inputTokens": 988658,
+          "outputTokens": 74016,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 18298624,
           "totalCost": 0
         }
       ]
