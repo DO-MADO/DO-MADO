@@ -24,15 +24,16 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 
 <br>
 
-## Now
+## ▎Now
 
 **인테리어 시뮬레이션 서비스 (NestJS · MariaDB) — 백엔드 개발·운영 중**
 
 <sub>도메인 API 고도화 · 로딩 성능 최적화 · 서버 관제/보안 대응 · CI/배포 검증 흐름</sub>
 
 <br>
+<br>
 
-## Tech Stack
+## ▎Tech Stack
 
 <div align="center">
 
@@ -56,8 +57,9 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 </div>
 
 <br>
+<br>
 
-## Featured Projects
+## ▎Featured Projects
 
 <div align="center">
 
@@ -82,8 +84,9 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 </div>
 
 <br>
+<br>
 
-## GitHub
+## ▎GitHub
 
 <div align="center">
 
