@@ -21,7 +21,6 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 [![Web Portfolio](assets/web-portfolio-badge.svg)](https://domado.me/)
 
 <br>
-<br>
 
 <a href="https://github.com/DOMADO-PROJECT">
   <img src="assets/domado-project.svg" width="900" alt="DOMADO PROJECT — 조직 프로젝트 보기" />
