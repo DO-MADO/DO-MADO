@@ -61,15 +61,15 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 
 <div align="center">
 
-[![실시간 관제 플랫폼 — 평균 처리량 약 5배 개선](assets/project-01.svg)](https://github.com/DO-MADO/Zedboard-Zynq-7000)
+[![실시간 관제 플랫폼 — 평균 처리량 약 5배 개선](assets/project-01.svg)](https://github.com/DO-MADO/Realtime-Sensor-Platform)
 
-[![온프레미스 웹 서비스 — 무중단 배포, 지금도 운영 중](assets/project-02.svg)](https://github.com/DO-MADO/WebPage)
+[![온프레미스 웹 서비스 — 무중단 배포, 지금도 운영 중](assets/project-02.svg)](https://github.com/DO-MADO/On-Premises-Web-Platform)
 
 [![스마트워치 스트레스 분석 — 경진대회 우수상](assets/project-03.svg)](https://parkgeonhoportfolio.notion.site/23631721b589819a9927cbf80dacbec6)
 
 </div>
 
-<sub>그 외 프로젝트 : [Phishing Signal MCP](https://github.com/DO-MADO/phishing-signal-mcp) · [STM32 Bare-Metal Porting](https://github.com/DO-MADO/Realtime-Sensor-Platform_STM32-Bare_Metal-Porting) · [레거시 쇼핑몰 결제 리팩터링](https://parkgeonhoportfolio.notion.site/UI-UX-23631721b589815f99d3ce79146dda1b) · [코사인 유사도 레시피 추천](https://parkgeonhoportfolio.notion.site/23631721b5898126bdd3e3ce77c5fcba)</sub>
+<sub>그 외 프로젝트 : [Phishing Signal MCP](https://github.com/DO-MADO/phishing-signal-mcp) · [STM32 Bare-Metal Porting](https://github.com/DO-MADO/ZedBoard-to-STM32-DSP-Refactor) · [레거시 쇼핑몰 결제 리팩터링](https://parkgeonhoportfolio.notion.site/UI-UX-23631721b589815f99d3ce79146dda1b) · [코사인 유사도 레시피 추천](https://parkgeonhoportfolio.notion.site/23631721b5898126bdd3e3ce77c5fcba)</sub>
 
 <br>
 
