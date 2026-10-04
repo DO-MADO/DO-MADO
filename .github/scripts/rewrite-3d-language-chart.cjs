@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { optimizeCalendarColors } = require('./optimize-3d-calendar.cjs');
 
 const outputDir = path.resolve(__dirname, '../../profile-3d-contrib');
 
@@ -96,7 +97,10 @@ function rewriteSvg(filePath) {
   }
 
   const textFill = detectTextFill(svg);
-  const updated = `${svg.slice(0, chartStart)}${buildLanguageChart(textFill)}${svg.slice(chartEnd)}`;
+  let updated = `${svg.slice(0, chartStart)}${buildLanguageChart(textFill)}${svg.slice(chartEnd)}`;
+  if (path.basename(filePath) === 'profile-night-rainbow.svg') {
+    updated = optimizeCalendarColors(updated);
+  }
   fs.writeFileSync(filePath, updated);
 }
 
