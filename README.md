@@ -20,6 +20,13 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@supernova77/posts)
 [![Web Portfolio](assets/web-portfolio-badge.svg)](https://domado.me/)
 
+<br>
+<br>
+
+<a href="https://github.com/DOMADO-PROJECT">
+  <img src="assets/domado-project.svg" width="900" alt="DOMADO PROJECT — 조직 프로젝트 보기" />
+</a>
+
 </div>
 
 <br>
@@ -73,15 +80,6 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 
 <sub>그 외 프로젝트 : [Phishing Signal MCP](https://github.com/DO-MADO/phishing-signal-mcp) · [STM32 Bare-Metal Porting](https://github.com/DO-MADO/ZedBoard-to-STM32-DSP-Refactor) · [레거시 쇼핑몰 결제 리팩터링](https://parkgeonhoportfolio.notion.site/UI-UX-23631721b589815f99d3ce79146dda1b) · [코사인 유사도 레시피 추천](https://parkgeonhoportfolio.notion.site/23631721b5898126bdd3e3ce77c5fcba)</sub>
 
-<br>
-
-<div align="center">
-
-<a href="https://github.com/DOMADO-PROJECT">
-  <img src="assets/domado-project.svg" width="900" alt="DOMADO PROJECT — 조직 프로젝트 보기" />
-</a>
-
-</div>
 
 <br>
 <br>
