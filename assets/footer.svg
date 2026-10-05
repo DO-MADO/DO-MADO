@@ -24,7 +24,6 @@
   </defs>
 
   <rect width="900" height="130" rx="20" fill="url(#fAmbient)"/>
-  <rect x="0.5" y="0.5" width="899" height="129" rx="19.5" stroke="#1a1d22"/>
 
   <!-- fluid strand -->
   <path stroke="url(#fStrand)" stroke-width="2.4" stroke-linecap="round" filter="url(#fBlur)"

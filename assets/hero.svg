@@ -28,7 +28,6 @@
 
   <!-- background -->
   <rect width="900" height="420" rx="20" fill="url(#neutralVignette)"/>
-  <rect x="0.5" y="0.5" width="899" height="419" rx="19.5" stroke="#1a1d22"/>
 
   <!-- ── typography ── -->
   <g text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif">
