@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-main",
-  "updatedAt": "2026-10-06T08:00:09.507Z",
+  "updatedAt": "2026-10-07T08:00:08.650Z",
   "totals": {
-    "totalTokens": 7990585179,
-    "inputTokens": 421836484,
-    "outputTokens": 38140346,
+    "totalTokens": 8164798161,
+    "inputTokens": 427314492,
+    "outputTokens": 38954808,
     "cacheCreationTokens": 52814093,
-    "cacheReadTokens": 7478673370,
-    "totalCost": 9880.686102329997
+    "cacheReadTokens": 7646593882,
+    "totalCost": 10144.109794329997
   },
   "daily": [
     {
@@ -4167,21 +4167,42 @@
     },
     {
       "period": "2026-10-06",
-      "totalTokens": 152959894,
-      "inputTokens": 5329519,
-      "outputTokens": 626087,
+      "totalTokens": 166345353,
+      "inputTokens": 5596702,
+      "outputTokens": 675691,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 147004288,
-      "totalCost": 231.60382800000002,
+      "cacheReadTokens": 160072960,
+      "totalCost": 249.82453,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 231.60382800000002,
+          "cost": 249.82453,
           "totalTokens": 0,
-          "inputTokens": 5329519,
-          "outputTokens": 626087,
+          "inputTokens": 5596702,
+          "outputTokens": 675691,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 147004288,
+          "cacheReadTokens": 160072960,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-10-07",
+      "totalTokens": 160827523,
+      "inputTokens": 5210825,
+      "outputTokens": 764858,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 154851840,
+      "totalCost": 245.20298999999997,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6-astra",
+          "cost": 245.20298999999997,
+          "totalTokens": 0,
+          "inputTokens": 5210825,
+          "outputTokens": 764858,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 154851840,
           "totalCost": 0
         }
       ]
