@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-home",
-  "updatedAt": "2026-10-08T10:00:32.994Z",
+  "updatedAt": "2026-10-09T10:00:37.131Z",
   "totals": {
-    "totalTokens": 15441792128,
-    "inputTokens": 622139378,
-    "outputTokens": 69241335,
+    "totalTokens": 15870036853,
+    "inputTokens": 631415224,
+    "outputTokens": 70809126,
     "cacheCreationTokens": 9276129,
-    "cacheReadTokens": 14742349115,
-    "totalCost": 16120.418195119999
+    "cacheReadTokens": 15159750203,
+    "totalCost": 16714.655869119997
   },
   "daily": [
     {
@@ -4021,21 +4021,42 @@
     },
     {
       "period": "2026-10-08",
-      "totalTokens": 221755523,
-      "inputTokens": 4675245,
-      "outputTokens": 584022,
+      "totalTokens": 359082719,
+      "inputTokens": 7689362,
+      "outputTokens": 1195853,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 216496256,
-      "totalCost": 292.44980599999997,
+      "cacheReadTokens": 350197504,
+      "totalCost": 486.88377399999996,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6-astra",
-          "cost": 292.44980599999997,
+          "cost": 486.88377399999996,
           "totalTokens": 0,
-          "inputTokens": 4675245,
-          "outputTokens": 584022,
+          "inputTokens": 7689362,
+          "outputTokens": 1195853,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 216496256,
+          "cacheReadTokens": 350197504,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-10-09",
+      "totalTokens": 290917529,
+      "inputTokens": 6261729,
+      "outputTokens": 955960,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 283699840,
+      "totalCost": 399.80370600000003,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6-astra",
+          "cost": 399.80370600000003,
+          "totalTokens": 0,
+          "inputTokens": 6261729,
+          "outputTokens": 955960,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 283699840,
           "totalCost": 0
         }
       ]
