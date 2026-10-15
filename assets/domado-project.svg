@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="96" viewBox="0 0 900 96" fill="none" role="img" aria-labelledby="brand-title brand-desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="116" viewBox="0 0 900 116" fill="none" role="img" aria-labelledby="brand-title brand-desc">
   <title id="brand-title">DOMADO PROJECT</title>
-  <desc id="brand-desc">흰 사각형 로고가 오른쪽에서 왼쪽으로 굴러와 멈춘 뒤 DOMADO PROJECT, 웹사이트 https://domado.me, 이메일 dopaking777@gmail.com이 나타납니다. 로고와 문구 전체를 README 중앙에서 조금 오른쪽에 배치하고 이 동작을 9초마다 반복합니다.</desc>
+  <desc id="brand-desc">흰 사각형 로고가 오른쪽에서 왼쪽으로 굴러와 멈춘 뒤 DOMADO PROJECT, 웹사이트 https://domado.me, 이메일 dopaking777@gmail.com이 나타납니다. 로고 왼쪽에 맞춘 작은 민트색 터미널에 Building what I imagine, end to end, with AI. — 내가 상상한 것을, AI와 함께 처음부터 끝까지 — 문구를 타이핑합니다. 9초마다 로고가 다시 굴러올 때 커서가 문구를 뒤에서부터 지웁니다.</desc>
   <style>
   .domado-rolling-logo {
     transform-box: view-box;
@@ -9,6 +9,14 @@
   }
   .domado-title { animation: domado-title-loop 9s linear infinite both; }
   .domado-contacts { animation: domado-contacts-loop 9s linear infinite both; }
+  .domado-manifesto { animation: domado-manifesto-in 160ms 4.62s cubic-bezier(.22,1,.36,1) both; }
+  .domado-manifesto-reveal {
+    transform-origin: 0 0;
+    animation: domado-type 9s 4.62s linear infinite both;
+  }
+  .domado-manifesto-cursor {
+    animation: domado-caret 9s 4.62s linear infinite both, domado-caret-blink 9s 4.62s step-end infinite both;
+  }
   @keyframes domado-roll {
   0.00000% { transform: translate(933.07258px, 11.81000px) rotate(990.00000deg); }
   0.18519% { transform: translate(933.07073px, 11.81000px) rotate(989.99628deg); }
@@ -313,8 +321,28 @@
     61.777777%, 86.666667% { opacity: 1; }
     93.333333%, 100% { opacity: 0; }
   }
+  @keyframes domado-manifesto-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  /* 로고 정지(4.62초)에 타이핑, 다음 진입(9초)에 지우기를 맞춥니다. */
+  @keyframes domado-type {
+    0% { transform: scaleX(0); animation-timing-function: steps(45, end); }
+    18.666667%, 48.666667% { transform: scaleX(1); animation-timing-function: steps(45, end); }
+    62%, 100% { transform: scaleX(0); }
+  }
+  @keyframes domado-caret {
+    0% { transform: translateX(0); animation-timing-function: steps(45, end); }
+    18.666667%, 48.666667% { transform: translateX(216px); animation-timing-function: steps(45, end); }
+    62%, 100% { transform: translateX(0); }
+  }
+  @keyframes domado-caret-blink {
+    0%, 18.666667%, 28.666667%, 38.666667%, 48.666667%, 62%, 72%, 82%, 92%, 100% { opacity: 1; }
+    23.666667%, 33.666667%, 43.666667%, 67%, 77%, 87%, 97% { opacity: 0; }
+  }
   @media (prefers-reduced-motion: reduce) {
-    .domado-rolling-logo, .domado-title, .domado-contacts { animation: none; }
+    .domado-rolling-logo, .domado-title, .domado-contacts,
+    .domado-manifesto, .domado-manifesto-reveal, .domado-manifesto-cursor { animation: none; }
   }
 </style>
   <g class="domado-rolling-logo" transform="translate(344.06249999999994 11.81)">
@@ -346,6 +374,22 @@
         <path d="M2 3l9.5 7L21 3" />
       </g>
       <text x="646" y="133" text-anchor="end" font-size="18" font-weight="400" fill="#c9d1d9">dopaking777@gmail.com</text>
+    </g>
+  </g>
+  <!-- 344.0625 + 29 × 0.385: 정지한 흰 로고 박스의 왼쪽입니다. -->
+  <g class="domado-manifesto" transform="translate(355.2275 84)">
+    <rect width="250" height="20" rx="5" fill="#000000" fill-opacity="0.7"/>
+    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="8" fill="#9dcfca">
+      <text x="7" y="13" fill="#e4f6f0">&gt;</text>
+      <g transform="translate(17 0)">
+        <defs>
+          <clipPath id="domado-manifesto-clip">
+            <rect class="domado-manifesto-reveal" width="216" height="20"/>
+          </clipPath>
+        </defs>
+        <text y="13" textLength="216" lengthAdjust="spacingAndGlyphs" clip-path="url(#domado-manifesto-clip)">Building what I imagine, end to end, with AI.</text>
+        <rect class="domado-manifesto-cursor" y="5" width="4.8" height="9" transform="translate(216 0)" fill="#e4f6f0"/>
+      </g>
     </g>
   </g>
 </svg>
