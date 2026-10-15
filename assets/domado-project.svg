@@ -11,7 +11,6 @@
   .domado-contacts { animation: domado-contacts-loop 9s linear infinite both; }
   .domado-manifesto { animation: domado-manifesto-in 160ms 4.62s cubic-bezier(.22,1,.36,1) both; }
   .domado-manifesto-reveal {
-    transform-origin: 0 0;
     animation: domado-type 9s 4.62s linear infinite both;
   }
   .domado-manifesto-cursor {
@@ -327,9 +326,9 @@
   }
   /* 로고 정지(4.62초)에 타이핑, 다음 진입(9초)에 지우기를 맞춥니다. */
   @keyframes domado-type {
-    0% { transform: scaleX(0); animation-timing-function: steps(45, end); }
-    18.666667%, 48.666667% { transform: scaleX(1); animation-timing-function: steps(45, end); }
-    62%, 100% { transform: scaleX(0); }
+    0% { clip-path: inset(0 100% 0 0); visibility: visible; animation-timing-function: steps(45, end); }
+    18.666667%, 48.666667% { clip-path: inset(0); visibility: visible; animation-timing-function: steps(45, end); }
+    62%, 100% { clip-path: inset(0 100% 0 0); visibility: hidden; }
   }
   @keyframes domado-caret {
     0% { transform: translateX(0); animation-timing-function: steps(45, end); }
@@ -382,12 +381,10 @@
     <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="8" fill="#9dcfca">
       <text x="7" y="13" fill="#e4f6f0">&gt;</text>
       <g transform="translate(17 0)">
-        <defs>
-          <clipPath id="domado-manifesto-clip">
-            <rect class="domado-manifesto-reveal" width="216" height="20"/>
-          </clipPath>
-        </defs>
-        <text y="13" textLength="216" lengthAdjust="spacingAndGlyphs" clip-path="url(#domado-manifesto-clip)">Building what I imagine, end to end, with AI.</text>
+        <!-- clipPath 내부 변형 대신 표시 영역을 직접 갱신해 모바일의 잔상을 방지합니다. -->
+        <svg class="domado-manifesto-reveal" width="216" height="20" overflow="hidden">
+          <text y="13" textLength="216" lengthAdjust="spacingAndGlyphs">Building what I imagine, end to end, with AI.</text>
+        </svg>
         <rect class="domado-manifesto-cursor" y="5" width="4.8" height="9" transform="translate(216 0)" fill="#e4f6f0"/>
       </g>
     </g>

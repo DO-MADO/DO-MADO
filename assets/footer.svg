@@ -1,4 +1,11 @@
 <svg width="900" height="130" viewBox="0 0 900 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* 작은 글씨의 흐릿함을 줄이도록 모바일에서는 단색과 높은 대비를 사용합니다. */
+    @media (max-width: 600px) {
+      .footer-title { fill: #9dcfca; }
+      .footer-subtitle { fill: #86868b; }
+    }
+  </style>
   <defs>
     <radialGradient id="fAmbient" cx="0.5" cy="0.3" r="0.9">
       <stop offset="0" stop-color="#0a0e15"/>
@@ -33,6 +40,6 @@
               M-40 44 C100 76 202 74 302 42 C400 8 512 6 610 44 C718 76 818 74 940 40;
               M-40 42 C96 8 196 10 300 44 C400 76 512 74 610 42 C720 6 816 10 940 46"/>
   </path>
-  <text x="450" y="86" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16.5" font-weight="600" fill="url(#fApple)">좋은 흐름은, 함께 만들어집니다.</text>
-  <text x="450" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="11" fill="#48484a">Thanks for reading — hope to see you again soon</text>
+  <text class="footer-title" x="450" y="86" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="16.5" font-weight="600" fill="url(#fApple)">좋은 흐름은, 함께 만들어집니다.</text>
+  <text class="footer-subtitle" x="450" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="11" fill="#48484a">Thanks for reading — hope to see you again soon</text>
 </svg>
