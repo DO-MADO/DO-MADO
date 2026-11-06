@@ -361,6 +361,7 @@
   <g font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" transform="translate(344.06249999999994 11.81) scale(0.385)">
     <g class="domado-title">
       <text x="211" y="64" font-size="34" font-weight="600" fill="#c9d1d9">DOMADO PROJECT</text>
+      <text x="672" y="64" text-anchor="end" font-size="34" fill="#9198a1" aria-hidden="true">↗</text>
     </g>
     <g class="domado-contacts">
       <g transform="translate(211 116)" stroke="#9198a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
