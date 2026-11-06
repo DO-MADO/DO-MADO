@@ -20,7 +20,6 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@supernova77/posts)
 [![Web Portfolio](assets/web-portfolio-badge.svg)](https://domado.me/)
 
-<br>
 
 <a href="https://github.com/DOMADO-PROJECT">
   <img src="assets/domado-project.svg" width="900" alt="DOMADO PROJECT — Building what I imagine, end to end, with AI. — 조직 프로젝트 보기" />
