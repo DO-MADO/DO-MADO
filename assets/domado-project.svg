@@ -344,6 +344,8 @@
     .domado-manifesto, .domado-manifesto-reveal, .domado-manifesto-cursor { animation: none; }
   }
 </style>
+<!-- 보이는 너비 250의 중심(480.2275)을 캔버스 중심(450)에 맞춥니다. -->
+<g transform="translate(-30.2275 0)">
   <g class="domado-rolling-logo" transform="translate(344.06249999999994 11.81)">
     <g transform="scale(0.385)">
       <defs>
@@ -390,4 +392,5 @@
       </g>
     </g>
   </g>
+</g>
 </svg>
