@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-main",
-  "updatedAt": "2026-11-06T08:00:12.867Z",
+  "updatedAt": "2026-11-09T08:00:13.008Z",
   "totals": {
-    "totalTokens": 11178984669,
-    "inputTokens": 522465687,
-    "outputTokens": 54007838,
+    "totalTokens": 11186909070,
+    "inputTokens": 522928971,
+    "outputTokens": 54056731,
     "cacheCreationTokens": 52814093,
-    "cacheReadTokens": 10550191066,
-    "totalCost": 13069.33529301
+    "cacheReadTokens": 10557603290,
+    "totalCost": 13069.480190150001
   },
   "daily": [
     {
@@ -4843,6 +4843,27 @@
           "outputTokens": 33397,
           "cacheCreationTokens": 0,
           "cacheReadTokens": 7143680,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-09",
+      "totalTokens": 7924401,
+      "inputTokens": 463284,
+      "outputTokens": 48893,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 7412224,
+      "totalCost": 0.14489714,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6-luna",
+          "cost": 0.14489714,
+          "totalTokens": 0,
+          "inputTokens": 463284,
+          "outputTokens": 48893,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 7412224,
           "totalCost": 0
         }
       ]
