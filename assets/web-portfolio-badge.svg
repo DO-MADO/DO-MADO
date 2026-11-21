@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="102" height="20" viewBox="0 0 102 20" role="img" aria-label="Web Portfolio">
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="22" viewBox="0 0 102 22" role="img" aria-label="Web Portfolio">
   <title>Web Portfolio</title>
 
-  <path fill="#2c2e35" d="M2 0H98l4 4V20H2Z"/>
-  <rect y="18" width="102" height="2" fill="#22242a"/>
+  <path fill="#2c2e35" d="M2 0H98l4 4V22H2Z"/>
+  <rect y="20" width="102" height="2" fill="#22242a"/>
 
-  <svg x="8" y="3" width="12" height="12" viewBox="2 2 20 20" shape-rendering="crispEdges">
+  <svg x="8" y="4" width="12" height="12" viewBox="2 2 20 20" shape-rendering="crispEdges">
     <path fill="#2b2027" d="M2 2h20v20H2z"/>
     <path fill="#fff8df" d="M4 4h16v16H4z"/>
     <path fill="#efe3bd" d="M4 18h16v2H4zm14-14h2v16h-2z"/>
@@ -19,5 +19,5 @@
     </g>
   </svg>
 
-  <text x="24.2" y="13" fill="#d5dadf" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="0.01">Web Portfolio</text>
+  <text x="24.2" y="14" fill="#d5dadf" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="0.01">Web Portfolio</text>
 </svg>
