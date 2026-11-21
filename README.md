@@ -16,14 +16,20 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 <br>
 <br>
 
-[![Notion Portfolio](https://img.shields.io/badge/Notion_Portfolio-000000?style=flat-square&logo=notion&logoColor=white)](https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74)
-[![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@supernova77/posts)
-[![Web Portfolio](assets/web-portfolio-badge.svg)](https://domado.me/)
-
-
-<a href="https://github.com/DOMADO-PROJECT">
-  <img src="assets/domado-google-search.svg" width="281" alt="Google에서 domado project 검색 — domado-project.site와 제작자 박건호 · DOMADO PROJECT GitHub 조직 보기" />
-</a>
+<p>
+  <!-- 탭 세 개를 가로 공백 없이 이어 붙여 검색 카드의 281px 폭에 맞춘다. -->
+  <a href="https://parkgeonhoportfolio.notion.site/PARK-GEON-HO-22f31721b58980f890eceeec401a3861?pvs=74"><img
+    src="assets/notion-portfolio-badge.svg" align="middle" alt="Notion Portfolio"
+  /></a><a href="https://velog.io/@supernova77/posts"><img
+    src="assets/velog-badge.svg" align="middle" alt="Velog"
+  /></a><a href="https://domado.me/"><img
+    src="assets/web-portfolio-badge.svg" align="middle" alt="Web Portfolio"
+  /></a><br>
+  <a href="https://github.com/DOMADO-PROJECT"><img
+    src="assets/domado-google-search.svg" align="top" width="281"
+    alt="Google에서 domado project 검색 — domado-project.site와 제작자 박건호 · DOMADO PROJECT GitHub 조직 보기"
+  /></a>
+</p>
 
 </div>
 

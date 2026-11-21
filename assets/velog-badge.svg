@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="20" viewBox="0 0 67 20" role="img" aria-label="Velog">
+  <title>Velog</title>
+  <path fill="#2c2e35" d="M2 0H61l4 4V20H2Z"/>
+  <rect y="18" width="67" height="2" fill="#22242a"/>
+  <!-- velog.io의 32px favicon.ico에서 추출한 아이콘 -->
+  <image x="9" y="3" width="12" height="12"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACeUlEQVR42u2Wy0uUYRTGf983o3NLx5lR0zCcwOuEm4QQS6hw1yIkCKpVy4SiWkl/gBi0CCoXtXPTKkJaReoiqDRScNFokjaZo46lNqNzcy6nhfE5oxXB3CB8VuccDpznPddXAXCO9buAXoROFMVCTiFBUEYQ6fG0dbsV52i/C0V5A1jJL/yItKtAXwGC8ytmrwqcoXDoVHNf879AUSwqBcY+Af2/OpbqijlRWsPxkmosuiIeLk7wJRpI8ynTG7hccZRGs525yA8eL00STMYyI3CxoplzjnpaS6rQKzsJM6p6rs8OaXp1sYWnri6qiw9otlqDlZtzw5mVoKu8gTqTDX88SlySmt1ldqT5+bZCPFlxIyKarbXkYOYluDA1qMkDjWfpsB4GwGm0YlB0RCUBQBLh/uIENr2JK1UtAKzHI9ltwunQmibrFJV6k22Pz/jmsiaPBhazS+BjeC1NbzTb9/hUFW3vNRHh2feZbGdgNZ2AybHHp8NaA8CrwALTuwhnTOBTeD2tEZt2ZcBpKOWktYaEJLkzP5r9RRSVBJ6I/48ZuHroGDpFZcD3ganwam42YWoZKovN2PRGbSzPlzcwHwlwd2Esd6t4dyM2mewUKSp9R04hwK25YULJePZX8e9GcXsSHJwuq6XFUsE973vGN325uQU7GUiv7aXKZuqMNt4GvDzwjuf+Gn6NbrCZ2NL0epOdb7EwN2aHSSD5OcczKWWIS5Jrsy9ZiYVye45T8WL9M75YiEAiymu/l3cbS7n/D6Ti0fLk/pfsfyIgEixYdCGoAkMFTMCICtxG8Of/9eIH6VE9bd1ukHZEniME8xA4iMgg0O5p63b/BIKc4R55FO3WAAAAAElFTkSuQmCC"/>
+  <text x="26" y="13" fill="#d5dadf" font-family="Arial,Helvetica,sans-serif" font-size="11">Velog</text>
+</svg>
