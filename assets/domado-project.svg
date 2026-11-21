@@ -344,6 +344,8 @@
     .domado-manifesto, .domado-manifesto-reveal, .domado-manifesto-cursor { animation: none; }
   }
 </style>
+<!-- 보이는 너비 250의 중심(480.2275)을 캔버스 중심(450)에 맞춥니다. -->
+<g transform="translate(-30.2275 0)">
   <g class="domado-rolling-logo" transform="translate(344.06249999999994 11.81)">
     <g transform="scale(0.385)">
       <defs>
@@ -361,6 +363,7 @@
   <g font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" transform="translate(344.06249999999994 11.81) scale(0.385)">
     <g class="domado-title">
       <text x="211" y="64" font-size="34" font-weight="600" fill="#c9d1d9">DOMADO PROJECT</text>
+      <text x="672" y="64" text-anchor="end" font-size="34" fill="#9198a1" aria-hidden="true">↗</text>
     </g>
     <g class="domado-contacts">
       <g transform="translate(211 116)" stroke="#9198a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -389,4 +392,5 @@
       </g>
     </g>
   </g>
+</g>
 </svg>
