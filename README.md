@@ -22,7 +22,7 @@ Frontend · Mobile · Backend · Infra 를 분리된 기술이 아니라 **하�
 
 
 <a href="https://github.com/DOMADO-PROJECT">
-  <img src="assets/domado-google-search.svg" width="900" alt="Google에서 domado project 검색 — domado-project.site와 제작자 박건호 · DOMADO PROJECT GitHub 조직 보기" />
+  <img src="assets/domado-google-search.svg" width="281" alt="Google에서 domado project 검색 — domado-project.site와 제작자 박건호 · DOMADO PROJECT GitHub 조직 보기" />
 </a>
 
 </div>
