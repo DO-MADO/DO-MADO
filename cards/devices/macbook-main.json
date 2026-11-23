@@ -1,14 +1,14 @@
 {
   "version": 2,
   "device": "macbook-main",
-  "updatedAt": "2026-11-20T08:00:17.481Z",
+  "updatedAt": "2026-11-23T08:00:13.208Z",
   "totals": {
-    "totalTokens": 11908629776,
-    "inputTokens": 546876346,
-    "outputTokens": 57708078,
+    "totalTokens": 11977052774,
+    "inputTokens": 548099071,
+    "outputTokens": 58102591,
     "cacheCreationTokens": 52814093,
-    "cacheReadTokens": 11251725274,
-    "totalCost": 13277.691614610003
+    "cacheReadTokens": 11318531034,
+    "totalCost": 13290.762770610003
   },
   "daily": [
     {
@@ -5118,21 +5118,42 @@
     },
     {
       "period": "2026-11-20",
-      "totalTokens": 99731784,
-      "inputTokens": 3169702,
-      "outputTokens": 567714,
+      "totalTokens": 104625810,
+      "inputTokens": 3272568,
+      "outputTokens": 599962,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 95994368,
-      "totalCost": 21.615980800000003,
+      "cacheReadTokens": 100753280,
+      "totalCost": 22.620084,
       "modelBreakdowns": [
         {
           "modelName": "gpt-6.2-sol",
-          "cost": 21.615980800000003,
+          "cost": 22.620084,
           "totalTokens": 0,
-          "inputTokens": 3169702,
-          "outputTokens": 567714,
+          "inputTokens": 3272568,
+          "outputTokens": 599962,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 95994368,
+          "cacheReadTokens": 100753280,
+          "totalCost": 0
+        }
+      ]
+    },
+    {
+      "period": "2026-11-23",
+      "totalTokens": 63528972,
+      "inputTokens": 1119859,
+      "outputTokens": 362265,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 62046848,
+      "totalCost": 12.067052799999999,
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-6.2-sol",
+          "cost": 12.067052799999999,
+          "totalTokens": 0,
+          "inputTokens": 1119859,
+          "outputTokens": 362265,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 62046848,
           "totalCost": 0
         }
       ]
